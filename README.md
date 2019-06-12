@@ -16,7 +16,7 @@ hostname = api.rr.tv
 
 ### 抖音短视频
 
-Removed ads to remove download restrictions and annoying shopping promotions, you can now download videos without watermarks.
+Remove the ad, remove download restrictions and annoying shopping promotions, you can now download videos without watermarks.
 
 ```
 [Script]
