@@ -1,10 +1,10 @@
-## Welcome to Pages
+## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/Choler/Surge/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 ### 人人视频
 
-Removed the ad and can now play it with the original!
+Removed the ad and can now play it with the original.
 
 ```
 [Script]
@@ -16,7 +16,7 @@ hostname = api.rr.tv
 
 ### 抖音短视频
 
-Removed ads to remove download restrictions and annoying shopping promotions, you can now download videos without watermarks!
+Removed ads to remove download restrictions and annoying shopping promotions, you can now download videos without watermarks.
 
 ```
 [Script]
