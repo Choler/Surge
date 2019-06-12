@@ -20,7 +20,7 @@ Remove the ad, remove download restrictions and annoying shopping promotions, yo
 
 ```
 [Script]
-http-response ^https:\/\/[\s\S]*\/v1\/(aweme\/)?(feed|post)\/\? script-path=https://github.com/Choler/Surge/blob/master/Script/Aweme.js,max-size=524288
+http-response ^https:\/\/[\s\S]*\/v1\/(aweme\/)?(feed|post)\/\? script-path=https://raw.githubusercontent.com/Choler/Surge/master/Script/Aweme.js,max-size=524288
 
 [MITM]
 hostname = aweme*.snssdk.com
