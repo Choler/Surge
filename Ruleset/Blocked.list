@@ -7,6 +7,11 @@ DOMAIN-SUFFIX,uk
 // Surge
 USER-AGENT,Surge*
 DOMAIN-SUFFIX,nssurge.com
+// Amazon
+DOMAIN-SUFFIX,amazon.com
+DOMAIN-SUFFIX,amazonpay.com
+DOMAIN-SUFFIX,media-amazon.com
+DOMAIN-SUFFIX,ssl-images-amazon.com
 // Dropbox
 DOMAIN-SUFFIX,dropbox.com
 DOMAIN-SUFFIX,dropboxapi.com
@@ -29,11 +34,13 @@ DOMAIN-SUFFIX,oculus.com
 DOMAIN-SUFFIX,oculuscdn.com
 // Google
 DOMAIN-SUFFIX,goo.gl
-DOMAIN-SUFFIX,gmail.com
-DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,gmail.com
 DOMAIN-SUFFIX,ytimg.com
+DOMAIN-SUFFIX,ggpht.com
+DOMAIN-SUFFIX,google.com
 DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,googlevideo.com
 // GitHub
 DOMAIN-SUFFIX,git.io
 DOMAIN-SUFFIX,github.io
