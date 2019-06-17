@@ -1,8 +1,11 @@
 DOMAIN-SUFFIX,tw
+DOMAIN-SUFFIX,hk
 DOMAIN-SUFFIX,jp
 DOMAIN-SUFFIX,ly
 DOMAIN-SUFFIX,us
 DOMAIN-SUFFIX,uk
+DOMAIN-SUFFIX,ru
+DOMAIN-SUFFIX,cf
 
 // Surge
 USER-AGENT,Surge*
@@ -10,8 +13,15 @@ DOMAIN-SUFFIX,nssurge.com
 // Amazon
 DOMAIN-SUFFIX,amazon.com
 DOMAIN-SUFFIX,amazonpay.com
+DOMAIN-SUFFIX,amazonaws.com
 DOMAIN-SUFFIX,media-amazon.com
 DOMAIN-SUFFIX,ssl-images-amazon.com
+// Microsoft
+DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,live.com
+DOMAIN-SUFFIX,liveperson.net
+DOMAIN-SUFFIX,lpsnmedia.net
+DOMAIN-SUFFIX,onestore.ms
 // Dropbox
 DOMAIN-SUFFIX,dropbox.com
 DOMAIN-SUFFIX,dropboxapi.com
@@ -77,6 +87,5 @@ DOMAIN-SUFFIX,telegramindex.com
 AND,((USER-AGENT,Mozilla*), (NOT,((GEOIP,CN))))
 AND,((DOMAIN-KEYWORD,google), (NOT,((GEOIP,CN))))
 AND,((DOMAIN-KEYWORD,gstatic), (NOT,((GEOIP,CN))))
-AND,((DOMAIN-KEYWORD,ampproject), (NOT,((GEOIP,CN))))
 
 AND,((IP-CIDR,0.0.0.0/0,no-resolve), (NOT,((GEOIP,CN))))
