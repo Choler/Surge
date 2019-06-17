@@ -1,0 +1,91 @@
+DOMAIN-SUFFIX,tw
+DOMAIN-SUFFIX,hk
+DOMAIN-SUFFIX,jp
+DOMAIN-SUFFIX,ly
+DOMAIN-SUFFIX,us
+DOMAIN-SUFFIX,uk
+DOMAIN-SUFFIX,ru
+DOMAIN-SUFFIX,cf
+
+// Surge
+USER-AGENT,Surge*
+DOMAIN-SUFFIX,nssurge.com
+// Amazon
+DOMAIN-SUFFIX,amazon.com
+DOMAIN-SUFFIX,amazonpay.com
+DOMAIN-SUFFIX,amazonaws.com
+DOMAIN-SUFFIX,media-amazon.com
+DOMAIN-SUFFIX,ssl-images-amazon.com
+// Microsoft
+DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,live.com
+DOMAIN-SUFFIX,liveperson.net
+DOMAIN-SUFFIX,lpsnmedia.net
+DOMAIN-SUFFIX,onestore.ms
+// Dropbox
+DOMAIN-SUFFIX,dropbox.com
+DOMAIN-SUFFIX,dropboxapi.com
+DOMAIN-SUFFIX,dropboxstatic.com
+DOMAIN-SUFFIX,dropboxcaptcha.com
+// Facebook
+DOMAIN-SUFFIX,fb.me
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,fbsbx.com
+DOMAIN-SUFFIX,facebook.net
+DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,instagram.com
+DOMAIN-SUFFIX,cdninstagram.com
+DOMAIN-SUFFIX,messenger.com
+DOMAIN-SUFFIX,oculus.com
+DOMAIN-SUFFIX,oculuscdn.com
+DOMAIN-SUFFIX,whatsapp.com
+DOMAIN-SUFFIX,whatsapp.net
+DOMAIN-SUFFIX,oculus.com
+DOMAIN-SUFFIX,oculuscdn.com
+// Google
+DOMAIN-SUFFIX,goo.gl
+DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,gmail.com
+DOMAIN-SUFFIX,ytimg.com
+DOMAIN-SUFFIX,ggpht.com
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,googlevideo.com
+// GitHub
+DOMAIN-SUFFIX,git.io
+DOMAIN-SUFFIX,github.io
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,githubassets.com
+DOMAIN-SUFFIX,githubusercontent.com
+// Yahoo
+DOMAIN-SUFFIX,yimg.com
+DOMAIN-SUFFIX,yahoo.com
+// Wikipedia
+DOMAIN-SUFFIX,wikipedia.com
+DOMAIN-SUFFIX,wikipedia.org
+DOMAIN-SUFFIX,wikimedia.org
+// Medium
+DOMAIN-SUFFIX,medium.com
+// Trello
+DOMAIN-SUFFIX,trello.com
+DOMAIN-SUFFIX,trellocdn.com
+// TikTok
+DOMAIN-SUFFIX,musical.ly
+DOMAIN-SUFFIX,tiktokv.com
+// Twitter
+DOMAIN-SUFFIX,t.co
+DOMAIN-SUFFIX,twimg.com
+DOMAIN-SUFFIX,twitter.com
+// Telegram
+DOMAIN-SUFFIX,t.me
+DOMAIN-SUFFIX,telegra.ph
+DOMAIN-SUFFIX,telegram.me
+DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,tdesktop.com
+DOMAIN-SUFFIX,telegramindex.com
+
+AND,((USER-AGENT,Mozilla*), (NOT,((GEOIP,CN))))
+AND,((DOMAIN-KEYWORD,google), (NOT,((GEOIP,CN))))
+AND,((DOMAIN-KEYWORD,gstatic), (NOT,((GEOIP,CN))))
+
+AND,((IP-CIDR,0.0.0.0/0,no-resolve), (NOT,((GEOIP,CN))))
