@@ -1,15 +1,12 @@
 DOMAIN-SUFFIX,tw
 DOMAIN-SUFFIX,hk
-DOMAIN-SUFFIX,jp
 DOMAIN-SUFFIX,ly
 DOMAIN-SUFFIX,us
 DOMAIN-SUFFIX,uk
 DOMAIN-SUFFIX,ru
-DOMAIN-SUFFIX,cf
 
 // Surge
 USER-AGENT,Surge*
-DOMAIN-SUFFIX,nssurge.com
 // Amazon
 DOMAIN-SUFFIX,amazon.com
 DOMAIN-SUFFIX,amazonpay.com
@@ -27,6 +24,7 @@ DOMAIN-SUFFIX,dropbox.com
 DOMAIN-SUFFIX,dropboxapi.com
 DOMAIN-SUFFIX,dropboxstatic.com
 DOMAIN-SUFFIX,dropboxcaptcha.com
+DOMAIN-SUFFIX,dropboxusercontent.com
 // Facebook
 DOMAIN-SUFFIX,fb.me
 DOMAIN-SUFFIX,fbcdn.net
@@ -57,6 +55,9 @@ DOMAIN-SUFFIX,github.io
 DOMAIN-SUFFIX,github.com
 DOMAIN-SUFFIX,githubassets.com
 DOMAIN-SUFFIX,githubusercontent.com
+// PornHub
+DOMAIN-SUFFIX,phncdn.com
+DOMAIN-SUFFIX,pornhub.com
 // Yahoo
 DOMAIN-SUFFIX,yimg.com
 DOMAIN-SUFFIX,yahoo.com
@@ -65,7 +66,11 @@ DOMAIN-SUFFIX,wikipedia.com
 DOMAIN-SUFFIX,wikipedia.org
 DOMAIN-SUFFIX,wikimedia.org
 // Medium
+DOMAIN-SUFFIX,branch.io
 DOMAIN-SUFFIX,medium.com
+// Zendesk
+DOMAIN-SUFFIX,zendesk.com
+DOMAIN-SUFFIX,zdassets.com
 // Trello
 DOMAIN-SUFFIX,trello.com
 DOMAIN-SUFFIX,trellocdn.com

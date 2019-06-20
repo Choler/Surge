@@ -2,13 +2,14 @@ USER-AGENT,cloudd*
 USER-AGENT,CloudKit*
 USER-AGENT,FBiOSSDK*
 
+DOMAIN-SUFFIX,cn
+DOMAIN-SUFFIX,local
+
 DOMAIN-KEYWORD,.cn.
 DOMAIN-KEYWORD,-cn.
 DOMAIN-KEYWORD,china
 DOMAIN-KEYWORD,chinese
 
-DOMAIN-SUFFIX,cn
-DOMAIN-SUFFIX,local
 DOMAIN-SUFFIX,126.net
 DOMAIN-SUFFIX,127.net
 DOMAIN-SUFFIX,163.com
@@ -22,7 +23,10 @@ DOMAIN-SUFFIX,qq.com
 DOMAIN-SUFFIX,gtimg.com
 DOMAIN-SUFFIX,weiyun.com
 DOMAIN-SUFFIX,tencent.com
+DOMAIN-SUFFIX,smtcdns.com
+DOMAIN-SUFFIX,qcloud.com
 DOMAIN-SUFFIX,myqcloud.com
+DOMAIN-SUFFIX,qcloudimg.com
 DOMAIN-SUFFIX,jd.com
 DOMAIN-SUFFIX,360buyimg.com
 DOMAIN-SUFFIX,baidu.com
@@ -67,6 +71,7 @@ DOMAIN-SUFFIX,mi-img.com
 DOMAIN-SUFFIX,xiaomi.com
 DOMAIN-SUFFIX,huawei.com
 DOMAIN-SUFFIX,hicloud.com
+DOMAIN-SUFFIX,huaweicloud.com
 DOMAIN-SUFFIX,vmall.com
 DOMAIN-SUFFIX,vmallres.com
 DOMAIN-SUFFIX,juejin.im
@@ -84,6 +89,10 @@ DOMAIN-SUFFIX,cn.bing.com
 DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN-SUFFIX,microsoft.com
 DOMAIN-SUFFIX,meitudata.com
+DOMAIN-SUFFIX,nssurge.com
+DOMAIN-SUFFIX,ruanmei.com
+DOMAIN-SUFFIX,coding.net
+DOMAIN-SUFFIX,loli.net
 
 IP-CIDR6,::/0,no-resolve
 
