@@ -1,0 +1,67 @@
+DOMAIN,wa.gtimg.com
+DOMAIN,livew.l.qq.com
+DOMAIN,unidesk.alicdn.com
+DOMAIN,optimus-ads.amap.com
+
+// 贴吧启动图
+URL-REGEX,"^http:\/\/[\s\S]*baidu\.com/.*ad[xs]\.php"
+URL-REGEX,"^http:\/\/c\.tieba\.baidu\.com\/c\/s\/splashSchedule$"
+
+// 京东启动图
+URL-REGEX,"^http:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$"
+
+// 猫眼电影启动图
+URL-REGEX,"^http:\/\/p\d.meituan.net\/movie\/.+may_covertWebp$"
+
+// 美团外卖启动图
+URL-REGEX,"^http:\/\/p\d\.meituan\.net\/wmbanner\/"
+
+// 抖音相关广告
+URL-REGEX,"^https?:\/\/[\s\S]*\/api\/ad\/"
+
+// 人人视频启动图
+URL-REGEX,"^https?:\/\/api\.rr\.tv\/ad\/getAll$"
+
+// 饿了么启动图
+URL-REGEX,"^https?:\/\/cube\.elemecdn\.com\/.+w_\d{3},h_\d{4}"
+
+// 美团启动图
+URL-REGEX,"^https?:\/\/img\.meituan\.net\/midas\/"
+URL-REGEX,"^https?:\/\/s3plus\.meituan\.net\/.+\/linglong\/"
+
+// 微信公众号广告
+URL-REGEX,"^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad"
+
+// 招商银行启动图
+URL-REGEX,"^https?:\/\/pic1cdn\.cmbchina\.com\/appinitads\/"
+
+// 威锋启动图
+URL-REGEX,"^https?:\/\/api\.feng\.com\/v1\/advertisement\/.*Claunch"
+
+// 淘宝启动图
+URL-REGEX,"https?:\/\/gw\.alicdn\.com\/tfs\/.+-\d{4}-\d{4}"
+
+// 掌上生活启动图
+URL-REGEX,"^https?:\/\/mlife\.cmbchina\.com\/ClientFaceService\/preCacheAdvertise\.json$"
+
+// 滴滴出行启动图
+URL-REGEX,"^https?:\/\/img-ys011\.didistatic\.com\/static\/ad_oss\/image-\d{4}-\d{4}\/"
+
+// 斗鱼启动图
+URL-REGEX,"^https?:\/\/rtbapi\.douyucdn\.cn\/japi\/sign\/app\/getinfo"
+
+// 京东金融启动图
+URL-REGEX,"^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/aladdin\/na\/m\/getLoadingPicture$"
+
+// 微博启动图
+URL-REGEX,"^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkad\.php$"
+
+// 网易云音乐启动图
+URL-REGEX,"^http:\/\/p\d\.music\.126\.net\/\w+==\/\d+\.jpg$"
+URL-REGEX,"^http:\/\/iad.*mat\.[a-z]*\.12[67]\.net/\w+\.(jpg|mp4)$"
+
+// 印象笔记启动图
+URL-REGEX,"^https:\/\/app\.yinxiang\.com\/ads\/getAdsInfo$"
+
+// 知乎启动图
+URL-REGEX,"^https?:\/\/api\.zhihu\.com\/commercial_api\/.*launch_v2"
