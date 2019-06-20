@@ -7,6 +7,10 @@ DOMAIN,optimus-ads.amap.com
 URL-REGEX,"^http:\/\/[\s\S]*baidu\.com/.*ad[xs]\.php"
 URL-REGEX,"^http:\/\/c\.tieba\.baidu\.com\/c\/s\/splashSchedule$"
 
+// 网易云音乐启动图
+URL-REGEX,"^http:\/\/p\d\.music\.126\.net\/\w+==\/\d+\.jpg$"
+URL-REGEX,"^http:\/\/iad.*mat\.[a-z]*\.12[67]\.net/\w+\.(jpg|mp4)$"
+
 // 京东启动图
 URL-REGEX,"^http:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$"
 
@@ -15,6 +19,8 @@ URL-REGEX,"^http:\/\/p\d.meituan.net\/movie\/.+may_covertWebp$"
 
 // 美团外卖启动图
 URL-REGEX,"^http:\/\/p\d\.meituan\.net\/wmbanner\/"
+
+
 
 // 抖音相关广告
 URL-REGEX,"^https?:\/\/[\s\S]*\/api\/ad\/"
@@ -56,12 +62,11 @@ URL-REGEX,"^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/aladdin\/na\/m\/getLoadingP
 // 微博启动图
 URL-REGEX,"^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkad\.php$"
 
-// 网易云音乐启动图
-URL-REGEX,"^http:\/\/p\d\.music\.126\.net\/\w+==\/\d+\.jpg$"
-URL-REGEX,"^http:\/\/iad.*mat\.[a-z]*\.12[67]\.net/\w+\.(jpg|mp4)$"
-
 // 印象笔记启动图
-URL-REGEX,"^https:\/\/app\.yinxiang\.com\/ads\/getAdsInfo$"
+URL-REGEX,"^https?:\/\/app\.yinxiang\.com\/ads\/getAdsInfo$"
 
 // 知乎启动图
 URL-REGEX,"^https?:\/\/api\.zhihu\.com\/commercial_api\/.*launch_v2"
+
+// 百度网盘启动图
+URL-REGEX,"^https?:\/\/pan\.baidu\.com\/rest\/2\.0\/pcs\/adx"
