@@ -4,7 +4,7 @@ function replaceAll(str, find, replace) {
 
 var keyword = ['watermark=1'];
 
-var result = body;
+var result = $response.body;
 
 keyword.forEach(function(k) {
   result = replaceAll(result, k, 'watermark=0');
@@ -37,4 +37,4 @@ obj.aweme_list.forEach((element, index) => {
   }
 });
 
-JSON.stringify(obj);
+$done({obj});
