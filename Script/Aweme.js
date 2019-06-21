@@ -37,4 +37,6 @@ obj.aweme_list.forEach((element, index) => {
   }
 });
 
-$done({obj});
+body = JSON.stringify(obj);
+
+$done({body});
