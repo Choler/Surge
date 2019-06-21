@@ -63,6 +63,10 @@ DOMAIN-SUFFIX,line-apps.com
 // PornHub
 DOMAIN-SUFFIX,phncdn.com
 DOMAIN-SUFFIX,pornhub.com
+// Reddit
+DOMAIN-SUFFIX,redd.it
+DOMAIN-SUFFIX,reddit.com
+DOMAIN-SUFFIX,redditstatic.com
 // Yahoo
 DOMAIN-SUFFIX,yimg.com
 DOMAIN-SUFFIX,yahoo.com
