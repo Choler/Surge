@@ -1,5 +1,5 @@
 function replaceAll(str, find, replace) {
-  return str.replace(new RegExp(find, "g"), replace);
+  return str.replace(new RegExp(find, 'g'), replace);
 }
 
 var keyword = ['watermark=1'];
@@ -7,20 +7,26 @@ var keyword = ['watermark=1'];
 var result = $response.body;
 
 keyword.forEach(function(k) {
-  result = replaceAll(result, k, "watermark=0");
+  result = replaceAll(result, k, 'watermark=0');
 });
 
-var obj = JSON.parse(result);
+body = JSON.parse(result);
+body['aweme_list'].forEach((element, index) => {
+  if (element.is_ads === true) {
+    body['aweme_list'].splice(index, 1);
+  }
+});
+body['aweme_list'].forEach((element, index) => {
+  if (element.simple_promotions) {
+    delete body['aweme_list'][index].simple_promotions;
+  }
+});
+body['aweme_list'].forEach((element, index) => {
+  if (element.prevent_download === true) {
+    body['aweme_list'][index].status.reviewed = 1;
+    body['aweme_list'][index].prevent_download = false;
+  }
+});
+body = JSON.stringify(body)
 
-if ($request.url.indexOf('post') != -1) {
-  body = JSON.stringify(obj)
-} else if ($request.url.indexOf('feed') != -1) {
-  obj.aweme_list.forEach((element, index) => {
-    if (element.is_ads === true) {
-      obj.aweme_list.splice(index, 1);
-      body = JSON.stringify(obj)
-    }
-  });
-}
-
-$done({body});
+$done({body})
