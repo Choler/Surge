@@ -21,6 +21,8 @@ URL-REGEX,"^http:\/\/p\d.meituan.net\/movie\/.+may_covertWebp$"
 // 美团外卖启动图
 URL-REGEX,"^http:\/\/p\d\.meituan\.net\/wmbanner\/"
 
+// 工商银行启动图
+URL-REGEX,"http:\/\/v\.icbc\.com\.cn\/userfiles\/Resources\/WAP\/advertisement\/"
 
 
 // 人人视频启动图
