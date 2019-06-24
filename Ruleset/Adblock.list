@@ -63,16 +63,22 @@ URL-REGEX,"^https:\/\/rtbapi\.douyucdn\.cn\/japi\/sign\/app\/getinfo"
 URL-REGEX,"^https:\/\/ms\.jr\.jd\.com\/gw\/generic\/aladdin\/na\/m\/getLoadingPicture$"
 
 // 微博启动图
-URL-REGEX,"^https:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkad\.php$"
+URL-REGEX,"^https:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/.*ad\.php$"
 
 // 印象笔记启动图
 URL-REGEX,"^https:\/\/app\.yinxiang\.com\/ads\/getAdsInfo$"
 
 // 知乎启动图
-URL-REGEX,"^https:\/\/api\.zhihu\.com\/commercial_api\/.*launch_v2"
+URL-REGEX,"^https:\/\/api\.zhihu\.com\/commercial_api\/.*launch"
 
 // 百度网盘启动图
 URL-REGEX,"^https:\/\/pan\.baidu\.com\/rest\/2\.0\/pcs\/adx"
 
 // 豆瓣启动图
 URL-REGEX,"^https:\/\/api\.douban\.com\/v2\/app_ads\/splash"
+
+// 曹操出行启动图
+URL-REGEX,"^https:\/\/ptmpcap\.caocaokeji\.cn\/advert-bss\/"
+
+// 哔哩哔哩启动图
+URL-REGEX,"^https:\/\/app\.bilibili\.com\/x\/v2\/splash\/"

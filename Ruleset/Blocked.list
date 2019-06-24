@@ -97,6 +97,10 @@ DOMAIN-SUFFIX,telegram.me
 DOMAIN-SUFFIX,telegram.org
 DOMAIN-SUFFIX,tdesktop.com
 DOMAIN-SUFFIX,telegramindex.com
+// WalMart
+DOMAIN-SUFFIX,wal.co
+DOMAIN-SUFFIX,walmart.com
+DOMAIN-SUFFIX,walmartimages.com
 
 AND,((USER-AGENT,Mozilla*), (NOT,((GEOIP,CN))))
 AND,((DOMAIN-KEYWORD,google), (NOT,((GEOIP,CN))))
