@@ -3,6 +3,7 @@ DOMAIN,livew.l.qq.com
 DOMAIN,iadsdk.apple.com
 DOMAIN,unidesk.alicdn.com
 DOMAIN,optimus-ads.amap.com
+DOMAIN,cdn-adphone.wenhua.com.cn
 
 // 贴吧启动图
 URL-REGEX,"^http:\/\/[\s\S]*baidu\.com/.*ad[xs]\.php"
@@ -82,3 +83,6 @@ URL-REGEX,"^https:\/\/ptmpcap\.caocaokeji\.cn\/advert-bss\/"
 
 // 哔哩哔哩启动图
 URL-REGEX,"^https:\/\/app\.bilibili\.com\/x\/v2\/splash\/"
+
+// 苏州市民卡启动图
+URL-REGEX,"^https:\/\/newapp\.szsmk\.com\/app\/config\/.*Ad$"
