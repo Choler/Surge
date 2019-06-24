@@ -5,6 +5,7 @@ DOMAIN,unidesk.alicdn.com
 DOMAIN,optimus-ads.amap.com
 DOMAIN,cdn-adphone.wenhua.com.cn
 
+
 // 贴吧启动图
 URL-REGEX,"^http:\/\/[\s\S]*baidu\.com/.*ad[xs]\.php"
 URL-REGEX,"^http:\/\/c\.tieba\.baidu\.com\/c\/s\/splashSchedule$"
@@ -24,6 +25,9 @@ URL-REGEX,"^http:\/\/p\d\.meituan\.net\/wmbanner\/"
 
 // 工商银行启动图
 URL-REGEX,"http:\/\/v\.icbc\.com\.cn\/userfiles\/Resources\/WAP\/advertisement\/"
+
+// 广发信用卡启动图
+URL-REGEX,"^http:\/\/mps\.95508\.com\/mps\/club\/cardPortals\/adv\/\d+\.jpg$"
 
 
 // 人人视频启动图
