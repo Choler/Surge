@@ -32,3 +32,11 @@ if(result.indexOf('aweme_list') != -1){
 }
 body = JSON.stringify(body);
 $done({body});
+
+/**********************************************************
+[Script]
+http-response ^https:\/\/[\s\S]*\/v1\/(aweme\/)?(feed|post)\/ script-path=https://raw.githubusercontent.com/Choler/Surge/master/Script/Aweme.js,requires-body=true,max-size=524288
+
+[MITM]
+hostname = aweme*.snssdk.com
+**********************************************************/
