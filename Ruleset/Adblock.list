@@ -90,3 +90,6 @@ URL-REGEX,"^https:\/\/app\.bilibili\.com\/x\/v2\/splash\/"
 
 // 苏州市民卡启动图
 URL-REGEX,"^https:\/\/newapp\.szsmk\.com\/app\/config\/.*Ad$"
+
+// 联通营业厅启动图
+URL-REGEX,"^https:\/\/m\.client\.10010\.com\/mobileService\/customer\/accountListData\.htm$"
