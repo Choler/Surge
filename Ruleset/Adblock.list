@@ -35,6 +35,7 @@ URL-REGEX,"^http:\/\/zt-app\.go189\.cn\/zt-app\/welcome\/.*Animation$"
 
 // 人人视频启动图
 URL-REGEX,"^https:\/\/api\.rr\.tv\/ad\/getAll$"
+URL-REGEX,"^https:\/\/api\.rr\.tv\/getLastestVersion$"
 
 // 抖音相关广告
 URL-REGEX,"^https:\/\/[a-zA-Z]{2}\.snssdk\.com\/api\/ad\/"
