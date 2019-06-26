@@ -29,6 +29,9 @@ URL-REGEX,"http:\/\/v\.icbc\.com\.cn\/userfiles\/Resources\/WAP\/advertisement\/
 // 广发信用卡启动图
 URL-REGEX,"^http:\/\/mps\.95508\.com\/mps\/club\/cardPortals\/adv\/\d+\.jpg$"
 
+// 天翼生活启动图
+URL-REGEX,"^http:\/\/zt-app\.go189\.cn\/zt-app\/welcome\/.*Animation$"
+
 
 // 人人视频启动图
 URL-REGEX,"^https:\/\/api\.rr\.tv\/ad\/getAll$"
