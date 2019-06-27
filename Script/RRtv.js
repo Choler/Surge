@@ -44,8 +44,8 @@ if($request.method == 'OPTIONS'){
 如果不需要去广告就只添加第一个脚本
 
 [Script]
-http-response ^https:\/\/api\.rr\.tv\/.*(profile|Medal) script-path=https://raw.githubusercontent.com/Choler/Surge/master/Script/RRtv.js,requires-body=true,max-size=16384
-http-response ^https:\/\/api\.rr\.tv\/.*(channel|Choice|Feed) script-path=https://raw.githubusercontent.com/Choler/Surge/master/Script/RRtv-ad.js,requires-body=true,max-size=524288
+http-response ^https:\/\/api\.rr\.tv\/.*(profile|Medal) script-path=https://Choler.github.io/Surge/Script/RRtv.js,requires-body=true
+http-response ^https:\/\/api\.rr\.tv\/.*(channel|Choice|Feed) script-path=https://Choler.github.io/Surge/Script/RRtv-ad.js,requires-body=true,max-size=524288
 [MITM]
 hostname = api.rr.tv
 **********************************************************/

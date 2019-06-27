@@ -5,7 +5,7 @@ $done({body});
 
 /**********************************************************
 [Script]
-http-response ^https:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad script-path=https://raw.githubusercontent.com/Choler/Surge/master/Script/WeChat.js,requires-body=true,max-size=131072
+http-response ^https:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad script-path=https://Choler.github.io/Surge/Script/WeChat.js,requires-body=true
 
 [MITM]
 hostname = mp.weixin.qq.com
