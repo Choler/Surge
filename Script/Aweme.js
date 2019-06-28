@@ -24,12 +24,3 @@ if(body.aweme_list){
 }
 result = JSON.stringify(body);
 $done({body: result});
-
-/*
-[Script]
-http-request ^https:\/\/[\s\S]*/aweme\/v1\/play\/\?video_id=\w{32} script-path=https://Choler.github.io/Surge/Script/Amark.js
-http-response ^https:\/\/[\s\S]*\/v1\/(aweme\/)?(feed|post)\/ script-path=https://Choler.github.io/Surge/Script/Aweme.js,requires-body=true,max-size=524288
-
-[MITM]
-hostname = aweme*.snssdk.com, api.amemv.com
-*/
