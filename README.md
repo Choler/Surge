@@ -1,13 +1,33 @@
+## JavaScript
+
+
+### 短视频去水印
+
+抖音去水印 `api.amemv.com`
+TikTok 去水印 `api*.musical.ly` `api*.tiktokv.com`
+```
+http-request ^https:\/\/[\s\S]*/aweme\/v1\/play\/\?video script-path=https://Choler.github.io/Surge/Script/Amark.js
+```
+
+火山去水印 `api.huoshan.com`
+```
+http-request ^https:\/\/api\.huoshan\.com\/hotsoon\/item\/video\/_source\/\?video script-path=https://Choler.github.io/Surge/Script/Amark.js
+```
+
+微视去水印 `null`
+```
+http-request ^https:\/\/api\.huoshan\.com\/hotsoon\/item\/video\/_source\/\?video script-path=https://Choler.github.io/Surge/Script/Amark.js
+```
+
 ### 抖音短视频
 
 
 ```
 [Script]
-http-request ^https:\/\/[\s\S]*/aweme\/v1\/play\/\?video_id=\w{32} script-path=https://Choler.github.io/Surge/Script/Amark.js
 http-response ^https:\/\/[\s\S]*\/v1\/(aweme\/)?(feed|post)\/ script-path=https://Choler.github.io/Surge/Script/Aweme.js,requires-body=true,max-size=524288
 
 [MITM]
-hostname = aweme*.snssdk.com, api.amemv.com
+hostname = aweme*.snssdk.com
 ```
 
 ### 人人视频
