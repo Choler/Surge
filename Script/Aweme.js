@@ -1,13 +1,5 @@
-let result = $response.body;
-function replaceAll(str, find, replace) {
-  return str.replace(new RegExp(find, 'g'), replace);
-}
-var keyword = ['watermark=1'];
-keyword.forEach(function(k) {
-  result = replaceAll(result, k, 'watermark=0');
-});
-body = JSON.parse(result);
-if(result.indexOf('aweme_list') != -1){
+body = JSON.parse($response.body);
+if(body.aweme_list){
   body.aweme_list.forEach((element, index)=>{
     if(element.hasOwnProperty('raw_ad_data')){      
       body.aweme_list.splice(index, 1);
@@ -30,13 +22,14 @@ if(result.indexOf('aweme_list') != -1){
     }
   });
 }
-body = JSON.stringify(body);
-$done({body});
+result = JSON.stringify(body);
+$done({body: result});
 
 /**********************************************************
 [Script]
+http-request ^https:\/\/[\s\S]*/aweme\/v1\/play\/\?video_id=\w{32} script-path=https://Choler.github.io/Surge/Script/Amark.js
 http-response ^https:\/\/[\s\S]*\/v1\/(aweme\/)?(feed|post)\/ script-path=https://Choler.github.io/Surge/Script/Aweme.js,requires-body=true,max-size=524288
 
 [MITM]
-hostname = aweme*.snssdk.com
+hostname = aweme*.snssdk.com, api.amemv.com
 **********************************************************/
