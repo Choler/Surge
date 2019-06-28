@@ -36,16 +36,3 @@ if($request.method == 'OPTIONS'){
   body = JSON.stringify(obj);
   $done({body});
 }
-
-/**********************************************************
-[说明]
-此脚本仅适用于人人视频1.0版本
-各大助手软件下载的人人旧版均有效
-如果不需要去广告就只添加第一个脚本
-
-[Script]
-http-response ^https:\/\/api\.rr\.tv\/.*(profile|Medal) script-path=https://Choler.github.io/Surge/Script/RRtv.js,requires-body=true
-http-response ^https:\/\/api\.rr\.tv\/.*(channel|Choice|Feed) script-path=https://Choler.github.io/Surge/Script/RRtv-ad.js,requires-body=true,max-size=524288
-[MITM]
-hostname = api.rr.tv
-**********************************************************/
