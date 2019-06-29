@@ -3,7 +3,7 @@
 
 ### 短视频去水印
 
-抖音去水印 `api.amemv.com`
+抖音去水印 `api.amemv.com`   
 TikTok 去水印 `api*.musical.ly` `api*.tiktokv.com`
 ```
 http-request ^https:\/\/[\s\S]*/aweme\/v1\/play\/\?video script-path=https://Choler.github.io/Surge/Script/Amark.js
