@@ -51,8 +51,6 @@ DOMAIN-SUFFIX,c-ctrip.com
 DOMAIN-SUFFIX,csdn.net
 DOMAIN-SUFFIX,v2ex.com
 DOMAIN-SUFFIX,ipip.net
-DOMAIN-SUFFIX,ipv6-test.com
-DOMAIN-SUFFIX,test-ipv6.com
 DOMAIN-SUFFIX,douyu.com
 DOMAIN-SUFFIX,jianshu.io
 DOMAIN-SUFFIX,jianshu.com
@@ -83,8 +81,6 @@ DOMAIN-SUFFIX,weibo.com
 DOMAIN-SUFFIX,miaopai.com
 DOMAIN-SUFFIX,tianyaui.com
 DOMAIN-SUFFIX,xunlei.com
-DOMAIN-SUFFIX,ipsw.me
-DOMAIN-SUFFIX,ibeta.me
 DOMAIN-SUFFIX,cn.bing.com
 DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN-SUFFIX,microsoft.com
@@ -93,8 +89,12 @@ DOMAIN-SUFFIX,nssurge.com
 DOMAIN-SUFFIX,ruanmei.com
 DOMAIN-SUFFIX,coding.net
 DOMAIN-SUFFIX,loli.net
-
-IP-CIDR6,::/0,no-resolve
+DOMAIN-SUFFIX,mozilla.net
+DOMAIN-SUFFIX,ipsw.me
+DOMAIN-SUFFIX,ibeta.me
+DOMAIN-SUFFIX,lncld.net
+DOMAIN-SUFFIX,avoscloud.com
+DOMAIN-SUFFIX,runoob.com
 
 URL-REGEX,"^http:\/\/[\s\S]*\/cn\/"
 URL-REGEX,"^http:\/\/cn\.[\s\S]*\/"
