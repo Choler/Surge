@@ -95,6 +95,7 @@ DOMAIN-SUFFIX,ibeta.me
 DOMAIN-SUFFIX,lncld.net
 DOMAIN-SUFFIX,avoscloud.com
 DOMAIN-SUFFIX,runoob.com
+DOMAIN-SUFFIX,gitee.com
 
 URL-REGEX,"^http:\/\/[\s\S]*\/cn\/"
 URL-REGEX,"^http:\/\/cn\.[\s\S]*\/"
