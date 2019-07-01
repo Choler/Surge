@@ -1,4 +1,4 @@
-body = JSON.parse($response.body);
+let body = JSON.parse($response.body);
 if(body.aweme_list){
   body.aweme_list.forEach((element, index)=>{
     if(element.hasOwnProperty('raw_ad_data')){      
@@ -22,5 +22,4 @@ if(body.aweme_list){
     }
   });
 }
-result = JSON.stringify(body);
-$done({body: result});
+$done({body: JSON.stringify(body)});
