@@ -11,14 +11,14 @@ if(body.aweme_list){
     }
   });
   body.aweme_list.forEach((element, index) => {
-    if (element['interaction_stickers'] !== null) {
-      body.aweme_list[index].interaction_stickers = null;
+    if (element.hasOwnProperty('prevent_download')) {
+      body.aweme_list[index].status.reviewed = 1;
+      body.aweme_list[index].prevent_download = false;
     }
   });
   body.aweme_list.forEach((element, index) => {
-    if (element['prevent_download'] === true) {
-      body.aweme_list[index].status.reviewed = 1;
-      body.aweme_list[index].prevent_download = false;
+    if (element['interaction_stickers'] !== null) {
+      body.aweme_list[index].interaction_stickers = null;
     }
   });
 }
