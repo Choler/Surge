@@ -8,6 +8,8 @@ DOMAIN-SUFFIX,ru
 
 // Surge
 USER-AGENT,Surge*
+// Apple
+DOMAIN,init.sandbox.push.apple.com
 // Amazon
 DOMAIN-SUFFIX,amazon.com
 DOMAIN-SUFFIX,amazonpay.com
