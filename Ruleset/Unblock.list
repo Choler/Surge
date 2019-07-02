@@ -13,6 +13,7 @@ DOMAIN-KEYWORD,chinese
 DOMAIN-SUFFIX,126.net
 DOMAIN-SUFFIX,127.net
 DOMAIN-SUFFIX,163.com
+DOMAIN-SUFFIX,10010.com
 DOMAIN-SUFFIX,netease.com
 DOMAIN-SUFFIX,amap.com
 DOMAIN-SUFFIX,alicdn.com
@@ -96,6 +97,12 @@ DOMAIN-SUFFIX,lncld.net
 DOMAIN-SUFFIX,avoscloud.com
 DOMAIN-SUFFIX,runoob.com
 DOMAIN-SUFFIX,gitee.com
+DOMAIN-SUFFIX,git.io
+DOMAIN-SUFFIX,github.io
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,githubapp.com
+DOMAIN-SUFFIX,githubassets.com
+DOMAIN-SUFFIX,githubusercontent.com
 
 URL-REGEX,"^http:\/\/[\s\S]*\/cn\/"
 URL-REGEX,"^http:\/\/cn\.[\s\S]*\/"
