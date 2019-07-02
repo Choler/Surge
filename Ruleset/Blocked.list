@@ -105,6 +105,7 @@ DOMAIN-SUFFIX,walmart.com
 DOMAIN-SUFFIX,walmartimages.com
 
 AND,((USER-AGENT,Mozilla*), (NOT,((GEOIP,CN))))
+AND,((USER-AGENT,JSBoxMain*), (NOT,((GEOIP,CN))))
 AND,((DOMAIN-KEYWORD,google), (NOT,((GEOIP,CN))))
 AND,((DOMAIN-KEYWORD,gstatic), (NOT,((GEOIP,CN))))
 
