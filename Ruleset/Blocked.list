@@ -8,8 +8,6 @@ DOMAIN-SUFFIX,ru
 
 // Surge
 USER-AGENT,Surge*
-// Apple
-DOMAIN,init.sandbox.push.apple.com
 // Amazon
 DOMAIN-SUFFIX,amazon.com
 DOMAIN-SUFFIX,amazonpay.com
@@ -56,6 +54,7 @@ DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,git.io
 DOMAIN-SUFFIX,github.io
 DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,githubapp.com
 DOMAIN-SUFFIX,githubassets.com
 DOMAIN-SUFFIX,githubusercontent.com
 // Line
@@ -104,8 +103,8 @@ DOMAIN-SUFFIX,wal.co
 DOMAIN-SUFFIX,walmart.com
 DOMAIN-SUFFIX,walmartimages.com
 
+AND,((USER-AGENT,JSBox*), (NOT,((GEOIP,CN))))
 AND,((USER-AGENT,Mozilla*), (NOT,((GEOIP,CN))))
-AND,((USER-AGENT,JSBoxMain*), (NOT,((GEOIP,CN))))
 AND,((DOMAIN-KEYWORD,google), (NOT,((GEOIP,CN))))
 AND,((DOMAIN-KEYWORD,gstatic), (NOT,((GEOIP,CN))))
 
