@@ -14,9 +14,6 @@ URL-REGEX,"^http:\/\/c\.tieba\.baidu\.com\/c\/s\/splashSchedule$"
 URL-REGEX,"^http:\/\/p\d\.music\.126\.net\/\w+==\/\d+\.jpg$"
 URL-REGEX,"^http:\/\/iad.*mat\.[a-z]*\.12[67]\.net/\w+\.(jpg|mp4)$"
 
-// 京东启动图
-URL-REGEX,"^http:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$"
-
 // 猫眼电影启动图
 URL-REGEX,"^http:\/\/p\d.meituan.net\/movie\/.+may_covertWebp$"
 
@@ -38,7 +35,7 @@ URL-REGEX,"^https:\/\/api\.rr\.tv\/ad\/getAll$"
 URL-REGEX,"^https:\/\/api\.rr\.tv\/getLastestVersion$"
 
 // 抖音相关广告
-URL-REGEX,"^https:\/\/[a-zA-Z]{2}\.snssdk\.com\/api\/ad\/"
+URL-REGEX,"^https:\/\/[a-zA-Z]+\.snssdk\.com\/api\/ad\/"
 
 // 淘宝启动图
 URL-REGEX,"https:\/\/gw\.alicdn\.com\/tfs\/.+-\d{4}-\d{4}"
@@ -97,3 +94,6 @@ URL-REGEX,"^https:\/\/newapp\.szsmk\.com\/app\/config\/.*Ad$"
 
 // 联通营业厅启动图
 URL-REGEX,"^https:\/\/m\.client\.10010\.com\/mobileService\/customer\/accountListData\.htm$"
+
+// 优酷启动图
+URL-REGEX,"^https:\/\/iyes\.youku\.com\/adv\/startpage"
