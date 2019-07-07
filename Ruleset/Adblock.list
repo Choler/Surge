@@ -39,7 +39,7 @@ URL-REGEX,"^https?:\/\/api\.rr\.tv\/ad\/getAll$"
 URL-REGEX,"^https?:\/\/api\.rr\.tv\/getLastestVersion$"
 
 // 抖音相关广告
-URL-REGEX,"^https??:\/\/[a-zA-Z]+\.snssdk\.com\/api\/ad\/"
+URL-REGEX,"^https?:\/\/[a-zA-Z]+\.snssdk\.com\/api\/ad\/"
 
 // 淘宝启动图
 URL-REGEX,"^https?:\/\/gw\.alicdn\.com\/tps\/i4\/TB"
