@@ -5,21 +5,19 @@ DOMAIN-SUFFIX,ly
 DOMAIN-SUFFIX,us
 DOMAIN-SUFFIX,uk
 DOMAIN-SUFFIX,ru
-
 // Surge
 USER-AGENT,Surge*
+// iCloud
+USER-AGENT,cloudd*
+USER-AGENT,CloudKit*
+// Crashlytics
+DOMAIN-SUFFIX,crashlytics.com
 // Amazon
 DOMAIN-SUFFIX,amazon.com
 DOMAIN-SUFFIX,amazonpay.com
 DOMAIN-SUFFIX,amazonaws.com
 DOMAIN-SUFFIX,media-amazon.com
 DOMAIN-SUFFIX,ssl-images-amazon.com
-// Microsoft
-DOMAIN-SUFFIX,bing.com
-DOMAIN-SUFFIX,live.com
-DOMAIN-SUFFIX,liveperson.net
-DOMAIN-SUFFIX,lpsnmedia.net
-DOMAIN-SUFFIX,onestore.ms
 // Dropbox
 DOMAIN-SUFFIX,dropbox.com
 DOMAIN-SUFFIX,dropboxapi.com
@@ -50,6 +48,7 @@ DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,google.com
 DOMAIN-SUFFIX,youtube.com
 DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,googleusercontent.com
 // GitHub
 DOMAIN-SUFFIX,git.io
 DOMAIN-SUFFIX,github.io
@@ -75,9 +74,6 @@ DOMAIN-SUFFIX,yahoo.com
 DOMAIN-SUFFIX,wikipedia.com
 DOMAIN-SUFFIX,wikipedia.org
 DOMAIN-SUFFIX,wikimedia.org
-// Medium
-DOMAIN-SUFFIX,branch.io
-DOMAIN-SUFFIX,medium.com
 // Zendesk
 DOMAIN-SUFFIX,zendesk.com
 DOMAIN-SUFFIX,zdassets.com
