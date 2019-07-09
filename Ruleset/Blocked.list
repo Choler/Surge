@@ -5,28 +5,34 @@ DOMAIN-SUFFIX,ly
 DOMAIN-SUFFIX,us
 DOMAIN-SUFFIX,uk
 DOMAIN-SUFFIX,ru
+DOMAIN-SUFFIX,ms
+
 // Surge
 USER-AGENT,Surge*
+
 // iCloud
 USER-AGENT,cloudd*
 USER-AGENT,CloudKit*
 DOMAIN-SUFFIX,icloud.com
-// CloudApp
-USER-AGENT,CloudApp*
+
 // Crashlytics
 DOMAIN-SUFFIX,crashlytics.com
+
 // Castro
 USER-AGENT,Castro*
-DOMAIN-SUFFIX,api.amplitude.com
+DOMAIN-SUFFIX,amplitude.com
+
 // Droplr
 USER-AGENT,Droplr*
 DOMAIN-SUFFIX,droplr.com
+
 // Amazon
 DOMAIN-SUFFIX,amazon.com
 DOMAIN-SUFFIX,amazonpay.com
 DOMAIN-SUFFIX,amazonaws.com
 DOMAIN-SUFFIX,media-amazon.com
 DOMAIN-SUFFIX,ssl-images-amazon.com
+
 // Dropbox
 USER-AGENT,Dropbox*
 DOMAIN-SUFFIX,dropbox.com
@@ -34,11 +40,13 @@ DOMAIN-SUFFIX,dropboxapi.com
 DOMAIN-SUFFIX,dropboxstatic.com
 DOMAIN-SUFFIX,dropboxcaptcha.com
 DOMAIN-SUFFIX,dropboxusercontent.com
+
 // OneDrive
 USER-AGENT,OneDrive*
 DOMAIN-SUFFIX,live.com
 DOMAIN-SUFFIX,msauth.net
 DOMAIN-SUFFIX,onedrive.com
+
 // Facebook
 DOMAIN-SUFFIX,fb.me
 DOMAIN-SUFFIX,fbcdn.net
@@ -54,6 +62,7 @@ DOMAIN-SUFFIX,whatsapp.com
 DOMAIN-SUFFIX,whatsapp.net
 DOMAIN-SUFFIX,oculus.com
 DOMAIN-SUFFIX,oculuscdn.com
+
 // Google
 DOMAIN-SUFFIX,goo.gl
 DOMAIN-SUFFIX,youtu.be
@@ -64,6 +73,7 @@ DOMAIN-SUFFIX,google.com
 DOMAIN-SUFFIX,youtube.com
 DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,googleusercontent.com
+
 // GitHub
 DOMAIN-SUFFIX,git.io
 DOMAIN-SUFFIX,github.io
@@ -71,49 +81,62 @@ DOMAIN-SUFFIX,github.com
 DOMAIN-SUFFIX,githubapp.com
 DOMAIN-SUFFIX,githubassets.com
 DOMAIN-SUFFIX,githubusercontent.com
+
 // Line
 DOMAIN-SUFFIX,line.me
 DOMAIN-SUFFIX,line-scdn.net
 DOMAIN-SUFFIX,line-apps.com
+
 // PornHub
 DOMAIN-SUFFIX,phncdn.com
 DOMAIN-SUFFIX,pornhub.com
+
 // Reddit
 DOMAIN-SUFFIX,redd.it
 DOMAIN-SUFFIX,reddit.com
 DOMAIN-SUFFIX,redditstatic.com
+
 // Yahoo
 DOMAIN-SUFFIX,yimg.com
 DOMAIN-SUFFIX,yahoo.com
+
 // Wikipedia
 DOMAIN-SUFFIX,wikipedia.com
 DOMAIN-SUFFIX,wikipedia.org
 DOMAIN-SUFFIX,wikimedia.org
+
 // Slack
 USER-AGENT,Slack*
 DOMAIN-SUFFIX,slack.com
 DOMAIN-SUFFIX,slack-edge.com
 DOMAIN-SUFFIX,slack-msgs.com
+
 // Zendesk
 DOMAIN-SUFFIX,zendesk.com
 DOMAIN-SUFFIX,zdassets.com
+
 // Tumblr
 USER-AGENT,Tumblr*
 DOMAIN-SUFFIX,tumblr.com
+
 // TextNow
 USER-AGENT,TextNow*
 DOMAIN-SUFFIX,freegeoip.net
 DOMAIN-SUFFIX,app-measurement.com
+
 // Trello
 DOMAIN-SUFFIX,trello.com
 DOMAIN-SUFFIX,trellocdn.com
+
 // TikTok
 DOMAIN-SUFFIX,musical.ly
 DOMAIN-SUFFIX,tiktokv.com
+
 // Twitter
 DOMAIN-SUFFIX,t.co
 DOMAIN-SUFFIX,twimg.com
 DOMAIN-SUFFIX,twitter.com
+
 // Telegram
 DOMAIN-SUFFIX,t.me
 DOMAIN-SUFFIX,telegra.ph
@@ -121,6 +144,7 @@ DOMAIN-SUFFIX,telegram.me
 DOMAIN-SUFFIX,telegram.org
 DOMAIN-SUFFIX,tdesktop.com
 DOMAIN-SUFFIX,telegramindex.com
+
 // WalMart
 DOMAIN-SUFFIX,wal.co
 DOMAIN-SUFFIX,walmart.com
