@@ -31,7 +31,6 @@ USER-AGENT,OneDrive*
 DOMAIN-SUFFIX,live.com
 DOMAIN-SUFFIX,msauth.net
 DOMAIN-SUFFIX,onedrive.com
-DOMAIN-SUFFIX,microsoft.com
 // Facebook
 DOMAIN-SUFFIX,fb.me
 DOMAIN-SUFFIX,fbcdn.net
@@ -82,9 +81,17 @@ DOMAIN-SUFFIX,yahoo.com
 DOMAIN-SUFFIX,wikipedia.com
 DOMAIN-SUFFIX,wikipedia.org
 DOMAIN-SUFFIX,wikimedia.org
+// Slack
+USER-AGENT,Slack*
+DOMAIN-SUFFIX,slack.com
+DOMAIN-SUFFIX,slack-edge.com
+DOMAIN-SUFFIX,slack-msgs.com
 // Zendesk
 DOMAIN-SUFFIX,zendesk.com
 DOMAIN-SUFFIX,zdassets.com
+// Tumblr
+USER-AGENT,Tumblr*
+DOMAIN-SUFFUX,tumblr.com
 // Trello
 DOMAIN-SUFFIX,trello.com
 DOMAIN-SUFFIX,trellocdn.com
