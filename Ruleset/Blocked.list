@@ -20,11 +20,18 @@ DOMAIN-SUFFIX,amazonaws.com
 DOMAIN-SUFFIX,media-amazon.com
 DOMAIN-SUFFIX,ssl-images-amazon.com
 // Dropbox
+USER-AGENT,Dropbox*
 DOMAIN-SUFFIX,dropbox.com
 DOMAIN-SUFFIX,dropboxapi.com
 DOMAIN-SUFFIX,dropboxstatic.com
 DOMAIN-SUFFIX,dropboxcaptcha.com
 DOMAIN-SUFFIX,dropboxusercontent.com
+// OneDrive
+USER-AGENT,OneDrive*
+DOMAIN-SUFFIX,live.com
+DOMAIN-SUFFIX,msauth.net
+DOMAIN-SUFFIX,onedrive.com
+DOMAIN-SUFFIX,microsoft.com
 // Facebook
 DOMAIN-SUFFIX,fb.me
 DOMAIN-SUFFIX,fbcdn.net
