@@ -4,7 +4,7 @@ DOMAIN-SUFFIX,jp
 DOMAIN-SUFFIX,ly
 DOMAIN-SUFFIX,us
 DOMAIN-SUFFIX,uk
-DOMAIN-SUFFIX,ru
+DOMAIN-SUFFIX,co
 DOMAIN-SUFFIX,ms
 
 // Surge
@@ -14,17 +14,6 @@ USER-AGENT,Surge*
 USER-AGENT,cloudd*
 USER-AGENT,CloudKit*
 DOMAIN-SUFFIX,icloud.com
-
-// Crashlytics
-DOMAIN-SUFFIX,crashlytics.com
-
-// Castro
-USER-AGENT,Castro*
-DOMAIN-SUFFIX,amplitude.com
-
-// Droplr
-USER-AGENT,Droplr*
-DOMAIN-SUFFIX,droplr.com
 
 // Amazon
 DOMAIN-SUFFIX,amazon.com
@@ -128,10 +117,6 @@ DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,trello.com
 DOMAIN-SUFFIX,trellocdn.com
 
-// TikTok
-DOMAIN-SUFFIX,musical.ly
-DOMAIN-SUFFIX,tiktokv.com
-
 // Twitter
 DOMAIN-SUFFIX,t.co
 DOMAIN-SUFFIX,twimg.com
@@ -146,9 +131,17 @@ DOMAIN-SUFFIX,tdesktop.com
 DOMAIN-SUFFIX,telegramindex.com
 
 // WalMart
-DOMAIN-SUFFIX,wal.co
 DOMAIN-SUFFIX,walmart.com
 DOMAIN-SUFFIX,walmartimages.com
+
+// Misc
+DOMAIN-SUFFIX,droplr.com
+DOMAIN-SUFFIX,tiktokv.com
+DOMAIN-SUFFIX,amplitude.com
+DOMAIN-SUFFIX,instapaper.com
+DOMAIN-SUFFIX,cloudfront.net
+DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,crashlytics.com
 
 AND,((USER-AGENT,JSBox*), (NOT,((GEOIP,CN))))
 AND,((USER-AGENT,Mozilla*), (NOT,((GEOIP,CN))))
