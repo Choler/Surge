@@ -32,6 +32,11 @@ URL-REGEX,"^http:\/\/rich\.kuwo\.cn\/AdService\/kaiping\/adinfo"
 // 发现精彩启动图(广发银行)
 URL-REGEX,"^http:\/\/mps\.95508\.com\/mps\/club\/cardPortals\/adv\/\d+\.jpg$"
 
+// 动卡空间启动图(中信银行)
+URL-REGEX,"^https?:\/\/m\.creditcard\.ecitic\.com\/.*\/appStartAdv$"
+
+// 掌上生活启动图(招商银行)
+URL-REGEX,"^https?:\/\/mlife\.cmbchina\.com\/ClientFaceService\/preCacheAdvertise\.json$"
 
 // 人人视频启动图
 URL-REGEX,"^https?:\/\/api\.rr\.tv\/ad\/getAll$"
@@ -98,8 +103,5 @@ URL-REGEX,"^https?:\/\/m\.client\.10010\.com\/mobileService\/customer\/accountLi
 // 优酷启动图
 URL-REGEX,"^https?:\/\/iyes\.youku\.com\/adv\/startpage"
 
-// 动卡空间启动图(中信银行)
-URL-REGEX,"^https?:\/\/m\.creditcard\.ecitic\.com\/.*\/appStartAdv$"
-
-// 掌上生活启动图(招商银行)
-URL-REGEX,"^https?:\/\/mlife\.cmbchina\.com\/ClientFaceService\/preCacheAdvertise\.json$"
+// 掌上和平精英启动图
+URL-REGEX,"^https:\/\/api2\.helper\.qq\.com\/game\/buttons$"

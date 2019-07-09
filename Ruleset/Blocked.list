@@ -10,6 +10,7 @@ USER-AGENT,Surge*
 // iCloud
 USER-AGENT,cloudd*
 USER-AGENT,CloudKit*
+DOMAIN-SUFFIX,icloud.com
 // Crashlytics
 DOMAIN-SUFFIX,crashlytics.com
 // Amazon
