@@ -91,7 +91,7 @@ DOMAIN-SUFFIX,zendesk.com
 DOMAIN-SUFFIX,zdassets.com
 // Tumblr
 USER-AGENT,Tumblr*
-DOMAIN-SUFFUX,tumblr.com
+DOMAIN-SUFFIX,tumblr.com
 // Trello
 DOMAIN-SUFFIX,trello.com
 DOMAIN-SUFFIX,trellocdn.com
