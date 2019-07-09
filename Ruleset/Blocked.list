@@ -11,8 +11,16 @@ USER-AGENT,Surge*
 USER-AGENT,cloudd*
 USER-AGENT,CloudKit*
 DOMAIN-SUFFIX,icloud.com
+// CloudApp
+USER-AGENT,CloudApp*
 // Crashlytics
 DOMAIN-SUFFIX,crashlytics.com
+// Castro
+USER-AGENT,Castro*
+DOMAIN-SUFFIX,api.amplitude.com
+// Droplr
+USER-AGENT,Droplr*
+DOMAIN-SUFFIX,droplr.com
 // Amazon
 DOMAIN-SUFFIX,amazon.com
 DOMAIN-SUFFIX,amazonpay.com
@@ -92,6 +100,10 @@ DOMAIN-SUFFIX,zdassets.com
 // Tumblr
 USER-AGENT,Tumblr*
 DOMAIN-SUFFIX,tumblr.com
+// TextNow
+USER-AGENT,TextNow*
+DOMAIN-SUFFIX,freegeoip.net
+DOMAIN-SUFFIX,app-measurement.com
 // Trello
 DOMAIN-SUFFIX,trello.com
 DOMAIN-SUFFIX,trellocdn.com
