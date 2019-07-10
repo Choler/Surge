@@ -160,13 +160,10 @@ DOMAIN-SUFFIX,instapaper.com
 DOMAIN-SUFFIX,crashlytics.com
 DOMAIN-SUFFIX,pushbullet.com
 
-SCRIPT,Failed,requires-resolve
-
 AND,((USER-AGENT,swcd*), (NOT,((GEOIP,CN))))
 AND,((USER-AGENT,JSBox*), (NOT,((GEOIP,CN))))
 AND,((USER-AGENT,Mozilla*), (NOT,((GEOIP,CN))))
 AND,((DOMAIN-KEYWORD,google), (NOT,((GEOIP,CN))))
 AND,((DOMAIN-KEYWORD,gstatic), (NOT,((GEOIP,CN))))
 AND,((DOMAIN-KEYWORD,microsoft), (NOT,((GEOIP,CN))))
-
 AND,((IP-CIDR,0.0.0.0/0,no-resolve), (NOT,((GEOIP,CN))))
