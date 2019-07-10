@@ -23,7 +23,6 @@ DOMAIN-SUFFIX,media-amazon.com
 DOMAIN-SUFFIX,ssl-images-amazon.com
 
 // Dropbox
-USER-AGENT,Dropbox*
 DOMAIN-SUFFIX,dropbox.com
 DOMAIN-SUFFIX,dropboxapi.com
 DOMAIN-SUFFIX,dropboxstatic.com
@@ -76,13 +75,10 @@ DOMAIN-SUFFIX,line.me
 DOMAIN-SUFFIX,line-scdn.net
 DOMAIN-SUFFIX,line-apps.com
 
-// PornHub
-DOMAIN-SUFFIX,phncdn.com
-DOMAIN-SUFFIX,pornhub.com
-
 // Reddit
 DOMAIN-SUFFIX,redd.it
 DOMAIN-SUFFIX,reddit.com
+DOMAIN-SUFFIX,redditmedia.com
 DOMAIN-SUFFIX,redditstatic.com
 
 // Yahoo
@@ -103,10 +99,6 @@ DOMAIN-SUFFIX,slack-msgs.com
 // Zendesk
 DOMAIN-SUFFIX,zendesk.com
 DOMAIN-SUFFIX,zdassets.com
-
-// Tumblr
-USER-AGENT,Tumblr*
-DOMAIN-SUFFIX,tumblr.com
 
 // TextNow
 USER-AGENT,TextNow*
@@ -135,12 +127,16 @@ DOMAIN-SUFFIX,walmart.com
 DOMAIN-SUFFIX,walmartimages.com
 
 // Misc
+DOMAIN-SUFFIX,branch.io
+DOMAIN-SUFFIX,phncdn.com
+DOMAIN-SUFFIX,pornhub.com
 DOMAIN-SUFFIX,droplr.com
 DOMAIN-SUFFIX,tiktokv.com
+DOMAIN-SUFFIX,tumblr.com
 DOMAIN-SUFFIX,amplitude.com
-DOMAIN-SUFFIX,instapaper.com
 DOMAIN-SUFFIX,cloudfront.net
 DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,instapaper.com
 DOMAIN-SUFFIX,crashlytics.com
 
 AND,((USER-AGENT,JSBox*), (NOT,((GEOIP,CN))))
