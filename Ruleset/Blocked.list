@@ -158,6 +158,7 @@ DOMAIN-SUFFIX,cloudfront.net
 DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,instapaper.com
 DOMAIN-SUFFIX,crashlytics.com
+DOMAIN-SUFFIX,pushbullet.com
 
 SCRIPT,Failed,requires-resolve
 
