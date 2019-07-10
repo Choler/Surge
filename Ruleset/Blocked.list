@@ -96,6 +96,15 @@ DOMAIN-SUFFIX,slack.com
 DOMAIN-SUFFIX,slack-edge.com
 DOMAIN-SUFFIX,slack-msgs.com
 
+// Pinterest
+USER-AGENT,Pinterest*
+DOMAIN-SUFFIX,pinimg.com
+DOMAIN-SUFFIX,pinterest.com
+
+// Pixiv
+DOMAIN-SUFFIX,pixiv.net
+DOMAIN-SUFFIX,pximg.net
+
 // Zendesk
 DOMAIN-SUFFIX,zendesk.com
 DOMAIN-SUFFIX,zdassets.com
@@ -108,6 +117,11 @@ DOMAIN-SUFFIX,app-measurement.com
 // Trello
 DOMAIN-SUFFIX,trello.com
 DOMAIN-SUFFIX,trellocdn.com
+
+// Twitch
+DOMAIN-SUFFIX,twitch.tv
+DOMAIN-SUFFIX,jtvnw.net
+DOMAIN-SUFFIX,ttvnw.net
 
 // Twitter
 DOMAIN-SUFFIX,t.co
@@ -127,6 +141,7 @@ DOMAIN-SUFFIX,walmart.com
 DOMAIN-SUFFIX,walmartimages.com
 
 // Misc
+DOMAIN-SUFFIX,imgur.com
 DOMAIN-SUFFIX,branch.io
 DOMAIN-SUFFIX,phncdn.com
 DOMAIN-SUFFIX,pornhub.com
