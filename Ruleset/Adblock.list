@@ -1,3 +1,4 @@
+DOMAIN-KEYWORD,splash
 DOMAIN-KEYWORD,googleads
 
 DOMAIN,wa.gtimg.com
@@ -30,6 +31,9 @@ URL-REGEX,"^http:\/\/zt-app\.go189\.cn\/zt-app\/welcome\/.*Animation$"
 // 酷我音乐启动图
 URL-REGEX,"^http:\/\/rich\.kuwo\.cn\/AdService\/kaiping\/adinfo"
 
+// 企鹅电竞启动图
+URL-REGEX,"^http:\/\/shp\.qpic\.cn\/pggamehead\/.*h=\d{4}$"
+
 // 发现精彩启动图(广发银行)
 URL-REGEX,"^http:\/\/mps\.95508\.com\/mps\/club\/cardPortals\/adv\/\d+\.jpg$"
 
@@ -54,8 +58,8 @@ URL-REGEX,"^https?:\/\/pic1cdn\.cmbchina\.com\/appinitads\/"
 // 微信公众号推广
 URL-REGEX,"^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad"
 
-// 饿了么启动图
-URL-REGEX,"^https?:\/\/cube\.elemecdn\.com\/.+w_\d{3},h_\d{4}"
+// 饿了么启动图 
+URL-REGEX,"^https?:\/\/cube\.elemecdn\.com\/.*h_\d{4}\/"
 
 // 美团启动图
 URL-REGEX,"^https?:\/\/img\.meituan\.net\/midas\/"
@@ -104,4 +108,7 @@ URL-REGEX,"^https?:\/\/m\.client\.10010\.com\/mobileService\/customer\/accountLi
 URL-REGEX,"^https?:\/\/iyes\.youku\.com\/adv\/startpage"
 
 // 掌上和平精英启动图
-URL-REGEX,"^https:\/\/api2\.helper\.qq\.com\/game\/buttons$"
+URL-REGEX,"^https?:\/\/api2\.helper\.qq\.com\/game\/buttons$"
+
+// 微视启动图
+URL-REGEX,"^https?:\/\/puui\.qpic\.cn\/vupload\/"
