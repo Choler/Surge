@@ -99,6 +99,9 @@ DOMAIN-SUFFIX,runoob.com
 DOMAIN-SUFFIX,gitee.com
 DOMAIN-SUFFIX,www.apple.com
 DOMAIN-SUFFIX,www.microsoft.com
+DOMAIN-SUFFIX,yinxiang.com
+DOMAIN-SUFFIX,evernote.com
+DOMAIN-SUFFIX,captora.com
 
 URL-REGEX,"^http:\/\/[\s\S]*\/cn\/"
 URL-REGEX,"^http:\/\/cn\.[\s\S]*\/"

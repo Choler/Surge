@@ -159,6 +159,7 @@ DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,instapaper.com
 DOMAIN-SUFFIX,crashlytics.com
 DOMAIN-SUFFIX,pushbullet.com
+DOMAIN-SUFFIX,xteko.com
 
 AND,((USER-AGENT,swcd*), (NOT,((GEOIP,CN))))
 AND,((USER-AGENT,JSBox*), (NOT,((GEOIP,CN))))
