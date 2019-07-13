@@ -9,7 +9,7 @@ DOMAIN,optimus-ads.amap.com
 DOMAIN,cdn-adphone.wenhua.com.cn
 
 // 百度地图启动图
-AND,((IP-CIDR,111.206.37.85/32,no-resolve), (USER-AGENT,*))
+AND,((IP-CIDR,0.0.0.0/0,no-resolve), (USER-AGENT,%E7%99%BE%E5%BA%A6%E5%9C%B0%E5%9B%BE*))
 
 // 百度贴吧启动图
 URL-REGEX,"^http:\/\/[\s\S]*baidu\.com/.*ad[xs]\.php"
