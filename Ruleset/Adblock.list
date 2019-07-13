@@ -8,7 +8,10 @@ DOMAIN,unidesk.alicdn.com
 DOMAIN,optimus-ads.amap.com
 DOMAIN,cdn-adphone.wenhua.com.cn
 
-// 贴吧启动图
+// 百度地图启动图
+AND,((IP-CIDR,111.206.37.85/32,no-resolve), (USER-AGENT,*))
+
+// 百度贴吧启动图
 URL-REGEX,"^http:\/\/[\s\S]*baidu\.com/.*ad[xs]\.php"
 URL-REGEX,"^http:\/\/c\.tieba\.baidu\.com\/c\/s\/splashSchedule$"
 
@@ -62,7 +65,7 @@ URL-REGEX,"^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad"
 URL-REGEX,"^https?:\/\/cube\.elemecdn\.com\/.*h_\d{4}\/"
 
 // 美团启动图
-URL-REGEX,"^https?:\/\/img\.meituan\.net\/midas\/"
+URL-REGEX,"^https?:\/\/img\.meituan\.net\/midas\/.*@\d{4}h"
 URL-REGEX,"^https?:\/\/s3plus\.meituan\.net\/.+\/linglong\/"
 
 // 威锋启动图
