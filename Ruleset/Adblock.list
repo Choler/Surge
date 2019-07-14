@@ -55,7 +55,7 @@ URL-REGEX,"^https?:\/\/api\.rr\.tv\/(ad|getLastest)"
 URL-REGEX,"^https?:\/\/[a-zA-Z]+\.snssdk\.com\/api\/ad\/"
 
 // 淘宝启动图
-URL-REGEX,"^https?:\/\/gw\.alicdn\.com\/t[a-z]s/.*\.jpg"
+URL-REGEX,"^https?:\/\/gw\.alicdn\.com\/t[fp]s\/.*x(9\d{2}|\d{4})"
 
 // 招商银行启动图
 URL-REGEX,"^https?:\/\/pic1cdn\.cmbchina\.com\/appinitads\/"
@@ -68,7 +68,7 @@ URL-REGEX,"^https?:\/\/cube\.elemecdn\.com\/.*h_\d{4}\/"
 
 // 美团启动图
 URL-REGEX,"^https?:\/\/img\.meituan\.net\/midas\/.*@\d{4}h"
-URL-REGEX,"^https?:\/\/s3plus\.meituan\.net\/.+\/linglong\/"
+URL-REGEX,"^https?:\/\/s3plus\.meituan\.net\/v1\/mss_a002ed"
 
 // 威锋启动图
 URL-REGEX,"^https?:\/\/api\.feng\.com\/v1\/advertisement\/.*Claunch"
