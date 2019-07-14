@@ -1,14 +1,13 @@
-DOMAIN-KEYWORD,splash
-DOMAIN-KEYWORD,googleads
-
 DOMAIN,wa.gtimg.com
 DOMAIN,mi.gdt.qq.com
 DOMAIN,news.l.qq.com
 DOMAIN,livew.l.qq.com
+DOMAIN,news.ssp.qq.com
 DOMAIN,net.rayjump.com
 DOMAIN,unidesk.alicdn.com
 DOMAIN,optimus-ads.amap.com
 DOMAIN,cdn-adphone.wenhua.com.cn
+DOMAIN,googleads.g.doubleclick.net
 
 // 百度地图启动图
 AND,((IP-CIDR,0.0.0.0/0,no-resolve), (USER-AGENT,%E7%99%BE%E5%BA%A6%E5%9C%B0%E5%9B%BE*))
@@ -47,9 +46,6 @@ URL-REGEX,"^https?:\/\/m\.creditcard\.ecitic\.com\/.*\/appStartAdv$"
 
 // 掌上生活启动图(招商银行)
 URL-REGEX,"^https?:\/\/mlife\.cmbchina\.com\/ClientFaceService\/preCacheAdvertise\.json$"
-
-// 人人视频启动图
-URL-REGEX,"^https?:\/\/api\.rr\.tv\/(ad|getLastest)"
 
 // 抖音相关广告
 URL-REGEX,"^https?:\/\/[a-zA-Z]+\.snssdk\.com\/api\/ad\/"
