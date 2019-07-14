@@ -5,6 +5,7 @@ DOMAIN,wa.gtimg.com
 DOMAIN,mi.gdt.qq.com
 DOMAIN,news.l.qq.com
 DOMAIN,livew.l.qq.com
+DOMAIN,net.rayjump.com
 DOMAIN,unidesk.alicdn.com
 DOMAIN,optimus-ads.amap.com
 DOMAIN,cdn-adphone.wenhua.com.cn
@@ -54,7 +55,7 @@ URL-REGEX,"^https?:\/\/api\.rr\.tv\/(ad|getLastest)"
 URL-REGEX,"^https?:\/\/[a-zA-Z]+\.snssdk\.com\/api\/ad\/"
 
 // 淘宝启动图
-URL-REGEX,"^https?:\/\/gw\.alicdn\.com\/t[a-z]s\/"
+URL-REGEX,"^https?:\/\/gw\.alicdn\.com\/t[a-z]s/.*\.jpg"
 
 // 招商银行启动图
 URL-REGEX,"^https?:\/\/pic1cdn\.cmbchina\.com\/appinitads\/"
