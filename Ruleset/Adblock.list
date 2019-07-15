@@ -1,5 +1,6 @@
 DOMAIN,wa.gtimg.com
 DOMAIN,mi.gdt.qq.com
+DOMAIN,pgdt.gtimg.cn
 DOMAIN,news.l.qq.com
 DOMAIN,livew.l.qq.com
 DOMAIN,news.ssp.qq.com
@@ -9,6 +10,9 @@ DOMAIN,unidesk.alicdn.com
 DOMAIN,optimus-ads.amap.com
 DOMAIN,cdn-adphone.wenhua.com.cn
 DOMAIN,googleads.g.doubleclick.net
+
+// 腾讯视频启动图
+AND,((DOMAIN-KEYWORD,splash), (DOMAIN-KEYWORD,gtimg))
 
 // 百度地图启动图
 AND,((IP-CIDR,0.0.0.0/0,no-resolve), (USER-AGENT,%E7%99%BE%E5%BA%A6%E5%9C%B0%E5%9B%BE*))
@@ -111,9 +115,6 @@ URL-REGEX,"^https?:\/\/iyes\.youku\.com\/adv\/startpage"
 
 // 掌上和平精英启动图
 URL-REGEX,"^https?:\/\/api2\.helper\.qq\.com\/game\/buttons$"
-
-// 微视启动图
-URL-REGEX,"^https?:\/\/puui\.qpic\.cn\/vupload\/"
 
 // 人人视频启动图
 URL-REGEX,"^https?:\/\/api\.rr\.tv\/(ad|getLastest)"
