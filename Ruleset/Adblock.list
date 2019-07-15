@@ -4,6 +4,7 @@ DOMAIN,news.l.qq.com
 DOMAIN,livew.l.qq.com
 DOMAIN,news.ssp.qq.com
 DOMAIN,net.rayjump.com
+DOMAIN,report.adview.cn
 DOMAIN,unidesk.alicdn.com
 DOMAIN,optimus-ads.amap.com
 DOMAIN,cdn-adphone.wenhua.com.cn
@@ -113,3 +114,6 @@ URL-REGEX,"^https?:\/\/api2\.helper\.qq\.com\/game\/buttons$"
 
 // 微视启动图
 URL-REGEX,"^https?:\/\/puui\.qpic\.cn\/vupload\/"
+
+// 人人视频启动图
+URL-REGEX,"^https?:\/\/api\.rr\.tv\/(ad|getLastest)"
