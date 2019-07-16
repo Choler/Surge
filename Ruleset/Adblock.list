@@ -11,110 +11,116 @@ DOMAIN,optimus-ads.amap.com
 DOMAIN,cdn-adphone.wenhua.com.cn
 DOMAIN,googleads.g.doubleclick.net
 
-// 腾讯视频启动图
+// 腾讯视频
 AND,((DOMAIN-KEYWORD,splash), (DOMAIN-KEYWORD,gtimg))
 
-// 百度地图启动图
+// 百度地图
 AND,((IP-CIDR,0.0.0.0/0,no-resolve), (USER-AGENT,%E7%99%BE%E5%BA%A6%E5%9C%B0%E5%9B%BE*))
 
-// 百度贴吧启动图
+// 百度贴吧
 URL-REGEX,"^http:\/\/[\s\S]*baidu\.com/.*ad[xs]\.php"
 URL-REGEX,"^http:\/\/c\.tieba\.baidu\.com\/c\/s\/splashSchedule$"
 
-// 网易云音乐启动图
+// 网易云音乐
 URL-REGEX,"^http:\/\/p\d\.music\.126\.net\/\w+==\/\d+\.jpg$"
 URL-REGEX,"^http:\/\/iad.*mat\.[a-z]*\.12[67]\.net/\w+\.(jpg|mp4)$"
 
-// 猫眼电影启动图
-URL-REGEX,"^http:\/\/p\d.meituan.net\/movie\/.+may_covertWebp$"
+// 猫眼电影
+URL-REGEX,"^http:\/\/p\d.meituan.net\/movie\/.*may_covertWebp$"
 
-// 美团外卖启动图
+// 美团外卖
 URL-REGEX,"^http:\/\/p\d\.meituan\.net\/wmbanner\/"
 
-// 工商银行启动图
+// 工商银行
 URL-REGEX,"http:\/\/v\.icbc\.com\.cn\/userfiles\/Resources\/WAP\/advertisement\/"
 
-// 天翼生活启动图
+// 天翼生活
 URL-REGEX,"^http:\/\/zt-app\.go189\.cn\/zt-app\/welcome\/.*Animation$"
 
-// 酷我音乐启动图
+// 酷我音乐
 URL-REGEX,"^http:\/\/rich\.kuwo\.cn\/AdService\/kaiping\/adinfo"
 
-// 企鹅电竞启动图
+// 企鹅电竞
 URL-REGEX,"^http:\/\/shp\.qpic\.cn\/pggamehead\/.*h=\d{4}$"
 
-// 发现精彩启动图(广发银行)
+// 发现精彩(广发银行)
 URL-REGEX,"^http:\/\/mps\.95508\.com\/mps\/club\/cardPortals\/adv\/\d+\.(jpg|png)$"
 
-// 动卡空间启动图(中信银行)
+// 动卡空间(中信银行)
 URL-REGEX,"^https?:\/\/m\.creditcard\.ecitic\.com\/.*\/appStartAdv$"
 
-// 掌上生活启动图(招商银行)
+// 缤纷生活(中国银行)
+URL-REGEX,"^https?:\/\/mlife\.jf365\.boc\.cn\/AppPrj\/FirstPic\.do"
+
+// 掌上生活(招商银行)
 URL-REGEX,"^https?:\/\/mlife\.cmbchina\.com\/ClientFaceService\/preCacheAdvertise\.json$"
 
-// 抖音相关广告
+// 字节跳动
 URL-REGEX,"^https?:\/\/[a-zA-Z]+\.snssdk\.com\/api\/ad\/"
 
-// 淘宝启动图
+// 淘宝联盟
 URL-REGEX,"^https?:\/\/gw\.alicdn\.com\/t[fp]s\/.*x(9\d{2}|\d{4})"
 
-// 招商银行启动图
+// 招商银行
 URL-REGEX,"^https?:\/\/pic1cdn\.cmbchina\.com\/appinitads\/"
 
-// 微信公众号推广
+// 微信公众号
 URL-REGEX,"^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad"
 
-// 饿了么启动图 
+// 饿了么 
 URL-REGEX,"^https?:\/\/cube\.elemecdn\.com\/.*h_\d{4}\/"
 
-// 美团启动图
+// 美团
 URL-REGEX,"^https?:\/\/img\.meituan\.net\/midas\/.*@\d{4}h"
 URL-REGEX,"^https?:\/\/s3plus\.meituan\.net\/v1\/mss_a002ed"
 
-// 威锋启动图
+// 威锋
 URL-REGEX,"^https?:\/\/api\.feng\.com\/v1\/advertisement\/.*Claunch"
 
-// 滴滴出行启动图
+// 滴滴出行
 URL-REGEX,"^https?:\/\/img-ys011\.didistatic\.com\/static\/ad_oss\/image-\d{4}-\d{4}\/"
 
-// 斗鱼启动图
+// 斗鱼
 URL-REGEX,"^https?:\/\/rtbapi\.douyucdn\.cn\/japi\/sign\/app\/getinfo"
 
-// 京东金融启动图
+// 京东金融
 URL-REGEX,"^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/aladdin\/na\/m\/getLoadingPicture$"
 
-// 微博启动图
+// 微博
 URL-REGEX,"^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/.*ad\.php$"
 
-// 印象笔记启动图
+// 印象笔记
 URL-REGEX,"^https?:\/\/app\.yinxiang\.com\/ads\/getAdsInfo$"
 
-// 知乎启动图
+// 知乎
 URL-REGEX,"^https?:\/\/api\.zhihu\.com\/commercial_api\/.*launch"
 
-// 百度网盘启动图
+// 百度网盘
 URL-REGEX,"^https?:\/\/pan\.baidu\.com\/rest\/2\.0\/pcs\/adx"
 
-// 豆瓣启动图
+// 豆瓣
 URL-REGEX,"^https?:\/\/api\.douban\.com\/v2\/app_ads\/splash"
 
-// 曹操出行启动图
+// 曹操出行
 URL-REGEX,"^https?:\/\/ptmpcap\.caocaokeji\.cn\/advert-bss\/"
 
-// 哔哩哔哩启动图
+// 哔哩哔哩
 URL-REGEX,"^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/"
 
-// 苏州市民卡启动图
+// 苏州市民卡
 URL-REGEX,"^https?:\/\/newapp\.szsmk\.com\/app\/config\/.*Ad$"
 
-// 联通营业厅启动图
+// 中国联通
 URL-REGEX,"^https?:\/\/m\.client\.10010\.com\/mobileService\/customer\/accountListData\.htm$"
 
-// 优酷启动图
+// 优酷
 URL-REGEX,"^https?:\/\/iyes\.youku\.com\/adv\/startpage"
 
-// 掌上和平精英启动图
+// 掌上和平精英
 URL-REGEX,"^https?:\/\/api2\.helper\.qq\.com\/game\/buttons$"
 
-// 人人视频启动图
+// 人人视频
 URL-REGEX,"^https?:\/\/api\.rr\.tv\/(ad|getLastest)"
+
+// 中国移动
+URL-REGEX,"^https?:\/\/clientaccess\.10086\.cn\/biz-orange\/DN\/init\/startInit$"
