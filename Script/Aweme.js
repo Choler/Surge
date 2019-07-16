@@ -1,4 +1,20 @@
-let body = JSON.parse($response.body);
+function replaceAll(str, find, replace) {
+  return str.replace(new RegExp(find, 'g'), replace);
+}
+var result = $response.body;
+var keyword1 = ['watermark=1'];
+var keyword2 = ['"reviewed":0'];
+var keyword3 = ['"allow_download":false'];
+keyword1.forEach(function(k) {
+  result = replaceAll(result, k, 'watermark=0');
+});
+keyword2.forEach(function(k) {
+  result = replaceAll(result, k, '"reviewed":1');
+});
+keyword3.forEach(function(k) {
+  result = replaceAll(result, k, '"allow_download":true');
+});
+let body = JSON.parse(result);
 if(body.aweme_list){
   body.aweme_list.forEach((element, index)=>{
     if(element.hasOwnProperty('raw_ad_data')){      
@@ -8,12 +24,6 @@ if(body.aweme_list){
   body.aweme_list.forEach((element, index)=>{
     if(element.hasOwnProperty('simple_promotions')){      
       delete body.aweme_list[index].simple_promotions;
-    }
-  });
-  body.aweme_list.forEach((element, index) => {
-    if (element.hasOwnProperty('prevent_download')) {
-      body.aweme_list[index].status.reviewed = 1;
-      body.aweme_list[index].prevent_download = false;
     }
   });
   body.aweme_list.forEach((element, index) => {
