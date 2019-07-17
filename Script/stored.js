@@ -1,7 +1,12 @@
-$httpClient.get('http://119.29.29.29/d?dn=xcu-jn-iosapps.ccgslb.com.cn', function(error, response, data){
-  if (error) {
-    $done({});
-  } else {
-    $done({addresses: data.split(';'), ttl: 300});
-  }
-});
+const line = 'http://119.29.29.29/d?dn=xcu-jn-iosapps.ccgslb.com.cn';
+if ($network.v4.primaryInterface === 'en0') {
+  $httpClient.get(line, function(error, response, data) {
+    if (error) {
+      $done({server: '8.8.8.8'});
+    } else {
+      $done({ addresses: data.split(';'), ttl: 600 });
+    }
+  });
+} else {
+  $done({server: '8.8.8.8'});
+}
