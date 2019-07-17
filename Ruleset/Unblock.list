@@ -1,6 +1,3 @@
-USER-AGENT,iOS*
-USER-AGENT,FBiOSSDK*
-
 DOMAIN-SUFFIX,cn
 DOMAIN-SUFFIX,local
 
@@ -102,8 +99,11 @@ DOMAIN-SUFFIX,www.microsoft.com
 DOMAIN-SUFFIX,yinxiang.com
 DOMAIN-SUFFIX,evernote.com
 DOMAIN-SUFFIX,captora.com
+DOMAIN-SUFFIX,meituan.net
+DOMAIN-SUFFIX,dianping.com
 
 URL-REGEX,"^http:\/\/[\s\S]*\/cn\/"
 URL-REGEX,"^http:\/\/cn\.[\s\S]*\/"
 
 AND,((IP-CIDR,0.0.0.0/0,no-resolve), (RULE-SET,LAN))
+AND,((USER-AGENT,appstored*), (DOMAIN-KEYWORD,apple))
