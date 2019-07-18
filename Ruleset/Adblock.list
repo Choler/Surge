@@ -130,3 +130,6 @@ URL-REGEX,"^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.trip\.activity\.querytmsre
 
 // 爱奇艺
 URL-REGEX,"^http:\/\/t7z\.cupid\.iqiyi\.com\/mixer"
+
+// 京东
+URL-REGEX,"^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$"
