@@ -1,0 +1,1 @@
+$done({matched: ($request.dnsResult.v4Addresses[0] === "127.0.0.1")})
