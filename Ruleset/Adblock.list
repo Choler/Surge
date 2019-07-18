@@ -58,8 +58,8 @@ URL-REGEX,"^https?:\/\/mlife\.cmbchina\.com\/ClientFaceService\/preCacheAdvertis
 // 字节跳动
 URL-REGEX,"^https?:\/\/[a-zA-Z]+\.snssdk\.com\/api\/ad\/"
 
-// 淘宝联盟
-URL-REGEX,"^https?:\/\/gw\.alicdn\.com\/t[fp]s\/.*x(9\d{2}|\d{4})"
+// 淘宝
+URL-REGEX,"^https?:\/\/gw\.alicdn\.com\/t[fp]s\/.*jpg_(9\d{2}|\d{4})"
 
 // 招商银行
 URL-REGEX,"^https?:\/\/pic1cdn\.cmbchina\.com\/appinitads\/"
@@ -127,3 +127,6 @@ URL-REGEX,"^https?:\/\/clientaccess\.10086\.cn\/biz-orange\/DN\/init\/startInit$
 
 // 飞猪
 URL-REGEX,"^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.trip\.activity\.querytmsresources\/"
+
+// 爱奇艺
+URL-REGEX,"^http:\/\/t7z\.cupid\.iqiyi\.com\/mixer"
