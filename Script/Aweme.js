@@ -13,6 +13,9 @@ if (body.aweme_list) {
     if (element.hasOwnProperty('simple_promotions')) {
       delete body.aweme_list[index].simple_promotions;
     }
+    if (element.hasOwnProperty('poi_info')) {
+      delete body.aweme_list[index].poi_info;
+    }
   });
 }
 if (body.data) {
