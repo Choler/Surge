@@ -167,6 +167,7 @@ DOMAIN-SUFFIX,testflight.center
 DOMAIN-SUFFIX,feedly.com
 
 AND,((USER-AGENT,JSBox*), (NOT,((GEOIP,CN))))
+AND,((USER-AGENT,Reeder*), (NOT,((GEOIP,CN))))
 AND,((USER-AGENT,Mozilla*), (NOT,((GEOIP,CN))))
 AND,((DOMAIN-KEYWORD,google), (NOT,((GEOIP,CN))))
 AND,((DOMAIN-KEYWORD,gstatic), (NOT,((GEOIP,CN))))
