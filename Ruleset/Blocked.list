@@ -163,6 +163,8 @@ DOMAIN-SUFFIX,crashlytics.com
 DOMAIN-SUFFIX,pushbullet.com
 DOMAIN-SUFFIX,xteko.com
 DOMAIN-SUFFIX,rsshub.app
+DOMAIN-SUFFIX,testflight.center
+DOMAIN-SUFFIX,feedly.com
 
 AND,((USER-AGENT,JSBox*), (NOT,((GEOIP,CN))))
 AND,((USER-AGENT,Mozilla*), (NOT,((GEOIP,CN))))
