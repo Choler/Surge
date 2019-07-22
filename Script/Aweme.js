@@ -6,6 +6,7 @@ if (body.aweme_list) {
     delete item.sticker_detail;
     delete item.simple_promotions;
     item.status.reviewed = 1;
+    item.prevent_download = false;
     item.interaction_stickers = null;
     item.video_control.allow_download = true;
     if (item.raw_ad_data) {
@@ -17,6 +18,7 @@ if (body.data) {
   body.data.forEach((item) => {
     delete item.aweme.simple_promotions;
     item.aweme.status.reviewed = 1;
+    item.aweme.prevent_download = false;
     item.aweme.interaction_stickers = null;
     item.aweme.video_control.allow_download = true;
   });
