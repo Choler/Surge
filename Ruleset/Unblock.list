@@ -9,9 +9,12 @@ DOMAIN-KEYWORD,chinese
 DOMAIN-SUFFIX,126.net
 DOMAIN-SUFFIX,127.net
 DOMAIN-SUFFIX,163.com
+DOMAIN-SUFFIX,1688.com
 DOMAIN-SUFFIX,10010.com
+DOMAIN-SUFFIX,163yun.com
 DOMAIN-SUFFIX,netease.com
 DOMAIN-SUFFIX,amap.com
+DOMAIN-SUFFIX,alibaba.com
 DOMAIN-SUFFIX,alicdn.com
 DOMAIN-SUFFIX,alipay.com
 DOMAIN-SUFFIX,tmall.com
@@ -101,9 +104,30 @@ DOMAIN-SUFFIX,evernote.com
 DOMAIN-SUFFIX,captora.com
 DOMAIN-SUFFIX,meituan.net
 DOMAIN-SUFFIX,dianping.com
+DOMAIN-SUFFIX,ixigua.com
+DOMAIN-SUFFIX,suning.com
+DOMAIN-SUFFIX,hupu.com
+DOMAIN-SUFFIX,tuchong.net
+DOMAIN-SUFFIX,tuchong.com
+DOMAIN-SUFFIX,gifshow.com
+DOMAIN-SUFFIX,tapdb.net
+DOMAIN-SUFFIX,taptap.com
+DOMAIN-SUFFIX,tapimg.com
+DOMAIN-SUFFIX,tudou.com
+DOMAIN-SUFFIX,soku.com
+DOMAIN-SUFFIX,youku.com
+DOMAIN-SUFFIX,ykimg.com
+DOMAIN-SUFFIX,qy.net
+DOMAIN-SUFFIX,iqiyi.com
+DOMAIN-SUFFIX,iqiyipic.com
+DOMAIN-SUFFIX,toutiao.com
+DOMAIN-SUFFIX,pstatp.com
+DOMAIN-SUFFIX,youdao.com
+DOMAIN-SUFFIX,ydstatic.com
+
+DOMAIN,iosapps.itunes.apple.com
 
 URL-REGEX,"^http:\/\/[\s\S]*\/cn\/"
 URL-REGEX,"^http:\/\/cn\.[\s\S]*\/"
 
 AND,((IP-CIDR,0.0.0.0/0,no-resolve), (RULE-SET,LAN))
-AND,((USER-AGENT,appstored*), (DOMAIN-KEYWORD,apple))

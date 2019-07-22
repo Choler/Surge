@@ -5,13 +5,9 @@ DOMAIN-SUFFIX,ly
 DOMAIN-SUFFIX,us
 DOMAIN-SUFFIX,uk
 DOMAIN-SUFFIX,co
-DOMAIN-SUFFIX,ms
 
 // Surge
 USER-AGENT,Surge*
-
-// Stored
-USER-AGENT,appstored*
 
 // iCloud
 USER-AGENT,cloudd*
@@ -24,6 +20,12 @@ DOMAIN-SUFFIX,amazonpay.com
 DOMAIN-SUFFIX,amazonaws.com
 DOMAIN-SUFFIX,media-amazon.com
 DOMAIN-SUFFIX,ssl-images-amazon.com
+
+// eBay
+DOMAIN-SUFFIX,ebay.com
+DOMAIN-SUFFIX,ebay-us.com
+DOMAIN-SUFFIX,ebayimg.com
+DOMAIN-SUFFIX,ebaystatic.com
 
 // Dropbox
 DOMAIN-SUFFIX,dropbox.com
@@ -111,6 +113,7 @@ DOMAIN-SUFFIX,pinimg.com
 DOMAIN-SUFFIX,pinterest.com
 
 // Pixiv
+DOMAIN-SUFFIX,pixiv.org
 DOMAIN-SUFFIX,pixiv.net
 DOMAIN-SUFFIX,pximg.net
 
@@ -169,6 +172,8 @@ DOMAIN-SUFFIX,feedly.com
 AND,((USER-AGENT,JSBox*), (NOT,((GEOIP,CN))))
 AND,((USER-AGENT,Reeder*), (NOT,((GEOIP,CN))))
 AND,((USER-AGENT,Mozilla*), (NOT,((GEOIP,CN))))
+AND,((USER-AGENT,AppleCore*), (NOT,((GEOIP,CN))))
+AND,((USER-AGENT,appstored*), (NOT,((GEOIP,CN))))
 AND,((DOMAIN-KEYWORD,google), (NOT,((GEOIP,CN))))
 AND,((DOMAIN-KEYWORD,gstatic), (NOT,((GEOIP,CN))))
 AND,((DOMAIN-KEYWORD,microsoft), (NOT,((GEOIP,CN))))
