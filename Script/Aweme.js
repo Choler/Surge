@@ -10,7 +10,6 @@ if (body.aweme_list) {
     item.video_control.allow_download = true;
     if (item.raw_ad_data) {
       body.aweme_list.splice(body.aweme_list.findIndex(item => item.is_ads === true), 1)
-      $notification.post("Delete ADS", "", "")
     };
   });
 }
