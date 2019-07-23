@@ -19,13 +19,13 @@ if (body.data) {
       delete body.data[index].aweme.simple_promotions;
     }
     if (element.aweme.status.reviewed !== 1) {
-      body.data[index].aweme.status.reviewed === 1;
+      body.data[index].aweme.status.reviewed = 1;
     }
     if (element.aweme.status.reviewed !== null) {
-      body.data[index].aweme.interaction_stickers === null;
+      body.data[index].aweme.interaction_stickers = null;
     }
     if (element.aweme.video_control.allow_download !== true) {
-      body.data[index].aweme.video_control.allow_download === true;
+      body.data[index].aweme.video_control.allow_download = true;
     }
   });
 }
