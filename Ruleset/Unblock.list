@@ -28,6 +28,7 @@ DOMAIN-SUFFIX,qcloud.com
 DOMAIN-SUFFIX,myqcloud.com
 DOMAIN-SUFFIX,qcloudimg.com
 DOMAIN-SUFFIX,jd.com
+DOMAIN-SUFFIX,300hu.com
 DOMAIN-SUFFIX,360buyimg.com
 DOMAIN-SUFFIX,baidu.com
 DOMAIN-SUFFIX,bdimg.com
@@ -83,7 +84,6 @@ DOMAIN-SUFFIX,tianyaui.com
 DOMAIN-SUFFIX,xunlei.com
 DOMAIN-SUFFIX,cn.bing.com
 DOMAIN-SUFFIX,cdn-apple.com
-DOMAIN-SUFFIX,microsoft.com
 DOMAIN-SUFFIX,meitudata.com
 DOMAIN-SUFFIX,nssurge.com
 DOMAIN-SUFFIX,ruanmei.com
