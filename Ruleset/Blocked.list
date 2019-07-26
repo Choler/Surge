@@ -168,6 +168,7 @@ DOMAIN-SUFFIX,xteko.com
 DOMAIN-SUFFIX,rsshub.app
 DOMAIN-SUFFIX,testflight.center
 DOMAIN-SUFFIX,feedly.com
+DOMAIN-SUFFIX,nssurge.com
 
 AND,((USER-AGENT,JSBox*), (NOT,((GEOIP,CN))))
 AND,((USER-AGENT,Reeder*), (NOT,((GEOIP,CN))))
