@@ -69,6 +69,7 @@ DOMAIN-SUFFIX,gmail.com
 DOMAIN-SUFFIX,ytimg.com
 DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,youtube.com
 DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,googleusercontent.com
@@ -151,6 +152,7 @@ DOMAIN-SUFFIX,walmart.com
 DOMAIN-SUFFIX,walmartimages.com
 
 // Misc
+DOMAIN-SUFFIX,ampproject.org
 DOMAIN-SUFFIX,imgur.com
 DOMAIN-SUFFIX,branch.io
 DOMAIN-SUFFIX,phncdn.com
@@ -159,8 +161,6 @@ DOMAIN-SUFFIX,droplr.com
 DOMAIN-SUFFIX,tiktokv.com
 DOMAIN-SUFFIX,tumblr.com
 DOMAIN-SUFFIX,amplitude.com
-DOMAIN-SUFFIX,cloudfront.net
-DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,instapaper.com
 DOMAIN-SUFFIX,crashlytics.com
 DOMAIN-SUFFIX,pushbullet.com
@@ -170,11 +170,11 @@ DOMAIN-SUFFIX,testflight.center
 DOMAIN-SUFFIX,feedly.com
 DOMAIN-SUFFIX,nssurge.com
 
+AND,((IP-CIDR,0.0.0.0/0,no-resolve), (NOT,((GEOIP,CN))))
+OR,((DOMAIN-KEYWORD,google.), (DOMAIN-KEYWORD,google.com.))
+
 AND,((USER-AGENT,JSBox*), (NOT,((GEOIP,CN))))
 AND,((USER-AGENT,Reeder*), (NOT,((GEOIP,CN))))
 AND,((USER-AGENT,Mozilla*), (NOT,((GEOIP,CN))))
-AND,((USER-AGENT,AppleCore*), (NOT,((GEOIP,CN))))
 AND,((USER-AGENT,appstored*), (NOT,((GEOIP,CN))))
-AND,((DOMAIN-KEYWORD,google), (NOT,((GEOIP,CN))))
-AND,((DOMAIN-KEYWORD,gstatic), (NOT,((GEOIP,CN))))
-AND,((IP-CIDR,0.0.0.0/0,no-resolve), (NOT,((GEOIP,CN))))
+AND,((USER-AGENT,AppleCore*), (NOT,((GEOIP,CN))))

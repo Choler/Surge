@@ -31,8 +31,10 @@ DOMAIN-SUFFIX,qcloudimg.com
 DOMAIN-SUFFIX,jd.com
 DOMAIN-SUFFIX,300hu.com
 DOMAIN-SUFFIX,360buyimg.com
+DOMAIN-SUFFIX,mipcdn.com
 DOMAIN-SUFFIX,baidu.com
 DOMAIN-SUFFIX,bdimg.com
+DOMAIN-SUFFIX,baidupan.com
 DOMAIN-SUFFIX,bcebos.com
 DOMAIN-SUFFIX,bdstatic.com
 DOMAIN-SUFFIX,hdslb.com
@@ -97,8 +99,6 @@ DOMAIN-SUFFIX,lncld.net
 DOMAIN-SUFFIX,avoscloud.com
 DOMAIN-SUFFIX,runoob.com
 DOMAIN-SUFFIX,gitee.com
-DOMAIN-SUFFIX,www.apple.com
-DOMAIN-SUFFIX,www.microsoft.com
 DOMAIN-SUFFIX,yinxiang.com
 DOMAIN-SUFFIX,evernote.com
 DOMAIN-SUFFIX,captora.com
@@ -124,8 +124,19 @@ DOMAIN-SUFFIX,toutiao.com
 DOMAIN-SUFFIX,pstatp.com
 DOMAIN-SUFFIX,youdao.com
 DOMAIN-SUFFIX,ydstatic.com
+DOMAIN-SUFFIX,cordcloud.org
+DOMAIN-SUFFIX,lanzous.com
+DOMAIN-SUFFIX,cloudfront.net
+DOMAIN-SUFFIX,cloudflare.com
 
+DOMAIN,www.apple.com
+DOMAIN,www.gstatic.com
+DOMAIN,www.microsoft.com
+
+DOMAIN,ssl.gstatic.com
+DOMAIN,cdn.ampproject.org
 DOMAIN,iosapps.itunes.apple.com
+DOMAIN,safebrowsing.googleapis.com
 
 URL-REGEX,"^http:\/\/[\s\S]*\/cn\/"
 URL-REGEX,"^http:\/\/cn\.[\s\S]*\/"
