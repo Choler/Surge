@@ -10,6 +10,7 @@ DOMAIN,unidesk.alicdn.com
 DOMAIN,optimus-ads.amap.com
 DOMAIN,cdn-adphone.wenhua.com.cn
 DOMAIN,googleads.g.doubleclick.net
+DOMAIN,securepubads.g.doubleclick.net
 
 // 腾讯视频
 AND,((DOMAIN-KEYWORD,splash), (DOMAIN-KEYWORD,gtimg))
@@ -121,7 +122,7 @@ URL-REGEX,"^https?:\/\/iyes\.youku\.com\/adv\/startpage"
 URL-REGEX,"^https?:\/\/api2\.helper\.qq\.com\/game\/buttons$"
 
 // 人人视频
-URL-REGEX,"^https?:\/\/api\.rr\.tv\/(ad|getLastest)"
+URL-REGEX,"^https?:\/\/api\.rr\.tv\/.*(getAll|Version)$"
 
 // 中国移动
 URL-REGEX,"^https?:\/\/clientaccess\.10086\.cn\/biz-orange\/DN\/init\/startInit$"

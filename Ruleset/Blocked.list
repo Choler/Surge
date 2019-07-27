@@ -71,6 +71,7 @@ DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,google.com
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,googleusercontent.com
 
@@ -178,4 +179,3 @@ AND,((USER-AGENT,Reeder*), (NOT,((GEOIP,CN))))
 AND,((USER-AGENT,Mozilla*), (NOT,((GEOIP,CN))))
 AND,((USER-AGENT,appstored*), (NOT,((GEOIP,CN))))
 AND,((USER-AGENT,AppleCore*), (NOT,((GEOIP,CN))))
-AND,((DOMAIN-KEYWORD,google), (NOT,((GEOIP,CN))))
