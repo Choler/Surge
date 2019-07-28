@@ -1,11 +1,6 @@
 DOMAIN-SUFFIX,cn
 DOMAIN-SUFFIX,local
 
-DOMAIN-KEYWORD,.cn.
-DOMAIN-KEYWORD,-cn.
-DOMAIN-KEYWORD,china
-DOMAIN-KEYWORD,chinese
-
 DOMAIN-SUFFIX,126.net
 DOMAIN-SUFFIX,127.net
 DOMAIN-SUFFIX,163.com
@@ -126,6 +121,7 @@ DOMAIN-SUFFIX,youdao.com
 DOMAIN-SUFFIX,ydstatic.com
 DOMAIN-SUFFIX,cordcloud.org
 DOMAIN-SUFFIX,lanzous.com
+DOMAIN-SUFFIX,openinstall.io
 DOMAIN-SUFFIX,cloudfront.net
 DOMAIN-SUFFIX,cloudflare.com
 
@@ -140,5 +136,8 @@ DOMAIN,safebrowsing.googleapis.com
 
 URL-REGEX,"^http:\/\/[\s\S]*\/cn\/"
 URL-REGEX,"^http:\/\/cn\.[\s\S]*\/"
+
+OR,((DOMAIN-KEYWORD,.cn.), (DOMAIN-KEYWORD,-cn.))
+OR,((DOMAIN-KEYWORD,china), (DOMAIN-KEYWORD,chinese))
 
 AND,((IP-CIDR,0.0.0.0/0,no-resolve), (RULE-SET,LAN))
