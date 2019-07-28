@@ -56,6 +56,9 @@ URL-REGEX,"^https?:\/\/mlife\.jf365\.boc\.cn\/AppPrj\/FirstPic\.do"
 // 掌上生活(招商银行)
 URL-REGEX,"^https?:\/\/mlife\.cmbchina\.com\/ClientFaceService\/preCacheAdvertise\.json$"
 
+// 买单吧(交通银行)
+URL-REGEX,"^https?:\/\/creditcardapp\.bankcomm\.com\/mapp\/common\/queryGuidePageAds\.do$"
+
 // 字节跳动
 URL-REGEX,"^https?:\/\/[a-zA-Z]+\.snssdk\.com\/api\/ad\/"
 
