@@ -138,3 +138,9 @@ URL-REGEX,"^http:\/\/t7z\.cupid\.iqiyi\.com\/mixer"
 
 // 京东
 URL-REGEX,"^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$"
+
+// 去哪儿旅游
+URL-REGEX,"^https?:\/\/client\.qunar\.com\/pitcher-proxy\?qrt=p_splashAd$"
+
+// 途牛
+URL-REGEX,"^https:\/\/m\.tuniu\.com\/api\/operation\/splash\/"
