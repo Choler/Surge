@@ -60,11 +60,10 @@ URL-REGEX,"^https?:\/\/mlife\.cmbchina\.com\/ClientFaceService\/preCacheAdvertis
 URL-REGEX,"^https?:\/\/creditcardapp\.bankcomm\.com\/mapp\/common\/queryGuidePageAds\.do$"
 
 // 字节跳动
-URL-REGEX,"^https?:\/\/[a-zA-Z]+\.snssdk\.com\/api\/ad\/"
+URL-REGEX,"^https?:\/\/[\s\S]*\.snssdk\.com\/api\/ad\/"
 
 // 淘宝联盟
-URL-REGEX,"^https?:\/\/gw\.alicdn\.com\/tfs\/.*-\d{4}\.jpg"
-URL-REGEX,"^https?:\/\/gw\.alicdn\.com\/tps\/.*\.jpg_(9\d{2}|\d{4})"
+URL-REGEX,"^https?:\/\/gw\.alicdn\.com\/.*(-\d{4}\.jpg|\.jpg_(9\d{2}|\d{4}))"
 
 // 招商银行
 URL-REGEX,"^https?:\/\/pic1cdn\.cmbchina\.com\/appinitads\/"
@@ -142,5 +141,5 @@ URL-REGEX,"^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$"
 // 去哪儿旅游
 URL-REGEX,"^https?:\/\/client\.qunar\.com\/pitcher-proxy\?qrt=p_splashAd$"
 
-// 途牛
-URL-REGEX,"^https:\/\/m\.tuniu\.com\/api\/operation\/splash\/"
+// 途牛旅游
+URL-REGEX,"^https?:\/\/m\.tuniu\.com\/api\/operation\/splash\/"
