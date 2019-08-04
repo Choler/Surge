@@ -19,7 +19,8 @@ AND,((DOMAIN-KEYWORD,splash), (DOMAIN-KEYWORD,gtimg))
 AND,((IP-CIDR,0.0.0.0/0,no-resolve), (USER-AGENT,%E7%99%BE%E5%BA%A6%E5%9C%B0%E5%9B%BE*))
 
 // 滴滴出行
-OR,((DOMAIN,ct.xiaojukeji.com), (DOMAIN,res.xiaojukeji.com), (DOMAIN,gwp.xiaojukeji.com))
+OR,((DOMAIN,ct.xiaojukeji.com), (DOMAIN,gwp.xiaojukeji.com))
+URL-REGEX,"^https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/get(Ruled|Preload)"
 
 // 百度贴吧
 URL-REGEX,"^http:\/\/[\s\S]*baidu\.com/.*ad[xs]\.php"
