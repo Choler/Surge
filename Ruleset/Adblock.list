@@ -18,6 +18,9 @@ AND,((DOMAIN-KEYWORD,splash), (DOMAIN-KEYWORD,gtimg))
 // 百度地图
 AND,((IP-CIDR,0.0.0.0/0,no-resolve), (USER-AGENT,%E7%99%BE%E5%BA%A6%E5%9C%B0%E5%9B%BE*))
 
+// 滴滴出行
+OR,((DOMAIN,ct.xiaojukeji.com), (DOMAIN,res.xiaojukeji.com), (DOMAIN,gwp.xiaojukeji.com))
+
 // 百度贴吧
 URL-REGEX,"^http:\/\/[\s\S]*baidu\.com/.*ad[xs]\.php"
 URL-REGEX,"^http:\/\/c\.tieba\.baidu\.com\/c\/s\/splashSchedule$"
@@ -80,9 +83,6 @@ URL-REGEX,"^https?:\/\/s3plus\.meituan\.net\/v1\/mss_a002ed"
 
 // 威锋
 URL-REGEX,"^https?:\/\/api\.feng\.com\/v1\/advertisement\/.*Claunch"
-
-// 滴滴出行
-URL-REGEX,"^https?:\/\/img-ys011\.didistatic\.com\/static\/ad_oss\/image-\d{4}-\d{4}\/"
 
 // 斗鱼
 URL-REGEX,"^https?:\/\/rtbapi\.douyucdn\.cn\/japi\/sign\/app\/getinfo"
