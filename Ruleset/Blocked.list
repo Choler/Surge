@@ -170,12 +170,14 @@ DOMAIN-SUFFIX,rsshub.app
 DOMAIN-SUFFIX,testflight.center
 DOMAIN-SUFFIX,feedly.com
 DOMAIN-SUFFIX,nssurge.com
+DOMAIN-SUFFIX,giphy.com
 
+AND,((IP-CIDR,0.0.0.0/0,no-resolve), (NOT,((GEOIP,CN))))
 OR,((DOMAIN-KEYWORD,google.), (DOMAIN-KEYWORD,google.com.))
 
+// Requires DNS lookup
 AND,((USER-AGENT,JSBox*), (NOT,((GEOIP,CN))))
 AND,((USER-AGENT,Reeder*), (NOT,((GEOIP,CN))))
 AND,((USER-AGENT,Mozilla*), (NOT,((GEOIP,CN))))
-AND,((USER-AGENT,AppleCore*), (NOT,((GEOIP,CN))))
 AND,((USER-AGENT,appstored*), (NOT,((GEOIP,CN))))
-AND,((IP-CIDR,0.0.0.0/0,no-resolve), (NOT,((GEOIP,CN))))
+AND,((USER-AGENT,AppleCoreMedia*), (NOT,((GEOIP,CN))))
