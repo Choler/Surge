@@ -1,0 +1,183 @@
+DOMAIN-SUFFIX,tw
+DOMAIN-SUFFIX,hk
+DOMAIN-SUFFIX,jp
+DOMAIN-SUFFIX,ly
+DOMAIN-SUFFIX,us
+DOMAIN-SUFFIX,uk
+DOMAIN-SUFFIX,co
+
+// Surge
+USER-AGENT,Surge*
+
+// iCloud
+USER-AGENT,cloudd*
+USER-AGENT,CloudKit*
+DOMAIN-SUFFIX,icloud.com
+
+// Amazon
+DOMAIN-SUFFIX,amazon.com
+DOMAIN-SUFFIX,amazonpay.com
+DOMAIN-SUFFIX,amazonaws.com
+DOMAIN-SUFFIX,media-amazon.com
+DOMAIN-SUFFIX,ssl-images-amazon.com
+
+// eBay
+DOMAIN-SUFFIX,ebay.com
+DOMAIN-SUFFIX,ebay-us.com
+DOMAIN-SUFFIX,ebayimg.com
+DOMAIN-SUFFIX,ebaystatic.com
+
+// Dropbox
+DOMAIN-SUFFIX,dropbox.com
+DOMAIN-SUFFIX,dropboxapi.com
+DOMAIN-SUFFIX,dropboxstatic.com
+DOMAIN-SUFFIX,dropboxcaptcha.com
+DOMAIN-SUFFIX,dropboxusercontent.com
+
+// OneDrive
+USER-AGENT,OneDrive*
+DOMAIN-SUFFIX,live.com
+DOMAIN-SUFFIX,msauth.net
+DOMAIN-SUFFIX,onedrive.com
+
+// Facebook
+DOMAIN-SUFFIX,fb.me
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,fbsbx.com
+DOMAIN-SUFFIX,facebook.net
+DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,instagram.com
+DOMAIN-SUFFIX,cdninstagram.com
+DOMAIN-SUFFIX,messenger.com
+DOMAIN-SUFFIX,oculus.com
+DOMAIN-SUFFIX,oculuscdn.com
+DOMAIN-SUFFIX,whatsapp.com
+DOMAIN-SUFFIX,whatsapp.net
+DOMAIN-SUFFIX,oculus.com
+DOMAIN-SUFFIX,oculuscdn.com
+
+// Microsoft
+DOMAIN-SUFFIX,msn.com
+DOMAIN-SUFFIX,office.net
+DOMAIN-SUFFIX,office.com
+DOMAIN-SUFFIX,outlook.com
+
+// Google
+DOMAIN-SUFFIX,ampproject.org
+DOMAIN-SUFFIX,goo.gl
+DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,gmail.com
+DOMAIN-SUFFIX,ytimg.com
+DOMAIN-SUFFIX,ggpht.com
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,googleusercontent.com
+
+// GitHub
+DOMAIN-SUFFIX,git.io
+DOMAIN-SUFFIX,github.io
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,githubapp.com
+DOMAIN-SUFFIX,githubassets.com
+DOMAIN-SUFFIX,githubusercontent.com
+
+// Line
+DOMAIN-SUFFIX,line.me
+DOMAIN-SUFFIX,line-scdn.net
+DOMAIN-SUFFIX,line-apps.com
+
+// Reddit
+DOMAIN-SUFFIX,redd.it
+DOMAIN-SUFFIX,reddit.com
+DOMAIN-SUFFIX,redditmedia.com
+DOMAIN-SUFFIX,redditstatic.com
+
+// Yahoo
+DOMAIN-SUFFIX,yimg.com
+DOMAIN-SUFFIX,yahoo.com
+
+// Wikipedia
+DOMAIN-SUFFIX,wikipedia.com
+DOMAIN-SUFFIX,wikipedia.org
+DOMAIN-SUFFIX,wikimedia.org
+
+// Slack
+USER-AGENT,Slack*
+DOMAIN-SUFFIX,slack.com
+DOMAIN-SUFFIX,slack-edge.com
+DOMAIN-SUFFIX,slack-msgs.com
+
+// Pinterest
+USER-AGENT,Pinterest*
+DOMAIN-SUFFIX,pinimg.com
+DOMAIN-SUFFIX,pinterest.com
+
+// Pixiv
+DOMAIN-SUFFIX,pixiv.org
+DOMAIN-SUFFIX,pixiv.net
+DOMAIN-SUFFIX,pximg.net
+
+// Zendesk
+DOMAIN-SUFFIX,zendesk.com
+DOMAIN-SUFFIX,zdassets.com
+
+// TextNow
+USER-AGENT,TextNow*
+DOMAIN-SUFFIX,freegeoip.net
+
+// Trello
+DOMAIN-SUFFIX,trello.com
+DOMAIN-SUFFIX,trellocdn.com
+
+// Twitch
+DOMAIN-SUFFIX,twitch.tv
+DOMAIN-SUFFIX,jtvnw.net
+DOMAIN-SUFFIX,ttvnw.net
+
+// Twitter
+DOMAIN-SUFFIX,twimg.com
+DOMAIN-SUFFIX,twitter.com
+
+// Telegram
+DOMAIN-SUFFIX,t.me
+DOMAIN-SUFFIX,telegra.ph
+DOMAIN-SUFFIX,telegram.me
+DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,tdesktop.com
+DOMAIN-SUFFIX,telegramindex.com
+
+// WalMart
+DOMAIN-SUFFIX,walmart.com
+DOMAIN-SUFFIX,walmartimages.com
+
+// Misc
+DOMAIN-SUFFIX,imgur.com
+DOMAIN-SUFFIX,branch.io
+DOMAIN-SUFFIX,phncdn.com
+DOMAIN-SUFFIX,pornhub.com
+DOMAIN-SUFFIX,droplr.com
+DOMAIN-SUFFIX,tiktokv.com
+DOMAIN-SUFFIX,tumblr.com
+DOMAIN-SUFFIX,amplitude.com
+DOMAIN-SUFFIX,instapaper.com
+DOMAIN-SUFFIX,crashlytics.com
+DOMAIN-SUFFIX,pushbullet.com
+DOMAIN-SUFFIX,xteko.com
+DOMAIN-SUFFIX,rsshub.app
+DOMAIN-SUFFIX,testflight.center
+DOMAIN-SUFFIX,feedly.com
+DOMAIN-SUFFIX,nssurge.com
+DOMAIN-SUFFIX,giphy.com
+
+AND,((IP-CIDR,0.0.0.0/0,no-resolve), (NOT,((GEOIP,CN))))
+OR,((DOMAIN-KEYWORD,google.), (DOMAIN-KEYWORD,google.com.))
+
+// Requires DNS lookup
+AND,((USER-AGENT,JSBox*), (NOT,((GEOIP,CN))))
+AND,((USER-AGENT,Reeder*), (NOT,((GEOIP,CN))))
+AND,((USER-AGENT,Mozilla*), (NOT,((GEOIP,CN))))
+AND,((USER-AGENT,appstored*), (NOT,((GEOIP,CN))))
+AND,((USER-AGENT,AppleCoreMedia*), (NOT,((GEOIP,CN))))
