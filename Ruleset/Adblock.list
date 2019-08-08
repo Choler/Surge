@@ -117,11 +117,17 @@ URL-REGEX,"^https?:\/\/api\.rr\.tv\/.*(getAll|Version)$"
 // 爱奇艺
 URL-REGEX,"^http:\/\/t7z\.cupid\.iqiyi\.com\/mixer"
 
-// 去哪儿旅游
+// 去哪旅游
 URL-REGEX,"^https?:\/\/client\.qunar\.com\/pitcher-proxy\?qrt=p_splashAd$"
 
 // 途牛旅游
 URL-REGEX,"^https?:\/\/m\.tuniu\.com\/api\/operation\/splash\/"
+
+// 百词斩
+AND,((DOMAIN-KEYWORD,advertise), (USER-AGENT,Cocoa*))
+
+// 全民K歌
+URL-REGEX,"^http:\/\/y\.gtimg\.cn\/music\/common\/\/upload\/kg_ad/.*\d{4}\.jpg$"
 
 // 中国联通
 URL-REGEX,"^https?:\/\/m\.client\.10010\.com\/mobileService\/customer\/accountListData\.htm$"
