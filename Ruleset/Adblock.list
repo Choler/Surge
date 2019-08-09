@@ -84,6 +84,9 @@ URL-REGEX,"^https?:\/\/api\.feng\.com\/v1\/advertisement\/.*Claunch"
 // 斗鱼
 URL-REGEX,"^https?:\/\/rtbapi\.douyucdn\.cn\/japi\/sign\/app\/getinfo"
 
+// 虎牙
+URL-REGEX,"^https?:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/resource_\d+\.zip$"
+
 // 京东
 URL-REGEX,"^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$"
 
