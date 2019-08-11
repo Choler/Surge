@@ -8,6 +8,7 @@ DOMAIN,livew.l.qq.com
 DOMAIN,news.ssp.qq.com
 DOMAIN,net.rayjump.com
 DOMAIN,report.adview.cn
+DOMAIN,agn.aty.sohu.com
 DOMAIN,video.c-ctrip.com
 DOMAIN,unidesk.alicdn.com
 DOMAIN,optimus-ads.amap.com
@@ -87,7 +88,8 @@ URL-REGEX,"^https?:\/\/api\.feng\.com\/v1\/advertisement\/.*Claunch"
 URL-REGEX,"^https?:\/\/rtbapi\.douyucdn\.cn\/japi\/sign\/app\/getinfo"
 
 // 虎牙
-URL-REGEX,"^https?:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/resource_\d+\.zip$"
+URL-REGEX,"^http:\/\/business\.msstatic\.com\/advertiser\/"
+URL-REGEX,"^https?:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/"
 
 // 京东
 URL-REGEX,"^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$"
