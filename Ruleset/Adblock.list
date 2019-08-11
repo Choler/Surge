@@ -11,7 +11,6 @@ DOMAIN,report.adview.cn
 DOMAIN,agn.aty.sohu.com
 DOMAIN,video.c-ctrip.com
 DOMAIN,unidesk.alicdn.com
-DOMAIN,optimus-ads.amap.com
 DOMAIN,cdn-adphone.wenhua.com.cn
 DOMAIN,googleads.g.doubleclick.net
 DOMAIN,securepubads.g.doubleclick.net
@@ -47,6 +46,9 @@ URL-REGEX,"^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.trip\.activity\.querytmsre
 
 // 优酷
 URL-REGEX,"^https?:\/\/iyes\.youku\.com\/adv\/startpage"
+
+// 高德地图
+URL-REGEX,"^http:\/\/optimus-ads\.amap\.com\/uploadimg\/"
 
 // 饿了么 
 URL-REGEX,"^https?:\/\/cube\.elemecdn\.com\/.*h_\d{4}\/"
@@ -141,6 +143,9 @@ URL-REGEX,"^https?:\/\/m\.client\.10010\.com\/mobileService\/customer\/accountLi
 
 // 中国移动
 URL-REGEX,"^https?:\/\/clientaccess\.10086\.cn\/biz-orange\/DN\/init\/startInit$"
+
+// 中国电信
+URL-REGEX,"^http:\/\/image1\.chinatelecom-ec\.com\/images\/.*\/client\w+\.jpg$"
 
 // 工商银行
 URL-REGEX,"http:\/\/v\.icbc\.com\.cn\/userfiles\/Resources\/WAP\/advertisement\/"
