@@ -99,6 +99,9 @@ URL-REGEX,"^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$"
 // 京东金融
 URL-REGEX,"^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/aladdin\/na\/m\/getLoadingPicture$"
 
+// 苏宁易购
+URL-REGEX,"^https?:\/\/mpcs\.suning\.com\/mpcs\/dm\/getDmInfo"
+
 // 微博
 URL-REGEX,"^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/.*ad\.php$"
 
