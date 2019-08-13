@@ -18,6 +18,9 @@ DOMAIN,securepubads.g.doubleclick.net
 // 腾讯视频
 AND,((DOMAIN-KEYWORD,splash), (DOMAIN-KEYWORD,gtimg))
 
+// QQ音乐
+URL-REGEX,"^http:\/\/y\.gtimg\.cn\/music\/photo_new\/\w+x1\d{2}"
+
 // 企鹅电竞
 URL-REGEX,"^http:\/\/shp\.qpic\.cn\/pggamehead\/.*h=\d{4}$"
 
