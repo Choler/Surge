@@ -69,7 +69,6 @@ DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,gmail.com
 DOMAIN-SUFFIX,ytimg.com
 DOMAIN-SUFFIX,ggpht.com
-DOMAIN-SUFFIX,google.com
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,youtube.com
 DOMAIN-SUFFIX,googleapis.com
@@ -98,11 +97,6 @@ DOMAIN-SUFFIX,redditstatic.com
 // Yahoo
 DOMAIN-SUFFIX,yimg.com
 DOMAIN-SUFFIX,yahoo.com
-
-// Wikipedia
-DOMAIN-SUFFIX,wikipedia.com
-DOMAIN-SUFFIX,wikipedia.org
-DOMAIN-SUFFIX,wikimedia.org
 
 // Slack
 USER-AGENT,Slack*
@@ -171,8 +165,10 @@ DOMAIN-SUFFIX,testflight.center
 DOMAIN-SUFFIX,feedly.com
 DOMAIN-SUFFIX,nssurge.com
 DOMAIN-SUFFIX,giphy.com
+DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,mediawiki.org
 
-AND,((IP-CIDR,0.0.0.0/0,no-resolve), (NOT,((GEOIP,CN))))
+AND,((DOMAIN-KEYWORD,.wiki), (DOMAIN-KEYWORD,.org))
 OR,((DOMAIN-KEYWORD,google.), (DOMAIN-KEYWORD,google.com.))
 
 // Requires DNS lookup
@@ -181,3 +177,6 @@ AND,((USER-AGENT,Reeder*), (NOT,((GEOIP,CN))))
 AND,((USER-AGENT,Mozilla*), (NOT,((GEOIP,CN))))
 AND,((USER-AGENT,appstored*), (NOT,((GEOIP,CN))))
 AND,((USER-AGENT,AppleCoreMedia*), (NOT,((GEOIP,CN))))
+
+// FINAL
+AND,((IP-CIDR,0.0.0.0/0,no-resolve), (NOT,((GEOIP,CN))))
