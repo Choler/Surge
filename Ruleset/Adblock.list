@@ -55,6 +55,7 @@ URL-REGEX,"^http:\/\/optimus-ads\.amap\.com\/uploadimg\/"
 
 // 饿了么 
 URL-REGEX,"^https?:\/\/cube\.elemecdn\.com\/.*h_\d{4}\/"
+URL-REGEX,"^https?:\/\/cube\.elemecdn\.com\/.*\.mp4\?$"
 
 // 猫眼电影
 URL-REGEX,"^http:\/\/p\d.meituan.net\/movie\/.*may_covertWebp$"
