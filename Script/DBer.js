@@ -4,7 +4,6 @@ $httpClient.get('https://api.lynne.ink/release/?v=0.1.1&m=s', function(error, re
   } else {
     var obj = JSON.parse(data).detail
     var cache = $persistentStore.read()
-    console.log(cache)
     for(var i = obj.iOS.length -1; i >= 0 ; i--) {
       if(obj.iOS[i].betaVersion != false){
         if(cache == null){
