@@ -64,8 +64,8 @@ URL-REGEX,"^http:\/\/p\d.meituan.net\/movie\/.*may_covertWebp$"
 URL-REGEX,"^http:\/\/p\d\.meituan\.net\/wmbanner\/"
 
 // 美团
+URL-REGEX,"^https?:\/\/s3plus\.meituan\.net\/v1\/mss_a002"
 URL-REGEX,"^https?:\/\/img\.meituan\.net\/midas\/.*@\d{4}h"
-URL-REGEX,"^https?:\/\/s3plus\.meituan\.net\/v1\/mss_a002ed"
 
 // 网易云音乐
 URL-REGEX,"^http:\/\/p\d\.music\.126\.net\/\w+==\/\d+\.jpg$"
@@ -107,7 +107,7 @@ URL-REGEX,"^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/aladdin\/na\/m\/getLoadingP
 URL-REGEX,"^https?:\/\/mpcs\.suning\.com\/mpcs\/dm\/getDmInfo"
 
 // 微博
-URL-REGEX,"^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/.*ad\.php$"
+URL-REGEX,"^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkad\.php$"
 
 // 印象笔记
 URL-REGEX,"^https?:\/\/app\.yinxiang\.com\/ads\/getAdsInfo$"
@@ -132,6 +132,9 @@ URL-REGEX,"^https?:\/\/api\.rr\.tv\/.*(getAll|Version)$"
 
 // 爱奇艺
 URL-REGEX,"^http:\/\/t7z\.cupid\.iqiyi\.com\/mixer"
+
+// 搜狐视频
+AND,((DOMAIN,photovms.tv.sohu.com), (NOT,((URL-REGEX,http))))
 
 // 去哪旅游
 URL-REGEX,"^https?:\/\/client\.qunar\.com\/pitcher-proxy\?qrt=p_splashAd$"
