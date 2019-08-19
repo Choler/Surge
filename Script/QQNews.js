@@ -4,8 +4,8 @@ http-response https://r\.inews\.qq.com\/get(QQNewsUnreadList|RecommendList) requ
 
 [MITM]
 hostname = r.inews.qq.com
-
 */
+
 var obj = JSON.parse($response.body);
 delete obj.adList;
 $done({body: JSON.stringify(obj)});
