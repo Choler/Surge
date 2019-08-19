@@ -1,11 +1,10 @@
+DOMAIN,dp3.qq.com
 DOMAIN,ad.12306.cn
 DOMAIN,nex.163.com
 DOMAIN,wa.gtimg.com
 DOMAIN,mi.gdt.qq.com
 DOMAIN,pgdt.gtimg.cn
-DOMAIN,news.l.qq.com
 DOMAIN,livew.l.qq.com
-DOMAIN,news.ssp.qq.com
 DOMAIN,net.rayjump.com
 DOMAIN,report.adview.cn
 DOMAIN,agn.aty.sohu.com
@@ -17,6 +16,9 @@ DOMAIN,securepubads.g.doubleclick.net
 
 // 腾讯视频
 AND,((DOMAIN-KEYWORD,splash), (DOMAIN-KEYWORD,gtimg))
+
+// 腾讯新闻
+OR,((DOMAIN,news.l.qq.com), (DOMAIN,news.ssp.qq.com))
 
 // QQ音乐
 URL-REGEX,"^http:\/\/y\.gtimg\.cn\/music\/photo_new\/\w+x1\d{2}"
