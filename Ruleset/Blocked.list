@@ -175,7 +175,7 @@ OR,((DOMAIN-KEYWORD,google.), (DOMAIN-KEYWORD,google.com.))
 AND,((USER-AGENT,JSBox*), (NOT,((GEOIP,CN))))
 AND,((USER-AGENT,Reeder*), (NOT,((GEOIP,CN))))
 AND,((USER-AGENT,Mozilla*), (NOT,((GEOIP,CN))))
-AND,((USER-AGENT,appstored*), (NOT,((GEOIP,CN))))
+AND,((USER-AGENT,*appstored*), (NOT,((GEOIP,CN))))
 AND,((USER-AGENT,AppleCoreMedia*), (NOT,((GEOIP,CN))))
 
 // FINAL

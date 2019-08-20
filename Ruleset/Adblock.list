@@ -1,7 +1,6 @@
 DOMAIN,dp3.qq.com
 DOMAIN,ad.12306.cn
 DOMAIN,nex.163.com
-DOMAIN,wa.gtimg.com
 DOMAIN,mi.gdt.qq.com
 DOMAIN,pgdt.gtimg.cn
 DOMAIN,livew.l.qq.com
@@ -15,7 +14,7 @@ DOMAIN,googleads.g.doubleclick.net
 DOMAIN,securepubads.g.doubleclick.net
 
 // 腾讯视频
-AND,((DOMAIN-KEYWORD,splash), (DOMAIN-KEYWORD,gtimg))
+URL-REGEX,"^http:\/\/[\s\S]*\/website\/.*\.jpg"
 
 // 腾讯新闻
 OR,((DOMAIN,news.l.qq.com), (DOMAIN,news.ssp.qq.com))
@@ -70,6 +69,7 @@ URL-REGEX,"^https?:\/\/s3plus\.meituan\.net\/v1\/mss_a002"
 URL-REGEX,"^https?:\/\/img\.meituan\.net\/midas\/.*@\d{4}h"
 
 // 网易云音乐
+URL-REGEX,"^http:\/\/[\s\S]*\/eapi\/ad\/get"
 URL-REGEX,"^http:\/\/p\d\.music\.126\.net\/\w+==\/\d+\.jpg$"
 URL-REGEX,"^http:\/\/iad.*mat\.[a-z]*\.12[67]\.net/\w+\.(jpg|mp4)$"
 

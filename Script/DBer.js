@@ -1,6 +1,6 @@
 /*
 [Script]
-cron "* 1-2 * * 1-5" script-path=https://Choler.github.io/Surge/Script/DBer.js
+cron "* 1 * * 1-5" script-path=https://Choler.github.io/Surge/Script/DBer.js
 */
 
 $httpClient.get('https://api.lynne.ink/release/?v=0.2&m=s', function(error, response, data) {
