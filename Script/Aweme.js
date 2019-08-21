@@ -32,7 +32,7 @@ if ($request.url.indexOf("life") > 0) {
       obj.aweme_list[i].video_control.allow_download = true;
     }
   }
-  $done({ body: JSON.stringify(obj) });
+  $done({body: JSON.stringify(obj)});
 } else if (obj.data) {
   for (var i = obj.data.length - 1; i >= 0; i--) {
     if (obj.data[i].aweme) {
@@ -50,7 +50,7 @@ if ($request.url.indexOf("life") > 0) {
       obj.data.splice(i, 1);
     }
   }
-  $done({ body: JSON.stringify(obj) });
+  $done({body: JSON.stringify(obj)});
 } else {
-  $done({ body });
+  $done({body});
 }

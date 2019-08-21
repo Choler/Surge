@@ -167,6 +167,7 @@ DOMAIN-SUFFIX,nssurge.com
 DOMAIN-SUFFIX,giphy.com
 DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,mediawiki.org
+DOMAIN-SUFFIX,bbc.com
 
 AND,((DOMAIN-KEYWORD,.wiki), (DOMAIN-KEYWORD,.org))
 OR,((DOMAIN-KEYWORD,google.), (DOMAIN-KEYWORD,google.com.))
