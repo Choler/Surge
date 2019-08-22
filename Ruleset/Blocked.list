@@ -20,6 +20,7 @@ DOMAIN-SUFFIX,amazonpay.com
 DOMAIN-SUFFIX,amazonaws.com
 DOMAIN-SUFFIX,media-amazon.com
 DOMAIN-SUFFIX,ssl-images-amazon.com
+DOMAIN-SUFFIX,awsstatic.com
 
 // eBay
 DOMAIN-SUFFIX,ebay.com
@@ -57,10 +58,14 @@ DOMAIN-SUFFIX,oculus.com
 DOMAIN-SUFFIX,oculuscdn.com
 
 // Microsoft
+DOMAIN-SUFFIX,gfx.ms
 DOMAIN-SUFFIX,msn.com
+DOMAIN-SUFFIX,msecnd.net
 DOMAIN-SUFFIX,office.net
 DOMAIN-SUFFIX,office.com
 DOMAIN-SUFFIX,outlook.com
+DOMAIN-SUFFIX,office365.com
+DOMAIN-SUFFIX,akamaized.net
 
 // Google
 DOMAIN-SUFFIX,ampproject.org
@@ -99,7 +104,6 @@ DOMAIN-SUFFIX,yimg.com
 DOMAIN-SUFFIX,yahoo.com
 
 // Slack
-USER-AGENT,Slack*
 DOMAIN-SUFFIX,slack.com
 DOMAIN-SUFFIX,slack-edge.com
 DOMAIN-SUFFIX,slack-msgs.com
@@ -130,6 +134,7 @@ DOMAIN-SUFFIX,trellocdn.com
 DOMAIN-SUFFIX,twitch.tv
 DOMAIN-SUFFIX,jtvnw.net
 DOMAIN-SUFFIX,ttvnw.net
+DOMAIN-SUFFIX,twitchsvc.net
 
 // Twitter
 DOMAIN-SUFFIX,twimg.com
@@ -147,11 +152,33 @@ DOMAIN-SUFFIX,telegramindex.com
 DOMAIN-SUFFIX,walmart.com
 DOMAIN-SUFFIX,walmartimages.com
 
+// Snapchat
+DOMAIN-SUFFIX,snapchat.com
+DOMAIN-SUFFIX,sc-static.net
+
+// CNN
+DOMAIN-SUFFIX,cnn.io
+DOMAIN-SUFFIX,cnn.com
+
+// Blogger
+DOMAIN-SUFFIX,blogger.com
+DOMAIN-SUFFIX,blogspot.com
+
+// PalPal
+DOMAIN-SUFFIX,paypal.com
+DOMAIN-SUFFIX,paypalobjects.com
+
+// Xvideos
+DOMAIN-SUFFIX,xvideos.com
+DOMAIN-SUFFIX,xvideos-cdn.com
+
+// PornHub
+DOMAIN-SUFFIX,phncdn.com
+DOMAIN-SUFFIX,pornhub.com
+
 // Misc
 DOMAIN-SUFFIX,imgur.com
 DOMAIN-SUFFIX,branch.io
-DOMAIN-SUFFIX,phncdn.com
-DOMAIN-SUFFIX,pornhub.com
 DOMAIN-SUFFIX,droplr.com
 DOMAIN-SUFFIX,tiktokv.com
 DOMAIN-SUFFIX,tumblr.com
@@ -168,6 +195,11 @@ DOMAIN-SUFFIX,giphy.com
 DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,mediawiki.org
 DOMAIN-SUFFIX,bbc.com
+DOMAIN-SUFFIX,tenor.com
+DOMAIN-SUFFIX,apple.co
+DOMAIN-SUFFIX,pexels.com
+DOMAIN-SUFFIX,imdb.com
+DOMAIN-SUFFIX,gfycat.com
 
 AND,((DOMAIN-KEYWORD,.wiki), (DOMAIN-KEYWORD,.org))
 OR,((DOMAIN-KEYWORD,google.), (DOMAIN-KEYWORD,google.com.))
