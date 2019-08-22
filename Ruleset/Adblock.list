@@ -21,7 +21,7 @@ URL-REGEX,"^http:\/\/[\s\S]*\/website\/.*\.jpg"
 OR,((DOMAIN,news.l.qq.com), (DOMAIN,news.ssp.qq.com))
 
 // QQ音乐
-URL-REGEX,"^http:\/\/[\s\S]*\/music\/photo_new\/\T017R.*\.png$"
+URL-REGEX,"^http:\/\/[\s\S]*\/music\/photo_new\/T017R.*\.png$"
 
 // 企鹅电竞
 URL-REGEX,"^http:\/\/shp\.qpic\.cn\/pggamehead\/.*h=\d{4}$"
@@ -150,6 +150,9 @@ AND,((DOMAIN-KEYWORD,advertise), (USER-AGENT,Cocoa*))
 
 // 全民K歌
 URL-REGEX,"^http:\/\/y\.gtimg\.cn\/music\/common\/\/upload\/kg_ad/.*\d{4}\.jpg$"
+
+// 携程
+URL-REGEX,"^https?:\/\/dimg04\.c-ctrip\.com\/images\/\w+\d{4}_\d{3}\.jpg$"
 
 // 中国联通
 URL-REGEX,"^https?:\/\/m\.client\.10010\.com\/mobileService\/customer\/accountListData\.htm$"
