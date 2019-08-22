@@ -109,6 +109,9 @@ URL-REGEX,"^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/aladdin\/na\/m\/getLoadingP
 // 苏宁易购
 URL-REGEX,"^https?:\/\/mpcs\.suning\.com\/mpcs\/dm\/getDmInfo"
 
+// 国美
+URL-REGEX,"^https?:\/\/prom\.mobile\.gome\.com\.cn\/mobile\/promotion\/promscms\/sale\w+\.jsp$"
+
 // 微博
 URL-REGEX,"^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkad\.php$"
 
