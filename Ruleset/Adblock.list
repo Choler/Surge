@@ -8,6 +8,7 @@ DOMAIN,livew.l.qq.com
 DOMAIN,net.rayjump.com
 DOMAIN,report.adview.cn
 DOMAIN,agn.aty.sohu.com
+DOMAIN,mobads.baidu.com
 DOMAIN,video.c-ctrip.com
 DOMAIN,unidesk.alicdn.com
 DOMAIN,cdn-adphone.wenhua.com.cn
@@ -37,7 +38,7 @@ URL-REGEX,"^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad"
 AND,((IP-CIDR,0.0.0.0/0,no-resolve), (USER-AGENT,%E7%99%BE%E5%BA%A6%E5%9C%B0%E5%9B%BE*))
 
 // 百度贴吧
-URL-REGEX,"^http:\/\/[\s\S]*baidu\.com/.*ad[xs]\.php"
+URL-REGEX,"^http:\/\/[\s\S]*\.baidu\.com/.*ad[xs]\.php"
 URL-REGEX,"^http:\/\/c\.tieba\.baidu\.com\/c\/s\/splashSchedule$"
 
 // 百度网盘
@@ -51,7 +52,7 @@ URL-REGEX,"^https?:\/\/gw\.alicdn\.com\/.*\.jpg_(9\d{2}|\d{4})"
 URL-REGEX,"^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.trip\.activity\.querytmsresources\/"
 
 // 口碑
-URL-REGEX,"^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.o2o\.ad\.gateway\.get\/"
+URL-REGEX,"^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.o2o\.ad\.gateway\.get\/"
 
 // 优酷
 URL-REGEX,"^https?:\/\/iyes\.youku\.com\/adv\/startpage"
