@@ -147,9 +147,6 @@ DOMAIN,cdn.ampproject.org
 DOMAIN,iosapps.itunes.apple.com
 DOMAIN,safebrowsing.googleapis.com
 
-OR,((DOMAIN-KEYWORD,.cn.), (DOMAIN-KEYWORD,-cn.))
-OR,((DOMAIN-KEYWORD,china), (DOMAIN-KEYWORD,chinese))
-
 AND,((IP-CIDR,0.0.0.0/0,no-resolve), (RULE-SET,LAN))
 
 URL-REGEX,(torrent|\.torrent|peer_id=|info_hash|get_peers|find_node|BitTorrent|announce_peer|protocol|announce\.php\?passkey=)

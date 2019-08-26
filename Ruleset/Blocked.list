@@ -176,6 +176,15 @@ DOMAIN-SUFFIX,xvideos-cdn.com
 DOMAIN-SUFFIX,phncdn.com
 DOMAIN-SUFFIX,pornhub.com
 
+// NYTimes
+DOMAIN-SUFFIX,nyt.com
+DOMAIN-SUFFIX,nytcn.me
+DOMAIN-SUFFIX,nytimes.com
+
+// Ftchnese
+DOMAIN-SUFFIX,ftimg.net
+DOMAIN-SUFFIX,ftchinese.com
+
 // Misc
 DOMAIN-SUFFIX,imgur.com
 DOMAIN-SUFFIX,branch.io
