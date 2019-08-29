@@ -74,10 +74,6 @@ URL-REGEX,"^http:\/\/p\d\.meituan\.net\/wmbanner\/"
 URL-REGEX,"^https?:\/\/s3plus\.meituan\.net\/v1\/mss_a002"
 URL-REGEX,"^https?:\/\/img\.meituan\.net\/midas\/.*@\d{4}h"
 
-// 大众点评
-URL-REGEX,"^https?:\/\/img\.meituan\.net\/adunion/\w+\.jpg$"
-URL-REGEX,"^https?:\/\/img\.meituan\.net\/display\/\w+\.gif$"
-
 // 网易云音乐
 URL-REGEX,"^http:\/\/[\s\S]*\/eapi\/ad\/get"
 URL-REGEX,"^http:\/\/p\d\.music\.126\.net\/\w+==\/\d+\.jpg$"
