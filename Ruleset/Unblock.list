@@ -31,6 +31,7 @@ DOMAIN-SUFFIX,360buyimg.com
 DOMAIN-SUFFIX,mipcdn.com
 DOMAIN-SUFFIX,baidu.com
 DOMAIN-SUFFIX,bdimg.com
+DOMAIN-SUFFIX,baidupcs.com
 DOMAIN-SUFFIX,baidupan.com
 DOMAIN-SUFFIX,bcebos.com
 DOMAIN-SUFFIX,bdstatic.com
@@ -136,14 +137,22 @@ DOMAIN-SUFFIX,cnblogs.com
 DOMAIN-SUFFIX,jandan.net
 DOMAIN-SUFFIX,yinyuetai.com
 DOMAIN-SUFFIX,kuaidi100.com
+DOMAIN-SUFFIX,guokr.com
 
+// Apple
 DOMAIN,www.apple.com
+DOMAIN,www.icloud.com
+DOMAIN,idmsa.apple.com
+DOMAIN,appleid.apple.com
+DOMAIN,iosapps.itunes.apple.com
+DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,apple-mapkit.com
+
+// Misc
 DOMAIN,www.gstatic.com
 DOMAIN,www.microsoft.com
-
 DOMAIN,ssl.gstatic.com
 DOMAIN,cdn.ampproject.org
-DOMAIN,iosapps.itunes.apple.com
 DOMAIN,safebrowsing.googleapis.com
 
 AND,((IP-CIDR,0.0.0.0/0,no-resolve), (RULE-SET,LAN))

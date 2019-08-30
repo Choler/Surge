@@ -10,6 +10,7 @@ DOMAIN,report.adview.cn
 DOMAIN,agn.aty.sohu.com
 DOMAIN,mobads.baidu.com
 DOMAIN,video.c-ctrip.com
+DOMAIN,e.crashlytics.com
 DOMAIN,unidesk.alicdn.com
 DOMAIN,cdn-adphone.wenhua.com.cn
 DOMAIN,googleads.g.doubleclick.net
@@ -161,6 +162,9 @@ URL-REGEX,"^http:\/\/y\.gtimg\.cn\/music\/common\/\/upload\/kg_ad/.*\d{4}\.jpg$"
 
 // 携程
 URL-REGEX,"^https?:\/\/dimg04\.c-ctrip\.com\/images\/\w+\d{4}_\d{3}\.jpg$"
+
+// AdGuard
+URL-REGEX,"^https?:\/\/mobile-api\.adguard\.com\/api\/1.0\/status\.html$"
 
 // 中国联通
 URL-REGEX,"^https?:\/\/m\.client\.10010\.com\/mobileService\/customer\/accountListData\.htm$"

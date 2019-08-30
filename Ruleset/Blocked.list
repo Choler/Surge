@@ -9,11 +9,6 @@ DOMAIN-SUFFIX,co
 // Surge
 USER-AGENT,Surge*
 
-// iCloud
-USER-AGENT,cloudd*
-USER-AGENT,CloudKit*
-DOMAIN-SUFFIX,icloud.com
-
 // Amazon
 DOMAIN-SUFFIX,amazon.com
 DOMAIN-SUFFIX,amazonpay.com
@@ -193,7 +188,6 @@ DOMAIN-SUFFIX,tiktokv.com
 DOMAIN-SUFFIX,tumblr.com
 DOMAIN-SUFFIX,amplitude.com
 DOMAIN-SUFFIX,instapaper.com
-DOMAIN-SUFFIX,crashlytics.com
 DOMAIN-SUFFIX,pushbullet.com
 DOMAIN-SUFFIX,xteko.com
 DOMAIN-SUFFIX,rsshub.app
