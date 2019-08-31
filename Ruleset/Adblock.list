@@ -24,6 +24,7 @@ URL-REGEX,"^http:\/\/[\s\S]*\/website\/.*\.jpg"
 OR,((DOMAIN,news.l.qq.com), (DOMAIN,news.ssp.qq.com))
 
 // QQ音乐
+URL-REGEX,"^https?:\/\/y\.gtimg\.cn\/music\/.*_Ad/\d+\.png$"
 URL-REGEX,"^http:\/\/[\s\S]*\/music\/photo_new\/T017R.*\.png$"
 
 // 企鹅电竞
