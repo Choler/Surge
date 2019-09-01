@@ -13,9 +13,10 @@ DOMAIN,video.c-ctrip.com
 DOMAIN,e.crashlytics.com
 DOMAIN,unidesk.alicdn.com
 DOMAIN,cdn-adphone.wenhua.com.cn
-DOMAIN,googleads.g.doubleclick.net
-DOMAIN,securepubads.g.doubleclick.net
 DOMAIN,map-mobile-opnimg.cdn.bcebos.com
+
+DOMAIN-SUFFIX,ads.sohu.com
+DOMAIN-SUFFIX,g.doubleclick.net
 
 // 腾讯视频
 URL-REGEX,"^http:\/\/[\s\S]*\/website\/.*\.jpg"
@@ -24,7 +25,7 @@ URL-REGEX,"^http:\/\/[\s\S]*\/website\/.*\.jpg"
 OR,((DOMAIN,news.l.qq.com), (DOMAIN,news.ssp.qq.com))
 
 // QQ音乐
-URL-REGEX,"^https?:\/\/y\.gtimg\.cn\/music\/.*_Ad/\d+\.png$"
+URL-REGEX,"^https?:\/\/y\.gtimg\.cn\/music\/common\/\/upload\/t_RealTime_Ad\/"
 URL-REGEX,"^http:\/\/[\s\S]*\/music\/photo_new\/T017R.*\.png$"
 
 // 企鹅电竞
@@ -75,6 +76,7 @@ URL-REGEX,"^http:\/\/p\d\.meituan\.net\/wmbanner\/"
 // 美团
 URL-REGEX,"^https?:\/\/s3plus\.meituan\.net\/v1\/mss_a002"
 URL-REGEX,"^https?:\/\/img\.meituan\.net\/midas\/.*@\d{4}h"
+URL-REGEX,"^https?:\/\/img\.meituan\.net\/display\/\w+\.jpg\.webp$"
 
 // 网易云音乐
 URL-REGEX,"^http:\/\/[\s\S]*\/eapi\/ad\/get"
