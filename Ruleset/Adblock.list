@@ -165,7 +165,7 @@ URL-REGEX,"^http:\/\/y\.gtimg\.cn\/music\/common\/\/upload\/kg_ad/.*\d{4}\.jpg$"
 URL-REGEX,"^https?:\/\/dimg04\.c-ctrip\.com\/images\/\w+\d{4}_\d{3}\.jpg$"
 
 // 同花顺
-URL-REGEX,"^https?:\/\/adm\.10jqka\.com\.cn\/img\/ad\/.*1(\d{2}|\d{3})\.jpg$"
+URL-REGEX,"^https?:\/\/adm\.10jqka\.com\.cn\/img\/ad\/.*[12]\d{2,}\.jpg$"
 
 // 中国联通
 URL-REGEX,"^https?:\/\/m\.client\.10010\.com\/mobileService\/customer\/accountListData\.htm$"
