@@ -138,18 +138,17 @@ DOMAIN-SUFFIX,jandan.net
 DOMAIN-SUFFIX,yinyuetai.com
 DOMAIN-SUFFIX,kuaidi100.com
 DOMAIN-SUFFIX,guokr.com
+DOMAIN-SUFFIX,baiduwp.com
+DOMAIN-SUFFIX,adguard.com
 
 // Apple
-DOMAIN,www.apple.com
-DOMAIN,www.icloud.com
-DOMAIN,idmsa.apple.com
-DOMAIN,appleid.apple.com
-DOMAIN,iosapps.itunes.apple.com
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN-SUFFIX,apple-mapkit.com
 
 // Misc
-DOMAIN,www.gstatic.com
+DOMAIN-SUFFIX,gstatic.com
 DOMAIN,www.microsoft.com
 DOMAIN,ssl.gstatic.com
 DOMAIN,cdn.ampproject.org
