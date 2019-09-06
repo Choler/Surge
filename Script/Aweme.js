@@ -1,16 +1,17 @@
 /*
+[URL Rewrite]
+^https://aweme-eagle-hl\.snssdk\.com/aweme/v2/ https://aweme-eagle-hl\.snssdk\.com/aweme/v1/ 302
+
 [Script]
-http-response ^https://[\s\S]*\.snssdk\.com/.+/(feed|post)/ requires-body=1,max-size=-1,script-path=https://Choler.github.io/Surge/Script/Aweme.js
+http-response ^https://[\s\S]*\/aweme/v1/(feed|aweme/post|follow/feed)/ requires-body=1,max-size=-1,script-path=https://Choler.github.io/Surge/Script/Aweme.js
 
 [MITM]
-hostname = *.snssdk.com
+hostname = *.amemv.com, *.snssdk.com
 */
 
 let body = $response.body.replace(/watermark=1/g, "watermark=0");
 var obj = JSON.parse(body);
-if ($request.url.indexOf("life") > 0) {
-  $done({});
-} else if (obj.aweme_list) {
+if (obj.aweme_list) {
   for (var i = obj.aweme_list.length - 1; i >= 0; i--) {
     if (obj.aweme_list[i].raw_ad_data) {
       obj.aweme_list.splice(i, 1);

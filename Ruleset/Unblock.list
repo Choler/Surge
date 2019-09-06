@@ -138,7 +138,6 @@ DOMAIN-SUFFIX,jandan.net
 DOMAIN-SUFFIX,yinyuetai.com
 DOMAIN-SUFFIX,kuaidi100.com
 DOMAIN-SUFFIX,guokr.com
-DOMAIN-SUFFIX,baiduwp.com
 DOMAIN-SUFFIX,adguard.com
 
 // Apple
@@ -146,6 +145,7 @@ DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN-SUFFIX,apple-mapkit.com
+DOMAIN-SUFFIX,icloud-content.com
 
 // Misc
 DOMAIN-SUFFIX,gstatic.com

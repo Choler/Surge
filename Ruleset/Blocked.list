@@ -203,6 +203,7 @@ DOMAIN-SUFFIX,apple.co
 DOMAIN-SUFFIX,pexels.com
 DOMAIN-SUFFIX,imdb.com
 DOMAIN-SUFFIX,gfycat.com
+DOMAIN-SUFFIX,baiduwp.com
 
 AND,((DOMAIN-KEYWORD,.wiki), (DOMAIN-KEYWORD,.org))
 OR,((DOMAIN-KEYWORD,google.), (DOMAIN-KEYWORD,google.com.))
