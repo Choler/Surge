@@ -204,6 +204,7 @@ DOMAIN-SUFFIX,pexels.com
 DOMAIN-SUFFIX,imdb.com
 DOMAIN-SUFFIX,gfycat.com
 DOMAIN-SUFFIX,baiduwp.com
+DOMAIN-SUFFIX,coda.io
 
 AND,((DOMAIN-KEYWORD,.wiki), (DOMAIN-KEYWORD,.org))
 OR,((DOMAIN-KEYWORD,google.), (DOMAIN-KEYWORD,google.com.))
@@ -215,6 +216,7 @@ AND,((USER-AGENT,Mozilla*), (NOT,((GEOIP,CN))))
 AND,((USER-AGENT,*appstored*), (NOT,((GEOIP,CN))))
 AND,((USER-AGENT,MobileSafari*), (NOT,((GEOIP,CN))))
 AND,((USER-AGENT,AppleCoreMedia*), (NOT,((GEOIP,CN))))
+AND,((USER-AGENT,*WebKit.Networking*), (NOT,((GEOIP,CN))))
 
 // FINAL
 AND,((IP-CIDR,0.0.0.0/0,no-resolve), (NOT,((GEOIP,CN))))
