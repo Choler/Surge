@@ -77,7 +77,7 @@ URL-REGEX,"^https?:\/\/img\.meituan\.net\/midas\/.*@\d{4}h"
 URL-REGEX,"^https?:\/\/img\.meituan\.net\/display\/\w+\.jpg\.webp$"
 
 // 网易云音乐
-URL-REGEX,"^http:\/\/[\s\S]*\/eapi\/ad\/get"
+URL-REGEX,"^http:\/\/[\s\S]*\/eapi\/ad\/"
 URL-REGEX,"^http:\/\/p\d\.music\.126\.net\/\w+==\/\d+\.jpg$"
 URL-REGEX,"^http:\/\/iad.*mat\.[a-z]*\.12[67]\.net/\w+\.(jpg|mp4)$"
 
