@@ -1,4 +1,3 @@
-DOMAIN,dp3.qq.com
 DOMAIN,ad.12306.cn
 DOMAIN,nex.163.com
 DOMAIN,wa.gtimg.com
@@ -162,10 +161,16 @@ AND,((DOMAIN-KEYWORD,advertise), (USER-AGENT,Cocoa*))
 URL-REGEX,"^http:\/\/y\.gtimg\.cn\/music\/common\/\/upload\/kg_ad/.*\d{4}\.jpg$"
 
 // 携程
-URL-REGEX,"^https?:\/\/dimg04\.c-ctrip\.com\/images\/\w+\d{4}_\d{3}\.jpg$"
+URL-REGEX,"^https?:\/\/dimg04\.c-ctrip\.com\/images\/\w+(_\d{4}){2}"
 
 // 同花顺
 URL-REGEX,"^https?:\/\/adm\.10jqka\.com\.cn\/img\/ad\/.*(1\d{2}|\d{4})\.jpg$"
+
+// Keep健身
+URL-REGEX,"^https?:\/\/api\.gotokeep\.com\/ads\/"
+
+// 咪咕视频
+URL-REGEX,"^http:\/\/ggx\.cmvideo\.cn\/request\/"
 
 // 中国联通
 URL-REGEX,"^https?:\/\/m\.client\.10010\.com\/mobileService\/customer\/accountListData\.htm$"

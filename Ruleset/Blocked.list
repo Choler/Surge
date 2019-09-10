@@ -205,6 +205,7 @@ DOMAIN-SUFFIX,imdb.com
 DOMAIN-SUFFIX,gfycat.com
 DOMAIN-SUFFIX,baiduwp.com
 DOMAIN-SUFFIX,coda.io
+DOMAIN-SUFFIX,kindle4rss.com
 
 AND,((DOMAIN-KEYWORD,.wiki), (DOMAIN-KEYWORD,.org))
 OR,((DOMAIN-KEYWORD,google.), (DOMAIN-KEYWORD,google.com.))
