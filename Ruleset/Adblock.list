@@ -21,6 +21,9 @@ DOMAIN-SUFFIX,g.doubleclick.net
 // 腾讯新闻
 OR,((DOMAIN,news.l.qq.com), (DOMAIN,news.ssp.qq.com))
 
+// 腾讯视频
+URL-REGEX,"^http:\/\/[\s\S]*\/.+\.tc\.qq\.com/.*\.mp4"
+
 // QQ音乐
 URL-REGEX,"^http:\/\/[\s\S]*\/website\/.*\.jpg"
 URL-REGEX,"^https?:\/\/y\.gtimg\.cn\/music\/.*_Ad/\d+\.png$"
@@ -56,6 +59,7 @@ URL-REGEX,"^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.trip\.activity\.querytmsre
 URL-REGEX,"^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.o2o\.ad\.gateway\.get\/"
 
 // 优酷
+URL-REGEX,"^http:\/\/[\s\S]*\/youku\/.*\.mp4"
 URL-REGEX,"^https?:\/\/iyes\.youku\.com\/adv\/startpage"
 
 // 高德地图
@@ -144,7 +148,7 @@ URL-REGEX,"^https?:\/\/newapp\.szsmk\.com\/app\/config\/.*Ad$"
 URL-REGEX,"^https?:\/\/api\.rr\.tv\/.*(getAll|Version)$"
 
 // 爱奇艺
-URL-REGEX,"^http:\/\/t7z\.cupid\.iqiyi\.com\/mixer"
+OR,((DOMAIN,static-s.iqiyi.com), (DOMAIN,t7z.cupid.iqiyi.com))
 
 // 搜狐视频
 AND,((DOMAIN,photovms.tv.sohu.com), (NOT,((URL-REGEX,http))))
