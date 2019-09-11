@@ -52,7 +52,6 @@ DOMAIN-SUFFIX,ifengimg.com
 DOMAIN-SUFFIX,ctrip.com
 DOMAIN-SUFFIX,c-ctrip.com
 DOMAIN-SUFFIX,csdn.net
-DOMAIN-SUFFIX,v2ex.com
 DOMAIN-SUFFIX,ipip.net
 DOMAIN-SUFFIX,douyu.com
 DOMAIN-SUFFIX,jianshu.io
@@ -139,6 +138,8 @@ DOMAIN-SUFFIX,yinyuetai.com
 DOMAIN-SUFFIX,kuaidi100.com
 DOMAIN-SUFFIX,guokr.com
 DOMAIN-SUFFIX,adguard.com
+DOMAIN-SUFFIX,pinduoduo.com
+DOMAIN-SUFFIX,yangkeduo.com
 
 // Apple
 DOMAIN-SUFFIX,apple.com

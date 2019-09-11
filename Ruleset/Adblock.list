@@ -9,6 +9,7 @@ DOMAIN,agn.aty.sohu.com
 DOMAIN,mobads.baidu.com
 DOMAIN,video.c-ctrip.com
 DOMAIN,e.crashlytics.com
+DOMAIN,gorgon.youdao.com
 DOMAIN,unidesk.alicdn.com
 DOMAIN,mobile-api.adguard.com
 DOMAIN,cdn-adphone.wenhua.com.cn
@@ -201,3 +202,6 @@ URL-REGEX,"^https?:\/\/mlife\.cmbchina\.com\/ClientFaceService\/preCacheAdvertis
 
 // 买单吧(交通银行)
 URL-REGEX,"^https?:\/\/creditcardapp\.bankcomm\.com\/mapp\/common\/queryGuidePageAds\.do$"
+
+// 有道翻译官
+URL-REGEX,"^http:\/\/oral\.youdao\.com\/oral\/adInfo"
