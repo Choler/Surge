@@ -212,3 +212,6 @@ URL-REGEX,"^http:\/\/oral\.youdao\.com\/oral\/adInfo"
 
 // 58同城
 URL-REGEX,"^https?:\/\/app\.58\.com\/api\/home\/appadv\/"
+
+// 芒果视频
+OR,((DOMAIN,mobile.da.mgtv.com), (DOMAIN,mobile2.da.mgtv.com))
