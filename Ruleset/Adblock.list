@@ -205,3 +205,6 @@ URL-REGEX,"^https?:\/\/creditcardapp\.bankcomm\.com\/mapp\/common\/queryGuidePag
 
 // 有道翻译官
 URL-REGEX,"^http:\/\/oral\.youdao\.com\/oral\/adInfo"
+
+// 58同城
+URL-REGEX,"^https?:\/\/app\.58\.com\/api\/home\/appadv\/"
