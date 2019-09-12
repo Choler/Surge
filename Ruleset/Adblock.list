@@ -18,6 +18,36 @@ DOMAIN,map-mobile-opnimg.cdn.bcebos.com
 DOMAIN-SUFFIX,ads.sohu.com
 DOMAIN-SUFFIX,g.doubleclick.net
 
+// 中国联通
+URL-REGEX,"^https?:\/\/m\.client\.10010\.com\/mobileService\/customer\/accountListData\.htm$"
+
+// 中国移动
+URL-REGEX,"^https?:\/\/clientaccess\.10086\.cn\/biz-orange\/DN\/init\/startInit$"
+
+// 中国电信
+URL-REGEX,"^http:\/\/image1\.chinatelecom-ec\.com\/images\/.*\/client\w+\.jpg$"
+
+// 工商银行
+URL-REGEX,"http:\/\/v\.icbc\.com\.cn\/userfiles\/Resources\/WAP\/advertisement\/"
+
+// 招商银行
+URL-REGEX,"^https?:\/\/pic1cdn\.cmbchina\.com\/appinitads\/"
+
+// 发现精彩(广发银行)
+URL-REGEX,"^http:\/\/mps\.95508\.com\/mps\/club\/cardPortals\/adv\/\d+\.(jpg|png)$"
+
+// 动卡空间(中信银行)
+URL-REGEX,"^https?:\/\/m\.creditcard\.ecitic\.com\/.*\/appStartAdv$"
+
+// 缤纷生活(中国银行)
+URL-REGEX,"^https?:\/\/mlife\.jf365\.boc\.cn\/AppPrj\/FirstPic\.do"
+
+// 掌上生活(招商银行)
+URL-REGEX,"^https?:\/\/mlife\.cmbchina\.com\/ClientFaceService\/preCacheAdvertise\.json$"
+
+// 买单吧(交通银行)
+URL-REGEX,"^https?:\/\/creditcardapp\.bankcomm\.com\/mapp\/common\/queryGuidePageAds\.do$"
+
 // 腾讯新闻
 OR,((DOMAIN,news.l.qq.com), (DOMAIN,news.ssp.qq.com))
 
@@ -176,36 +206,6 @@ URL-REGEX,"^https?:\/\/api\.gotokeep\.com\/ads\/"
 
 // 咪咕视频
 URL-REGEX,"^http:\/\/ggx\.cmvideo\.cn\/request\/"
-
-// 中国联通
-URL-REGEX,"^https?:\/\/m\.client\.10010\.com\/mobileService\/customer\/accountListData\.htm$"
-
-// 中国移动
-URL-REGEX,"^https?:\/\/clientaccess\.10086\.cn\/biz-orange\/DN\/init\/startInit$"
-
-// 中国电信
-URL-REGEX,"^http:\/\/image1\.chinatelecom-ec\.com\/images\/.*\/client\w+\.jpg$"
-
-// 工商银行
-URL-REGEX,"http:\/\/v\.icbc\.com\.cn\/userfiles\/Resources\/WAP\/advertisement\/"
-
-// 招商银行
-URL-REGEX,"^https?:\/\/pic1cdn\.cmbchina\.com\/appinitads\/"
-
-// 发现精彩(广发银行)
-URL-REGEX,"^http:\/\/mps\.95508\.com\/mps\/club\/cardPortals\/adv\/\d+\.(jpg|png)$"
-
-// 动卡空间(中信银行)
-URL-REGEX,"^https?:\/\/m\.creditcard\.ecitic\.com\/.*\/appStartAdv$"
-
-// 缤纷生活(中国银行)
-URL-REGEX,"^https?:\/\/mlife\.jf365\.boc\.cn\/AppPrj\/FirstPic\.do"
-
-// 掌上生活(招商银行)
-URL-REGEX,"^https?:\/\/mlife\.cmbchina\.com\/ClientFaceService\/preCacheAdvertise\.json$"
-
-// 买单吧(交通银行)
-URL-REGEX,"^https?:\/\/creditcardapp\.bankcomm\.com\/mapp\/common\/queryGuidePageAds\.do$"
 
 // 有道翻译官
 URL-REGEX,"^http:\/\/oral\.youdao\.com\/oral\/adInfo"
