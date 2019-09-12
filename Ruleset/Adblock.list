@@ -100,7 +100,7 @@ URL-REGEX,"^https?:\/\/cube\.elemecdn\.com\/.*h_\d{4}\/"
 URL-REGEX,"^https?:\/\/cube\.elemecdn\.com\/.*\.mp4\?$"
 
 // 猫眼电影
-URL-REGEX,"^http:\/\/p\d.meituan.net\/movie\/.*may_covertWebp$"
+URL-REGEX,"^http:\/\/p\d.meituan.net\/movie\/.*\?may_covertWebp$"
 
 // 美团外卖
 URL-REGEX,"^http:\/\/p\d\.meituan\.net\/wmbanner\/"
@@ -215,3 +215,6 @@ URL-REGEX,"^https?:\/\/app\.58\.com\/api\/home\/appadv\/"
 
 // 芒果视频
 OR,((DOMAIN,mobile.da.mgtv.com), (DOMAIN,mobile2.da.mgtv.com))
+
+// 毒
+URL-REGEX,"^https?://du\.hupucdn\.com\/\w+h\d{4}"
