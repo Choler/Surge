@@ -5,6 +5,7 @@ DOMAIN,mi.gdt.qq.com
 DOMAIN,livew.l.qq.com
 DOMAIN,net.rayjump.com
 DOMAIN,report.adview.cn
+DOMAIN,mf.atm.youku.com
 DOMAIN,agn.aty.sohu.com
 DOMAIN,mobads.baidu.com
 DOMAIN,video.c-ctrip.com
@@ -56,8 +57,8 @@ URL-REGEX,"^http:\/\/[\s\S]*\/.+\.tc\.qq\.com/.*\.mp4"
 
 // QQ音乐
 URL-REGEX,"^http:\/\/[\s\S]*\/website\/.*\.jpg"
+URL-REGEX,"^https?:\/\/y\.gtimg\.cn\/music\/.*x1\d{2}"
 URL-REGEX,"^https?:\/\/y\.gtimg\.cn\/music\/.*_Ad/\d+\.png$"
-URL-REGEX,"^http:\/\/[\s\S]*\/music\/photo_new\/T017R.*\.png$"
 
 // 企鹅电竞
 URL-REGEX,"^http:\/\/shp\.qpic\.cn\/pggamehead\/.*h=\d{4}$"
@@ -209,6 +210,7 @@ URL-REGEX,"^http:\/\/ggx\.cmvideo\.cn\/request\/"
 
 // 有道翻译官
 URL-REGEX,"^http:\/\/oral\.youdao\.com\/oral\/adInfo"
+URL-REGEX,"^http:\/\/impservice\.dictapp\.youdao\.com\/imp\/request"
 
 // 58同城
 URL-REGEX,"^https?:\/\/app\.58\.com\/api\/home\/appadv\/"
@@ -218,3 +220,6 @@ OR,((DOMAIN,mobile.da.mgtv.com), (DOMAIN,mobile2.da.mgtv.com))
 
 // 毒
 URL-REGEX,"^https?://du\.hupucdn\.com\/\w+h\d{4}"
+
+// 拼多多
+URL-REGEX,"^http:\/\/api\.yangkeduo\.com\/api\/cappuccino\/splash"
