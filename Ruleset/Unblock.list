@@ -44,7 +44,6 @@ DOMAIN-SUFFIX,guokr.com
 DOMAIN-SUFFIX,adguard.com
 DOMAIN-SUFFIX,huanqiu.com
 DOMAIN-SUFFIX,oschina.net
-DOMAIN-SUFFIX,mmstat.com
 
 DOMAIN-SUFFIX,cn
 DOMAIN-SUFFIX,local
@@ -113,6 +112,7 @@ DOMAIN-SUFFIX,alicdn.com
 DOMAIN-SUFFIX,alipay.com
 DOMAIN-SUFFIX,tmall.com
 DOMAIN-SUFFIX,taobao.com
+DOMAIN-SUFFIX,mmstat.com
 
 // Baidu
 DOMAIN-SUFFIX,baidu.com

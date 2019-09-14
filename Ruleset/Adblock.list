@@ -1,22 +1,18 @@
+// 杂项
 DOMAIN,ad.12306.cn
 DOMAIN,nex.163.com
 DOMAIN,wa.gtimg.com
-DOMAIN,mi.gdt.qq.com
-DOMAIN,livew.l.qq.com
-DOMAIN,net.rayjump.com
-DOMAIN,report.adview.cn
-DOMAIN,mf.atm.youku.com
-DOMAIN,agn.aty.sohu.com
-DOMAIN,mobads.baidu.com
-DOMAIN,video.c-ctrip.com
+DOMAIN,dsp.edm.weibo.cn
 DOMAIN,e.crashlytics.com
-DOMAIN,gorgon.youdao.com
 DOMAIN,unidesk.alicdn.com
 DOMAIN,mobile-api.adguard.com
 DOMAIN,cdn-adphone.wenhua.com.cn
-DOMAIN,map-mobile-opnimg.cdn.bcebos.com
 
-DOMAIN-SUFFIX,ads.sohu.com
+// 广告联盟
+DOMAIN,api.e.qq.com
+DOMAIN,mi.gdt.qq.com
+DOMAIN,net.rayjump.com
+DOMAIN,report.adview.cn
 DOMAIN-SUFFIX,g.doubleclick.net
 
 // 中国联通
@@ -53,11 +49,12 @@ URL-REGEX,"^https?:\/\/creditcardapp\.bankcomm\.com\/mapp\/common\/queryGuidePag
 OR,((DOMAIN,news.l.qq.com), (DOMAIN,news.ssp.qq.com))
 
 // 腾讯视频
-URL-REGEX,"^http:\/\/[\s\S]*\/.+\.tc\.qq\.com/.*\.mp4"
+DOMAIN,livew.l.qq.com
+URL-REGEX,"^http:\/\/[\s\S]*\/.+\.tc\.qq\.com/.*p201.1\.mp4"
 
 // QQ音乐
 URL-REGEX,"^http:\/\/[\s\S]*\/website\/.*\.jpg"
-URL-REGEX,"^https?:\/\/y\.gtimg\.cn\/music\/.*x1\d{2}"
+URL-REGEX,"^https?:\/\/[\s\S]*\/music\/photo_new\/T017R"
 URL-REGEX,"^https?:\/\/y\.gtimg\.cn\/music\/.*_Ad/\d+\.png$"
 
 // 企鹅电竞
@@ -70,6 +67,7 @@ URL-REGEX,"^https?:\/\/api2\.helper\.qq\.com\/game\/buttons$"
 URL-REGEX,"^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad"
 
 // 百度地图
+DOMAIN,map-mobile-opnimg.cdn.bcebos.com
 AND,((IP-CIDR,0.0.0.0/0,no-resolve), (USER-AGENT,%E7%99%BE%E5%BA%A6%E5%9C%B0%E5%9B%BE*))
 
 // 百度贴吧
@@ -90,8 +88,9 @@ URL-REGEX,"^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.trip\.activity\.querytmsre
 URL-REGEX,"^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.o2o\.ad\.gateway\.get\/"
 
 // 优酷
+USER-AGENT,AliXAdSDK*
+DOMAIN,mf.atm.youku.com
 URL-REGEX,"^http:\/\/[\s\S]*\/youku\/.*\.mp4"
-URL-REGEX,"^https?:\/\/iyes\.youku\.com\/adv\/startpage"
 
 // 高德地图
 URL-REGEX,"^http:\/\/optimus-ads\.amap\.com\/uploadimg\/"
@@ -182,6 +181,8 @@ URL-REGEX,"^https?:\/\/api\.rr\.tv\/.*(getAll|Version)$"
 OR,((DOMAIN,static-s.iqiyi.com), (DOMAIN,t7z.cupid.iqiyi.com))
 
 // 搜狐视频
+DOMAIN,agn.aty.sohu.com
+DOMAIN-SUFFIX,ads.sohu.com
 AND,((DOMAIN,photovms.tv.sohu.com), (NOT,((URL-REGEX,http))))
 
 // 去哪旅游
@@ -197,6 +198,7 @@ AND,((DOMAIN-KEYWORD,advertise), (USER-AGENT,Cocoa*))
 URL-REGEX,"^http:\/\/y\.gtimg\.cn\/music\/common\/\/upload\/kg_ad/.*\d{4}\.jpg$"
 
 // 携程
+DOMAIN,video.c-ctrip.com
 URL-REGEX,"^https?:\/\/dimg04\.c-ctrip\.com\/images\/\w+(_\d{4}){2}"
 
 // 同花顺
@@ -209,6 +211,7 @@ URL-REGEX,"^https?:\/\/api\.gotokeep\.com\/ads\/"
 URL-REGEX,"^http:\/\/ggx\.cmvideo\.cn\/request\/"
 
 // 有道翻译官
+DOMAIN,gorgon.youdao.com
 URL-REGEX,"^http:\/\/oral\.youdao\.com\/oral\/adInfo"
 URL-REGEX,"^http:\/\/impservice\.dictapp\.youdao\.com\/imp\/request"
 
