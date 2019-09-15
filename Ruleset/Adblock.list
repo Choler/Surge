@@ -1,8 +1,5 @@
 // 杂项
-DOMAIN,ad.12306.cn
-DOMAIN,nex.163.com
 DOMAIN,wa.gtimg.com
-DOMAIN,dsp.edm.weibo.cn
 DOMAIN,e.crashlytics.com
 DOMAIN,unidesk.alicdn.com
 DOMAIN,mobile-api.adguard.com
@@ -45,16 +42,18 @@ URL-REGEX,"^https?:\/\/mlife\.cmbchina\.com\/ClientFaceService\/preCacheAdvertis
 // 买单吧(交通银行)
 URL-REGEX,"^https?:\/\/creditcardapp\.bankcomm\.com\/mapp\/common\/queryGuidePageAds\.do$"
 
+// 铁路12306
+DOMAIN,ad.12306.cn
+
 // 腾讯新闻
-OR,((DOMAIN,news.l.qq.com), (DOMAIN,news.ssp.qq.com))
+DOMAIN,news.l.qq.com
+DOMAIN,news.ssp.qq.com
 
 // 腾讯视频
 DOMAIN,livew.l.qq.com
 URL-REGEX,"^http:\/\/[\s\S]*\/.+\.tc\.qq\.com/.*p201.1\.mp4"
 
 // QQ音乐
-URL-REGEX,"^http:\/\/[\s\S]*\/website\/.*\.jpg"
-URL-REGEX,"^https?:\/\/[\s\S]*\/music\/photo_new\/T017R"
 URL-REGEX,"^https?:\/\/y\.gtimg\.cn\/music\/.*_Ad/\d+\.png$"
 
 // 企鹅电竞
@@ -115,6 +114,9 @@ URL-REGEX,"^http:\/\/[\s\S]*\/eapi\/ad\/"
 URL-REGEX,"^http:\/\/p\d\.music\.126\.net\/\w+==\/\d+\.jpg$"
 URL-REGEX,"^http:\/\/iad.*mat\.[a-z]*\.12[67]\.net/\w+\.(jpg|mp4)$"
 
+// 网易新闻
+DOMAIN,nex.163.com
+
 // 天翼生活
 URL-REGEX,"^http:\/\/zt-app\.go189\.cn\/zt-app\/welcome\/.*Animation$"
 
@@ -122,7 +124,8 @@ URL-REGEX,"^http:\/\/zt-app\.go189\.cn\/zt-app\/welcome\/.*Animation$"
 URL-REGEX,"^http:\/\/[\s\S]*\/ting\/[a-z]*\/ts-\d+"
 
 // 滴滴出行
-OR,((DOMAIN,ct.xiaojukeji.com), (DOMAIN,gwp.xiaojukeji.com))
+DOMAIN,ct.xiaojukeji.com
+DOMAIN,gwp.xiaojukeji.com
 URL-REGEX,"^https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/get(Ruled|Preload)"
 
 // 酷我音乐
@@ -156,6 +159,9 @@ URL-REGEX,"^https?:\/\/prom\.mobile\.gome\.com\.cn\/mobile\/promotion\/promscms\
 // 微博
 URL-REGEX,"^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/sdkad\.php$"
 
+// 微博小程序
+DOMAIN,dsp.edm.weibo.cn
+
 // 印象笔记
 URL-REGEX,"^https?:\/\/app\.yinxiang\.com\/ads\/getAdsInfo$"
 
@@ -178,7 +184,8 @@ URL-REGEX,"^https?:\/\/newapp\.szsmk\.com\/app\/config\/.*Ad$"
 URL-REGEX,"^https?:\/\/api\.rr\.tv\/.*(getAll|Version)$"
 
 // 爱奇艺
-OR,((DOMAIN,static-s.iqiyi.com), (DOMAIN,t7z.cupid.iqiyi.com))
+DOMAIN,static-s.iqiyi.com
+DOMAIN,t7z.cupid.iqiyi.com
 
 // 搜狐视频
 DOMAIN,agn.aty.sohu.com
@@ -192,7 +199,7 @@ URL-REGEX,"^https?:\/\/client\.qunar\.com\/pitcher-proxy\?qrt=p_splashAd$"
 URL-REGEX,"^https?:\/\/m\.tuniu\.com\/api\/operation\/splash\/"
 
 // 百词斩
-AND,((DOMAIN-KEYWORD,advertise), (USER-AGENT,Cocoa*))
+AND,((USER-AGENT,Cocoa*), (DOMAIN-KEYWORD,advertise))
 
 // 全民K歌
 URL-REGEX,"^http:\/\/y\.gtimg\.cn\/music\/common\/\/upload\/kg_ad/.*\d{4}\.jpg$"
@@ -210,6 +217,9 @@ URL-REGEX,"^https?:\/\/api\.gotokeep\.com\/ads\/"
 // 咪咕视频
 URL-REGEX,"^http:\/\/ggx\.cmvideo\.cn\/request\/"
 
+// 咪咕音乐
+URL-REGEX,"^https?:\/\/app\.pd\.nf\.migu\.cn\/MIGUM2.0\/v\d.0\/update_check\.do$"
+
 // 有道翻译官
 DOMAIN,gorgon.youdao.com
 URL-REGEX,"^http:\/\/oral\.youdao\.com\/oral\/adInfo"
@@ -218,8 +228,8 @@ URL-REGEX,"^http:\/\/impservice\.dictapp\.youdao\.com\/imp\/request"
 // 58同城
 URL-REGEX,"^https?:\/\/app\.58\.com\/api\/home\/appadv\/"
 
-// 芒果视频
-OR,((DOMAIN,mobile.da.mgtv.com), (DOMAIN,mobile2.da.mgtv.com))
+// 芒果TV
+AND,((DOMAIN-SUFFIX,da.mgtv.com), (DOMAIN-KEYWORD,mobile))
 
 // 毒
 URL-REGEX,"^https?://du\.hupucdn\.com\/\w+h\d{4}"
