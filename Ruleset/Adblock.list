@@ -232,7 +232,10 @@ URL-REGEX,"^https?:\/\/app\.58\.com\/api\/home\/appadv\/"
 AND,((DOMAIN-SUFFIX,da.mgtv.com), (DOMAIN-KEYWORD,mobile))
 
 // 毒
-URL-REGEX,"^https?://du\.hupucdn\.com\/\w+h\d{4}"
+URL-REGEX,"^https?:\/\/du\.hupucdn\.com\/\w+h\d{4}"
 
 // 拼多多
 URL-REGEX,"^http:\/\/api\.yangkeduo\.com\/api\/cappuccino\/splash"
+
+// 高铁管家
+URL-REGEX,"^https?:\/\/[a-z]*\.rsscc\.com\/trainact\/adver\/"
