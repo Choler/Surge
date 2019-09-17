@@ -209,7 +209,7 @@ DOMAIN,video.c-ctrip.com
 URL-REGEX,"^https?:\/\/dimg04\.c-ctrip\.com\/images\/\w+(_\d{4}){2}"
 
 // 同花顺
-URL-REGEX,"^https?:\/\/adm\.10jqka\.com\.cn\/img\/ad\/.*(1\d{2}|\d{4})\.jpg$"
+URL-REGEX,"^https?:\/\/adm\.10jqka\.com\.cn\/img\/ad\/\d+\/.*_(1\d{2}|\d{4})"
 
 // Keep健身
 URL-REGEX,"^https?:\/\/api\.gotokeep\.com\/ads\/"
