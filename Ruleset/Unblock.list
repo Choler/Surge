@@ -1,4 +1,4 @@
-// Misc
+# Misc
 DOMAIN-SUFFIX,115.com
 DOMAIN-SUFFIX,10010.com
 DOMAIN-SUFFIX,95516.com
@@ -44,6 +44,7 @@ DOMAIN-SUFFIX,guokr.com
 DOMAIN-SUFFIX,adguard.com
 DOMAIN-SUFFIX,huanqiu.com
 DOMAIN-SUFFIX,oschina.net
+DOMAIN-SUFFIX,cmbchina.com
 
 DOMAIN-SUFFIX,cn
 DOMAIN-SUFFIX,local
@@ -97,14 +98,14 @@ DOMAIN-SUFFIX,tuchong.com
 DOMAIN-SUFFIX,meituan.net
 DOMAIN-SUFFIX,dianping.com
 
-// Apple
+# Apple
 DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN-SUFFIX,apple-mapkit.com
 DOMAIN-SUFFIX,icloud-content.com
 
-// Alibaba
+# Alibaba
 DOMAIN-SUFFIX,1688.com
 DOMAIN-SUFFIX,amap.com
 DOMAIN-SUFFIX,alibaba.com
@@ -114,7 +115,7 @@ DOMAIN-SUFFIX,tmall.com
 DOMAIN-SUFFIX,taobao.com
 DOMAIN-SUFFIX,mmstat.com
 
-// Baidu
+# Baidu
 DOMAIN-SUFFIX,baidu.com
 DOMAIN-SUFFIX,bdimg.com
 DOMAIN-SUFFIX,baidupcs.com
@@ -122,26 +123,26 @@ DOMAIN-SUFFIX,baidupan.com
 DOMAIN-SUFFIX,bcebos.com
 DOMAIN-SUFFIX,bdstatic.com
 
-// Bilibili
+# Bilibili
 DOMAIN-SUFFIX,hdslb.com
 DOMAIN-SUFFIX,acgvideo.com
 DOMAIN-SUFFIX,biliapi.net
 DOMAIN-SUFFIX,bilibili.com
 
-// ByteDance
+# ByteDance
 DOMAIN-SUFFIX,pstatp.com
 DOMAIN-SUFFIX,toutiao.com
 DOMAIN-SUFFIX,ixigua.com
 DOMAIN-SUFFIX,snssdk.com
 
-// JD
+# JD
 DOMAIN-SUFFIX,jd.com
 DOMAIN-SUFFIX,300hu.com
 DOMAIN-SUFFIX,360buyimg.com
 DOMAIN-SUFFIX,jdcloud.com
 DOMAIN-SUFFIX,jcloudcs.com
 
-// NetEase
+# NetEase
 DOMAIN-SUFFIX,126.net
 DOMAIN-SUFFIX,127.net
 DOMAIN-SUFFIX,163.com
@@ -150,7 +151,7 @@ DOMAIN-SUFFIX,netease.com
 DOMAIN-SUFFIX,youdao.com
 DOMAIN-SUFFIX,ydstatic.com
 
-// Tencent
+# Tencent
 DOMAIN-SUFFIX,qq.com
 DOMAIN-SUFFIX,gtimg.com
 DOMAIN-SUFFIX,idqqimg.com
@@ -161,44 +162,44 @@ DOMAIN-SUFFIX,qcloud.com
 DOMAIN-SUFFIX,myqcloud.com
 DOMAIN-SUFFIX,qcloudimg.com
 
-// Xiaomi
+# Xiaomi
 DOMAIN-SUFFIX,mi.com
 DOMAIN-SUFFIX,miui.com
 DOMAIN-SUFFIX,mipay.com
 DOMAIN-SUFFIX,mi-img.com
 DOMAIN-SUFFIX,xiaomi.com
 
-// Huawei
+# Huawei
 DOMAIN-SUFFIX,huawei.com
 DOMAIN-SUFFIX,hicloud.com
 DOMAIN-SUFFIX,huaweicloud.com
 DOMAIN-SUFFIX,vmall.com
 DOMAIN-SUFFIX,vmallres.com
 
-// Souhu
+# Souhu
 DOMAIN-SUFFIX,sohu.com
 DOMAIN-SUFFIX,sohucs.com
 DOMAIN-SUFFIX,sogou.com
 DOMAIN-SUFFIX,sogoucdn.com
 
-// Youku
+# Youku
 DOMAIN-SUFFIX,youku.com
 DOMAIN-SUFFIX,ykimg.com
 DOMAIN-SUFFIX,tudou.com
 DOMAIN-SUFFIX,soku.com
 
-// iQIYI
+# iQIYI
 DOMAIN-SUFFIX,qy.net
 DOMAIN-SUFFIX,iqiyi.com
 DOMAIN-SUFFIX,iqiyipic.com
 DOMAIN-SUFFIX,irs01.com
 
-// TapTap
+# TapTap
 DOMAIN-SUFFIX,tapdb.net
 DOMAIN-SUFFIX,taptap.com
 DOMAIN-SUFFIX,tapimg.com
 
-// Except
+# Except
 DOMAIN,cn.bing.com
 DOMAIN,www.microsoft.com
 DOMAIN,www.gstatic.com
@@ -206,8 +207,8 @@ DOMAIN,ssl.gstatic.com
 DOMAIN,cdn.ampproject.org
 DOMAIN,safebrowsing.googleapis.com
 
-// Lan
+# Lan
 AND,((IP-CIDR,0.0.0.0/0,no-resolve), (RULE-SET,LAN))
 
-// BT
+# BT
 URL-REGEX,(torrent|\.torrent|peer_id=|info_hash|get_peers|find_node|BitTorrent|announce_peer|protocol|announce\.php\?passkey=)
