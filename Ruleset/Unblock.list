@@ -111,6 +111,8 @@ DOMAIN-SUFFIX,amap.com
 DOMAIN-SUFFIX,alibaba.com
 DOMAIN-SUFFIX,alicdn.com
 DOMAIN-SUFFIX,alipay.com
+DOMAIN-SUFFIX,aliyun.com
+DOMAIN-SUFFIX,aliyuncs.com
 DOMAIN-SUFFIX,tmall.com
 DOMAIN-SUFFIX,taobao.com
 DOMAIN-SUFFIX,mmstat.com
@@ -154,6 +156,7 @@ DOMAIN-SUFFIX,ydstatic.com
 # Tencent
 DOMAIN-SUFFIX,qq.com
 DOMAIN-SUFFIX,gtimg.com
+DOMAIN-SUFFIX,tenpay.com
 DOMAIN-SUFFIX,idqqimg.com
 DOMAIN-SUFFIX,weiyun.com
 DOMAIN-SUFFIX,tencent.com

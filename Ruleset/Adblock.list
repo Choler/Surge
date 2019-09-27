@@ -6,11 +6,12 @@ DOMAIN,mobile-api.adguard.com
 DOMAIN,cdn-adphone.wenhua.com.cn
 
 # 广告联盟
-DOMAIN,api.e.qq.com
+DOMAIN,sdk.e.qq.com
 DOMAIN,mi.gdt.qq.com
 DOMAIN,net.rayjump.com
 DOMAIN,report.adview.cn
 DOMAIN-SUFFIX,g.doubleclick.net
+USER-AGENT,AliXAdSDK*
 
 # 中国联通
 URL-REGEX,"^https?:\/\/m\.client\.10010\.com\/mobileService\/customer\/accountListData\.htm$"
@@ -51,7 +52,7 @@ DOMAIN,news.ssp.qq.com
 
 # 腾讯视频
 DOMAIN,livew.l.qq.com
-URL-REGEX,"^http:\/\/[\s\S]*\/.+\.tc\.qq\.com/.*p201.1\.mp4"
+URL-REGEX,"^http:\/\/[\s\S]*\/.+\.tc\.qq\.com/.*\.1\.mp4"
 
 # QQ音乐
 URL-REGEX,"^https?:\/\/y\.gtimg\.cn\/music\/.*_Ad/\d+\.png$"
@@ -87,12 +88,11 @@ URL-REGEX,"^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.trip\.activity\.querytmsre
 URL-REGEX,"^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.o2o\.ad\.gateway\.get\/"
 
 # 优酷
-USER-AGENT,AliXAdSDK*
 DOMAIN,mf.atm.youku.com
 URL-REGEX,"^http:\/\/[\s\S]*\/youku\/.*\.mp4"
 
 # 高德地图
-URL-REGEX,"^http:\/\/optimus-ads\.amap\.com\/uploadimg\/"
+URL-REGEX,"^https?:\/\/m5\.amap\.com\/ws\/valueadded\/alimama\/splash"
 
 # 饿了么 
 URL-REGEX,"^https?:\/\/cube\.elemecdn\.com\/.*h_\d{4}\/"
@@ -108,6 +108,7 @@ URL-REGEX,"^http:\/\/p\d\.meituan\.net\/wmbanner\/"
 URL-REGEX,"^https?:\/\/s3plus\.meituan\.net\/v1\/mss_a002"
 URL-REGEX,"^https?:\/\/img\.meituan\.net\/midas\/.*@\d{4}h"
 URL-REGEX,"^https?:\/\/img\.meituan\.net\/display\/\w+\.jpg\.webp$"
+URL-REGEX,"^https?:\/\/img\.meituan\.net\/adunion\/\w+\.jpg\.webp$"
 
 # 网易云音乐
 URL-REGEX,"^http:\/\/[\s\S]*\/eapi\/ad\/"
