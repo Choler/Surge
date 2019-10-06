@@ -1,4 +1,6 @@
 # 杂项
+USER-AGENT,*AdSDK*
+USER-AGENT,*Splash*
 DOMAIN,wa.gtimg.com
 DOMAIN,e.crashlytics.com
 DOMAIN,unidesk.alicdn.com
@@ -11,7 +13,12 @@ DOMAIN,mi.gdt.qq.com
 DOMAIN,net.rayjump.com
 DOMAIN,report.adview.cn
 DOMAIN-SUFFIX,g.doubleclick.net
-USER-AGENT,AliXAdSDK*
+
+# 优酷H5
+DOMAIN,mf.atm.youku.com
+
+# 腾讯视频H5
+DOMAIN,livew.l.qq.com
 
 # 中国联通
 URL-REGEX,"^https?:\/\/m\.client\.10010\.com\/mobileService\/customer\/accountListData\.htm$"
@@ -48,11 +55,6 @@ DOMAIN,ad.12306.cn
 
 # 腾讯新闻
 DOMAIN,news.l.qq.com
-DOMAIN,news.ssp.qq.com
-
-# 腾讯视频
-DOMAIN,livew.l.qq.com
-URL-REGEX,"^http:\/\/[\s\S]*\/.+\.tc\.qq\.com/.*\.1\.mp4"
 
 # QQ音乐
 URL-REGEX,"^https?:\/\/y\.gtimg\.cn\/music\/.*_Ad/\d+\.png$"
@@ -87,11 +89,8 @@ URL-REGEX,"^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.trip\.activity\.querytmsre
 # 口碑
 URL-REGEX,"^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.o2o\.ad\.gateway\.get\/"
 
-# 优酷
-DOMAIN,mf.atm.youku.com
-URL-REGEX,"^http:\/\/[\s\S]*\/youku\/.*\.mp4"
-
 # 高德地图
+DOMAIN,optimus-ads.amap.com
 URL-REGEX,"^https?:\/\/m5\.amap\.com\/ws\/valueadded\/alimama\/splash"
 
 # 饿了么 
@@ -173,7 +172,7 @@ URL-REGEX,"^https?:\/\/api\.zhihu\.com\/commercial_api\/.*launch"
 URL-REGEX,"^https?:\/\/api\.douban\.com\/v2\/app_ads\/splash"
 
 # 曹操出行
-URL-REGEX,"^https?:\/\/ptmpcap\.caocaokeji\.cn\/advert-bss\/"
+URL-REGEX,"^https?:\/\/[a-z]*cap\.caocaokeji\.cn\/advert-bss\/pullAdvert\/"
 
 # 哔哩哔哩
 URL-REGEX,"^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/"
@@ -240,3 +239,6 @@ URL-REGEX,"^http:\/\/api\.yangkeduo\.com\/api\/cappuccino\/splash"
 
 # 高铁管家
 URL-REGEX,"^https?:\/\/[a-z]*\.rsscc\.com\/trainact\/adver\/"
+
+# 虾米音乐
+URL-REGEX,"^http:\/\/pic\.xiami\.net\/images\/common\/uploadpic\/.*\.jpg$"
