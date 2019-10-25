@@ -1,5 +1,6 @@
 # 杂项
 USER-AGENT,*AdSDK*
+USER-AGENT,*Banner*
 USER-AGENT,*Splash*
 DOMAIN,wa.gtimg.com
 DOMAIN,e.crashlytics.com
@@ -12,7 +13,7 @@ DOMAIN,sdk.e.qq.com
 DOMAIN,mi.gdt.qq.com
 DOMAIN,net.rayjump.com
 DOMAIN,report.adview.cn
-DOMAIN-SUFFIX,g.doubleclick.net
+DOMAIN-SUFFIX,doubleclick.net
 
 # 优酷H5
 DOMAIN,mf.atm.youku.com
@@ -81,7 +82,7 @@ URL-REGEX,"^https?:\/\/pan\.baidu\.com\/rest\/2.0\/pcs\/adx"
 URL-REGEX,"^https?:\/\/pan\.baidu\.com\/act\/api\/activityentry"
 
 # 淘宝
-URL-REGEX,"^https?:\/\/gw\.alicdn\.com\/.*\.jpg_(9\d{2}|\d{4})"
+URL-REGEX,"^https?:\/\/[a-z]*\.alicdn\.com\/.*\.jpg_(9\d{2}|\d{4})"
 
 # 飞猪
 URL-REGEX,"^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.trip\.activity\.querytmsresources\/"

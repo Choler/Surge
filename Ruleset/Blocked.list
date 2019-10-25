@@ -36,6 +36,7 @@ DOMAIN-SUFFIX,feedex.net
 DOMAIN-SUFFIX,ampproject.org
 DOMAIN-SUFFIX,crashlytics.com
 DOMAIN-SUFFIX,iadsdk.apple.com
+DOMAIN-SUFFIX,outline.com
 
 AND,((DOMAIN-KEYWORD,wiki), (DOMAIN-SUFFIX,org))
 AND,((DOMAIN-KEYWORD,amazon), (DOMAIN-SUFFIX,com))
