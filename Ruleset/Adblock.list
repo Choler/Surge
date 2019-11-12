@@ -36,6 +36,9 @@ URL-REGEX,"http:\/\/v\.icbc\.com\.cn\/userfiles\/Resources\/WAP\/advertisement\/
 # 招商银行
 URL-REGEX,"^https?:\/\/pic1cdn\.cmbchina\.com\/appinitads\/"
 
+# 江苏银行
+URL-REGEX,"^https?:\/\/mbank5\.jsbchina\.cn\/mbank\/common\/startupPageActive\.do$"
+
 # 发现精彩(广发银行)
 URL-REGEX,"^http:\/\/mps\.95508\.com\/mps\/club\/cardPortals\/adv\/\d+\.(jpg|png)$"
 
