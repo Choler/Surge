@@ -1,6 +1,6 @@
 /*
 [URL Rewrite]
-^https://aweme-eagle(.*)\.snssdk\.com/aweme/v2/ https://aweme-eagle$1.snssdk.com/aweme/v1/ 302
+^https://(.*)\.snssdk\.com/aweme/v2/ https://$1.snssdk.com/aweme/v1/ 302
 
 [Script]
 http-response ^https://[\s\S]*\/aweme/v1/(feed|aweme/post|follow/feed)/ requires-body=1,max-size=-1,script-path=https://Choler.github.io/Surge/Script/Aweme.js
