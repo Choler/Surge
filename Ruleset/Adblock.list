@@ -246,3 +246,6 @@ URL-REGEX,"^https?:\/\/[a-z]*\.rsscc\.com\/trainact\/adver\/"
 
 # 虾米音乐
 URL-REGEX,"^http:\/\/pic\.xiami\.net\/images\/common\/uploadpic\/.*\.jpg$"
+
+# 江苏移动
+URL-REGEX,"^http:\/\/wap\.js\.10086\.cn\/jsmccClient\/cd\/market_content\/api\/v1\/market_content\.page\.query$"
