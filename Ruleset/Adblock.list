@@ -245,7 +245,7 @@ URL-REGEX,"^http:\/\/api\.yangkeduo\.com\/api\/cappuccino\/splash"
 URL-REGEX,"^https?:\/\/[a-z]*\.rsscc\.com\/trainact\/adver\/"
 
 # 智行火车票
-URL-REGEX,"^https?:\/\/m\.ctrip\.com\/restapi\/.*\/GetAdsList"
+URL-REGEX,"^https?:\/\/m\.ctrip\.com\/restapi\/.*Ads"
 
 # 虾米音乐
 URL-REGEX,"^http:\/\/pic\.xiami\.net\/images\/common\/uploadpic\/.*\.jpg$"
