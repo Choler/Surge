@@ -1,7 +1,8 @@
 /*
 [Script]
-http-request ^https:\/\/.*\.amemv\.com\/aweme\/v.*\/(feed|post) script-path=https://Choler.github.io/Surge/Script/Aweme.jsAweme.js
-http-response ^https:\/\/.*\.amemv\.com\/aweme\/v.*\/(feed|post) requires-body=true,script-path=https://Choler.github.io/Surge/Script/Aweme.jsAweme.js
+http-request ^https:\/\/.*\.amemv\.com\/aweme\/v.*\/(feed|post) script-path=https://Choler.github.io/Surge/Script/Aweme.js
+http-response ^https:\/\/.*\.amemv\.com\/aweme\/v.*\/(feed|post) requires-body=true,script-path=https://Choler.github.io/Surge/Script/Aweme.js
+
 [MITM]
 hostname = *.amemv.com
 */
