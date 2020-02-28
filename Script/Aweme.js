@@ -1,3 +1,12 @@
+/*
+[Script]
+http-request ^https:\/\/.*\.amemv\.com\/aweme\/v.*\/(feed|post) script-path=https://Choler.github.io/Surge/Script/Aweme.js
+http-response ^https:\/\/.*\.amemv\.com\/aweme\/v.*\/(feed|post) requires-body=true,script-path=https://Choler.github.io/Surge/Script/Aweme.js
+
+[MITM]
+hostname = *.amemv.com
+*/
+ 
 if (typeof $response != "undefined") {
   var obj = JSON.parse($response.body);
   if (obj.data) {
@@ -11,6 +20,8 @@ if (typeof $response != "undefined") {
         if (obj.data[i].aweme.video.download_suffix_logo_addr) {
           obj.data[i].aweme.video.download_suffix_logo_addr = download;
         }
+      } else {
+        obj.data.aweme.splice(i, 1);
       }
     }
   }
@@ -28,6 +39,8 @@ if (typeof $response != "undefined") {
         if (obj.aweme_list[i].is_ads != false) {
           obj.aweme_list.splice(i, 1);
         }
+      } else {
+        obj.aweme_list.splice(i, 1);
       }
     }
   }
