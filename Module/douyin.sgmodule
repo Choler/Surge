@@ -12,7 +12,7 @@
 ^https?:\/\/.+?\.amemv\.com\/aweme\/v\d\/hot/search\/video\/list\/ https://aweme.snssdk.com/aweme/v1/hot/search/video/list/ header
 
 [Script]
-douyin_ad = type=http-response,pattern=^https?:\/\/(.*\.amemv|aweme\.snssdk)\.com\/aweme\/v1\/(feed|aweme\/post|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list)\/,requires-body=1,max-size=-1,script-path=https://Choler.github.io/Surge/Script/douyin.js
+douyin_ad = type=http-response,pattern= ^https?:\/\/(.*\.amemv|aweme\.snssdk)\.com\/aweme\/v1\/(feed|aweme\/post|aweme\/detail|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list)\/,requires-body=1,max-size=-1,script-path=https://Choler.github.io/Surge/Script/douyin.js
 
 [MITM]
 hostname = %APPEND% *.amemv.com, aweme.snssdk.com
