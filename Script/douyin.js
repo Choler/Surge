@@ -1,61 +1,71 @@
 try {
   let obj = JSON.parse($response.body);
-  if (obj.data) obj.data = filter_post(obj.data);
-  if (obj.aweme_list) obj.aweme_list = filter_feed(obj.aweme_list);
+  if (obj.data) obj.data = filter_data(obj.data);
+  if (obj.aweme_list) obj.aweme_list = filter_list(obj.aweme_list);
+  if (obj.aweme_detail) obj.aweme_detail = filter_detail(obj.aweme_detail);
   $done({ body: JSON.stringify(obj) });
 } catch (error) {
-   console.log("脚本处理时遇到些问题，响应不做修改\n" + error);
-   $done({});
+  console.log("脚本处理时遇到些问题，响应不会被修改\n" + error);
+  $done({});
 }
 
-function filter_post(post) {
-  for (var i = post.length - 1; i >= 0; i--) {
-    if (post[i].aweme_info) {
-      if (post[i].aweme_info.is_ads === true) {
-        post.splice(i, 1);
-      } else {
-        post[i].aweme_info.status.reviewed = 1;
-        post[i].aweme_info.video_control.prevent_download_type = 0;
-        post[i].aweme_info.video_control.allow_download = true;
-        delete post[i].aweme_info.video.misc_download_addrs;
-        let play = post[i].aweme_info.video.play_addr.url_list;
-        post[i].aweme_info.video.download_addr.url_list = play;
-        let download = post[i].aweme_info.video.download_addr;
-        post[i].aweme_info.video.download_suffix_logo_addr = download;
+function filter_data(data) {
+  for (var i = data.length - 1; i >= 0; i--) {
+    if (data[i].aweme_info) {
+      if (data[i].aweme_info.is_ads === true) {
+        data.splice(i, 1);
+      } else if (data[i].aweme_info.video) {
+        data[i].aweme_info.status.reviewed = 1;
+        data[i].aweme_info.video_control.prevent_download_type = 0;
+        data[i].aweme_info.video_control.allow_download = true;
+        delete data[i].aweme_info.video.misc_download_addrs;
+        let play = data[i].aweme_info.video.play_addr.url_list;
+        data[i].aweme_info.video.download_addr.url_list = play;
+        let download = data[i].aweme_info.video.download_addr;
+        data[i].aweme_info.video.download_suffix_logo_addr = download;
       }
     }
-    if (post[i].aweme) {
-      post[i].aweme.video_control.allow_download = true;
-      post[i].aweme.video_control.prevent_download_type = 0;
-      post[i].aweme.status.reviewed = 1;
-      delete post[i].aweme.video.misc_download_addrs;
-      let play = post[i].aweme.video.play_addr.url_list;
-      post[i].aweme.video.download_addr.url_list = play;
-      let download = post[i].aweme.video.download_addr;
-      post[i].aweme.video.download_suffix_logo_addr = download;
+    if (data[i].aweme) {
+      data[i].aweme.video_control.allow_download = true;
+      data[i].aweme.video_control.prevent_download_type = 0;
+      data[i].aweme.status.reviewed = 1;
+      delete data[i].aweme.video.misc_download_addrs;
+      let play = data[i].aweme.video.play_addr.url_list;
+      data[i].aweme.video.download_addr.url_list = play;
+      let download = data[i].aweme.video.download_addr;
+      data[i].aweme.video.download_suffix_logo_addr = download;
     }
+    if (data[i].aweme_mix_info) data.splice(i, 1); // 隐藏合集
+    if (data[i].dynamic_patch) data.splice(i, 1); // 暂不处理
   }
-  return post;
+  return data;
 }
 
-function filter_feed(feed) {
-  for (var i = feed.length - 1; i >= 0; i--) {
-    if (feed[i].video) {
-      if (feed[i].is_ads === true) {
-        feed.splice(i, 1);
-      } else {
-        feed[i].video_control.allow_download = true;
-        feed[i].video_control.prevent_download_type = 0;
-        feed[i].status.reviewed = 1;
-        delete feed[i].video.misc_download_addrs;
-        let play = feed[i].video.play_addr.url_list;
-        feed[i].video.download_addr.url_list = play;
-        let download = feed[i].video.download_addr;
-        feed[i].video.download_suffix_logo_addr = download;
-      }
+function filter_list(list) {
+  for (var i = list.length - 1; i >= 0; i--) {
+    if (list[i].video && list[i].is_ads != true) {
+      list[i].video_control.allow_download = true;
+      list[i].video_control.prevent_download_type = 0;
+      list[i].status.reviewed = 1;
+      delete list[i].video.misc_download_addrs;
+      let play = list[i].video.play_addr.url_list;
+      list[i].video.download_addr.url_list = play;
+      let download = list[i].video.download_addr;
+      list[i].video.download_suffix_logo_addr = download;
     } else {
-      feed.splice(i, 1);
+      list.splice(i, 1);
     }
   }
-  return feed;
+  return list;
+}
+
+function filter_detail(detail) {
+  detail.status.reviewed = 1;
+  detail.video_control.allow_download = true;
+  detail.video_control.prevent_download_type = 0;
+  let play = detail.video.play_addr.url_list;
+  detail.video.download_addr.url_list = play;
+  let download = detail.video.download_addr;
+  detail.video.download_suffix_logo_addr = download;
+  return detail;
 }
