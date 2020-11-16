@@ -4,6 +4,7 @@ try {
   if (obj.data) obj.data = filter_data(obj.data);
   if (obj.aweme_list) obj.aweme_list = filter_list(obj.aweme_list);
   if (obj.aweme_detail) obj.aweme_detail = filter_detail(obj.aweme_detail);
+  if (obj.aweme_details) obj.aweme_details = filter_details(obj.aweme_details);
   $done({ body: JSON.stringify(obj) });
 } catch (error) {
   console.log("脚本处理时遇到些问题，响应不会被修改\n" + error);
@@ -36,8 +37,6 @@ function filter_data(data) {
       let download = data[i].aweme.video.download_addr;
       data[i].aweme.video.download_suffix_logo_addr = download;
     }
-    if (data[i].aweme_mix_info) data.splice(i, 1); // 隐藏合集
-    if (data[i].dynamic_patch) data.splice(i, 1); // 暂不处理
   }
   return data;
 }
@@ -69,4 +68,17 @@ function filter_detail(detail) {
   let download = detail.video.download_addr;
   detail.video.download_suffix_logo_addr = download;
   return detail;
+}
+
+function filter_details(details) {
+  for (var i = details.length - 1; i >= 0; i--) {
+    details[i].status.reviewed = 1;
+    details[i].video_control.allow_download = true;
+    details[i].video_control.prevent_download_type = 0;
+    let play = details[i].video.play_addr.url_list;
+    details[i].video.download_addr.url_list = play;
+    let download = details[i].video.download_addr;
+    details[i].video.download_suffix_logo_addr = download;
+  }
+  return details;
 }
