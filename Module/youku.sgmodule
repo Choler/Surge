@@ -3,7 +3,7 @@
 #!system=ios
 
 [General]
-force-http-engine-hosts = %APPEND% vali.cp31.ott.cibntv.net
+force-http-engine-hosts = %APPEND% vali-g1.cp31.ott.cibntv.net
 
 [Rule]
-URL-REGEX,^http:\/\/vali\.cp31\.ott\.cibntv\.net\/youku\/,REJECT-TINYGIF
+URL-REGEX,^http:\/\/vali-g1\.cp31\.ott\.cibntv\.net\/youku\/,REJECT-TINYGIF
